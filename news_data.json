@@ -1,5 +1,71 @@
 [
   {
+    "category": "Cyber Security",
+    "en_title": "Google Identifies Coordinated Cyber Ops Against Defense Sector",
+    "cn_title": "Google 指出中國、伊朗、俄羅斯、朝鮮協調對國防部門進行網絡行動",
+    "en_summary": "State-sponsored actors from multiple countries are targeting the defense industrial base, focusing on vulnerabilities in edge devices and supply chain risks in the context of global conflicts.",
+    "cn_summary": "來自多個國家的政府資助黑客正針對國防工業基地，重點關注全球衝突背景下的邊緣設備漏洞和供應鏈風險。",
+    "source": "The Hacker News",
+    "link": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
+    "date": "2026-02-14 16:15",
+    "timestamp": 1771056945.335092
+  },
+  {
+    "category": "Cyber Security",
+    "en_title": "Google Links Suspected Russian Actor to CANFAIL Malware Attacks",
+    "cn_title": "Google 將懷疑的俄羅斯行動者與針對烏克蘭組織的 CANFAIL 惡意軟體攻擊聯繫起來",
+    "en_summary": "A previously undocumented threat actor, possibly linked to Russian intelligence, was identified using CANFAIL malware against Ukrainian targets, leveraging LLMs for reconnaissance.",
+    "cn_summary": "一個先前未被記錄的威脅行為者（可能與俄羅斯情報部門有關）被發現利用 CANFAIL 惡意軟體攻擊烏克蘭目標，並利用大語言模型進行偵察。",
+    "source": "The Hacker News",
+    "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
+    "date": "2026-02-14 16:15",
+    "timestamp": 1771056945.335072
+  },
+  {
+    "category": "AI & Fintech",
+    "en_title": "Taiwan Hikes 2026 Growth Forecast to 7.7% on AI Demand",
+    "cn_title": "AI 需求強勁，台灣上調 2026 年經濟增長預期至 7.7%",
+    "en_summary": "Driven by global demand for AI infrastructure, Taiwan has significantly increased its economic outlook, capturing a massive share of the AI hardware market.",
+    "cn_summary": "在全球對 AI 基礎設施的強勁需求推動下，台灣顯著上調了經濟前景，在 AI 硬件市場中佔據了巨大份額。",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/technology/artificial-intelligence/",
+    "date": "2026-02-14 16:15",
+    "timestamp": 1771056945.335052
+  },
+  {
+    "category": "AI & Fintech",
+    "en_title": "Agentic AI Transforms In-Chat Payments and Banking",
+    "cn_title": "代理式 AI 轉型聊天支付與銀行服務",
+    "en_summary": "Recent deployments show a surge in Agentic AI maturity, moving from chatbots to autonomous entities managing complex financial workflows like cross-border settlements.",
+    "cn_summary": "近期部署顯示代理式 AI 正在走向成熟，從聊天機器人演變為能管理跨國結算等複雜金融工作流的自主實體。",
+    "source": "FinTech Magazine",
+    "link": "https://windowsforum.com/threads/fintech-february-2026-agentic-ai-transforms-in-chat-payments-and-banking.400900/",
+    "date": "2026-02-14 16:15",
+    "timestamp": 1771056945.335033
+  },
+  {
+    "category": "World",
+    "en_title": "Bangladesh Nationalist Party Claims Election Victory",
+    "cn_title": "孟加拉大選：民族主義黨宣佈勝利，政治版圖將重塑",
+    "en_summary": "The Bangladesh Nationalist Party (BNP) officially declared victory in the first general election since the 2024 uprising. This marks a potential shift in South Asian geopolitics.",
+    "cn_summary": "孟加拉國民族主義黨宣佈在 2024 年起義後的首次大選中獲勝，這標誌著南亞地緣政治可能發生重大轉變。",
+    "source": "AP News",
+    "link": "https://apnews.com/world-news",
+    "date": "2026-02-14 16:15",
+    "timestamp": 1771056945.335011
+  },
+  {
+    "category": "World",
+    "en_title": "US Ends Temporary Protected Status for Yemen",
+    "cn_title": "美國結束對也門移民的臨時保護身份 (TPS)",
+    "en_summary": "The Trump administration announced the termination of Temporary Protected Status for Yemenis in the US. DHS Secretary Kristi Noem cited the move as part of broader immigration control efforts.",
+    "cn_summary": "特朗普政府宣佈終止也門移民的臨時保護身份。國土安全部長諾姆指出，這是加強移民管控措施的一部分。",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/world/",
+    "date": "2026-02-14 16:15",
+    "timestamp": 1771056945.334971
+  },
+  {
     "category": "AI & Fintech",
     "en_title": "FinovateEurope 2026: Quantum Tech and AI",
     "cn_title": "FinovateEurope 2026：量子技術與 AI 成為焦點",
