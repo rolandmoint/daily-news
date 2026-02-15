@@ -47,7 +47,13 @@ def render_html(data):
     cyber_news = [i for i in data if i['category'] == 'Cyber Security']
     ai_news = [i for i in data if i['category'] == 'AI & Fintech']
 
-    html_template = """
+    # Count the number of articles in each category
+    world_count = len(world_news)
+    cyber_count = len(cyber_news)
+    ai_count = len(ai_news)
+
+    # Update HTML template with counts
+    html_template = f"""
     <!DOCTYPE html>
     <html lang="zh-Hant">
     <head>
@@ -74,7 +80,7 @@ def render_html(data):
             <section class="space-y-6">
                 <div class="flex items-center gap-4 mb-8">
                     <span class="text-3xl">🌐</span>
-                    <h2 class="text-2xl font-black uppercase text-blue-400 tracking-widest">World Updates</h2>
+                    <h2 class="text-2xl font-black uppercase text-blue-400 tracking-widest">World Updates ({world_count})</h2>
                 </div>
                 <div class="space-y-6">{%WORLD%}</div>
             </section>
@@ -83,7 +89,7 @@ def render_html(data):
             <section class="space-y-6">
                 <div class="flex items-center gap-4 mb-8">
                     <span class="text-3xl">🛡️</span>
-                    <h2 class="text-2xl font-black uppercase text-red-400 tracking-widest">Cyber Security</h2>
+                    <h2 class="text-2xl font-black uppercase text-red-400 tracking-widest">Cyber Security ({cyber_count})</h2>
                 </div>
                 <div class="space-y-6">{%CYBER%}</div>
             </section>
@@ -92,7 +98,7 @@ def render_html(data):
             <section class="space-y-6">
                 <div class="flex items-center gap-4 mb-8">
                     <span class="text-3xl">🤖</span>
-                    <h2 class="text-2xl font-black uppercase text-emerald-400 tracking-widest">AI / Fintech</h2>
+                    <h2 class="text-2xl font-black uppercase text-emerald-400 tracking-widest">AI / Fintech ({ai_count})</h2>
                 </div>
                 <div class="space-y-6">{%AI%}</div>
             </section>
