@@ -1,57 +1,37 @@
 [
-  {
-    "en_title": "Banking Technology Adoption Set for Broader Growth in 2026",
-    "cn_title": "銀行科技採用預計在2026年實現更廣泛增長",
-    "en_summary": "According to Accenture's report, broader adoption of banking technology is expected in 2026, moving beyond early deployments across financial services. This indicates an accelerated integration of advanced technologies within traditional banking.",
-    "cn_summary": "根據 Accenture 的報告，預計2026年銀行科技的採用將超越早期部署，在整個金融服務領域實現更廣泛的增長。這預示著先進技術在傳統銀行業內部的加速整合。",
-    "link": "https://www.bankingdive.com/topic/technology/",
-    "source": "Banking Dive",
-    "category": "AI & Fintech",
-    "timestamp": 1771129888.248265,
-    "date": "2026-02-15"
-  },
-  {
-    "en_title": "Robinhood Expands into Crypto Staking and Tokenized Assets",
-    "cn_title": "Robinhood 拓展加密貨幣質押和代幣化資產",
-    "en_summary": "Robinhood is expanding its services to include crypto staking and tokenized assets, alongside on-chain infrastructure. This move indicates a significant progression in how mainstream FinTech platforms are integrating cryptocurrency services and managing digital asset yield at scale.",
-    "cn_summary": "Robinhood 正在擴展其服務，以納入加密貨幣質押和代幣化資產以及鏈上基礎設施。此舉表明主流金融科技平台在整合加密服務和大規模管理數字資產收益方面取得了重大進展。",
-    "link": "https://www.fintechweekly.com/",
-    "source": "Fintech Weekly",
-    "category": "AI & Fintech",
-    "timestamp": 1771129888.248245,
-    "date": "2026-02-15"
-  },
-  {
-    "en_title": "Galaxy's Steve Kurz on Crypto's Long-Term Outlook",
-    "cn_title": "Galaxy 的 Steve Kurz 談加密貨幣的長期前景",
-    "en_summary": "Steve Kurz of Galaxy believes a 'great convergence' is driving the long-term outlook for cryptocurrency. He suggests that recent market sell-offs reflect healthy deleveraging, while infrastructure growth and institutional adoption support a bullish perspective.",
-    "cn_summary": "Galaxy 的 Steve Kurz 認為「大融合」正在推動加密貨幣的長期前景。他指出，近期市場拋售反映了健康的去槓桿化，而基礎設施的增長和機構的採用則支持了看漲的觀點。",
-    "link": "https://www.coindesk.com/",
-    "source": "CoinDesk",
-    "category": "AI & Fintech",
-    "timestamp": 1771129888.248224,
-    "date": "2026-02-15"
-  },
-  {
-    "en_title": "Deepfakes: Dangerous AI Videos and How to Spot Them",
-    "cn_title": "深度偽造：危險的AI影片及其辨識方法",
-    "en_summary": "AI-generated deepfake videos are increasingly prevalent on social media, raising concerns about their deceptive nature. This news highlights the dangers of such content and provides insights into how to identify them.",
-    "cn_summary": "AI 生成的深度偽造影片在社交媒體上日益普遍，引發了對其欺騙性質的擔憂。這則新聞強調了此類內容的危險性，並提供了如何識別它們的見解。",
-    "link": "https://www.youtube.com/watch?v=WSStTnoSb_c",
-    "source": "DW News/YouTube",
-    "category": "AI & Fintech",
-    "timestamp": 1771129888.248199,
-    "date": "2026-02-15"
-  },
-  {
-    "en_title": "OpenAI's AI Systems Accelerating Development",
-    "cn_title": "OpenAI 的 AI 系統加速發展",
-    "en_summary": "OpenAI has stated that its own artificial intelligence systems are contributing to the accelerated pace of AI development. This indicates a self-improving aspect within their AI frameworks.",
-    "cn_summary": "OpenAI 聲稱其自身的人工智慧系統正在加速人工智慧的發展步伐。這表明其 AI 框架內部存在自我改進的方面，推動著技術的快速精進。",
-    "link": "https://www.nbcnews.com/artificial-intelligence",
-    "source": "NBC News",
-    "category": "AI & Fintech",
-    "timestamp": 1771129888.248107,
-    "date": "2026-02-15"
-  }
+    {
+        "title_en": "Google Links Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
+        "title_zh": "谷歌关联疑似俄罗斯行为者与针对乌克兰组织的CANFAIL恶意软件攻击",
+        "summary": "Google's Threat Intelligence Group (GTIG) has attributed a previously unknown threat actor, possibly affiliated with Russian intelligence services, to attacks utilizing CANFAIL malware against Ukrainian organizations. These attacks have targeted defense, military, government, and energy sectors, with a growing interest in aerospace, manufacturing, and nuclear research organizations. Notably, the group has begun leveraging large language models (LLMs) to overcome technical limitations, using them for reconnaissance and creating social engineering lures.",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html"
+    },
+    {
+        "title_en": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
+        "title_zh": "谷歌关联中国、伊朗、俄罗斯、朝鲜协同对国防部门的网络行动",
+        "summary": "Google's Threat Intelligence Group (GTIG) has identified state-sponsored actors and cybercriminal groups from China, Iran, North Korea, and Russia actively targeting the defense industrial base (DIB) sector. These operations focus on four key areas: targeting defense entities with battlefield technologies in the Russia-Ukraine War, exploiting hiring processes, using edge devices for initial access, and supply chain risks from manufacturing breaches. GTIG notes that these groups are increasingly interested in autonomous vehicles and drones, critical platforms in modern warfare.",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html"
+    },
+    {
+        "title_en": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
+        "title_zh": "UAT-9921部署VoidLink恶意软件针对科技和金融行业",
+        "summary": "A previously untracked threat actor, identified as UAT-9921, is deploying a sophisticated new modular malware framework named VoidLink. According to Cisco Talos, VoidLink is being used in campaigns primarily targeting technology and financial services sectors. The malware, written in Zig, is designed for long-term, stealthy access to Linux-based cloud environments, indicating a high level of sophistication. This actor has been active since 2019, consistently evolving their tactics and tools.",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/02/uat-9921-deploys-voidLink-malware-to.html"
+    },
+    {
+        "title_en": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+        "title_zh": "恶意Chrome扩展程序被发现窃取商业数据、电子邮件和浏览历史",
+        "summary": "Cybersecurity researchers have uncovered a malicious Google Chrome extension, disguised as a tool for Meta Business Suite, that is actively stealing sensitive business data. The extension, named \"CL Suite by @CLMasters,\" was found to exfiltrate TOTP codes for Facebook and Meta Business accounts, contact lists, and analytics data to attacker-controlled infrastructure. Despite claiming to keep data local, the add-on requests broad access and transmits critical information, posing a significant risk to businesses using such platforms.",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html"
+    },
+    {
+        "title_en": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Other Devices",
+        "title_zh": "苹果修复影响iOS、macOS及其他设备的已利用零日漏洞",
+        "summary": "Apple has released urgent security updates for iOS, iPadOS, macOS Tahoe, tvOS, watchOS, and visionOS to patch a zero-day vulnerability (CVE-2026-20700) that has been actively exploited in highly sophisticated cyberattacks. This memory corruption flaw in Apple's Dynamic Link Editor (dyld) could allow attackers to execute arbitrary code on vulnerable devices. Google Threat Analysis Group (TAG) discovered and reported the bug, noting its exploitation against specific targeted individuals on older iOS versions.",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html"
+    }
 ]
