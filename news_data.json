@@ -1,43 +1,13 @@
-
 [
   {
-    "title_en": "US and Europe Alliance Amidst Tensions",
-    "title_zh": "美歐聯盟緊張局勢中",
-    "summary_en": "US Secretary of State Rubio has reassured European leaders that the Trump administration supports the transatlantic alliance, despite recent tensions. His comments aim to stabilize relations, emphasizing the shared values and strategic importance of the partnership between the United States and Europe. This comes at a critical time when international collaborations face various geopolitical pressures.",
-    "summary_zh": "美國國務卿重申對跨大西洋聯盟的支持，以穩定歐洲與美國之間的關係。",
-    "source": "BBC News",
-    "link": "https://www.bbc.com/news/articles/c2lrdq47149o"
-  },
-  {
-    "title_en": "Gisèle Pelicot's Ordeal and Healing",
-    "title_zh": "吉賽爾·佩利科特的磨難與治癒",
-    "summary_en": "Gisèle Pelicot, central to France's largest rape trial, shared her story with BBC, expressing overwhelming horror but no anger. Her powerful interview details betrayal and her journey towards healing. Her resilience provides a notable human interest piece amidst a high-profile legal battle.",
-    "summary_zh": "法國重大性侵案核心人物吉賽爾·佩利科特向BBC講述了她的經歷，表達了恐懼但沒有憤怒。",
-    "source": "BBC News",
-    "link": "https://www.bbc.com/news/articles/c9q5l22ryy4o"
-  },
-  {
-    "title_en": "WHO Condemns US-Funded Vaccine Trial in Guinea-Bissau",
-    "title_zh": "世衛組織譴責美國資助的幾內亞比索疫苗試驗",
-    "summary_en": "The World Health Organization has strongly criticized a planned US-funded baby vaccine trial in Guinea-Bissau, deeming it "unethical." The controversy stems from the proposal to administer an established hepatitis B treatment to some newborns while withholding it from others. This raises significant ethical concerns regarding medical research in vulnerable populations.",
-    "summary_zh": "世界衛生組織強烈批評美國在幾內亞比索資助的嬰兒疫苗試驗，認為其"不道德"。",
-    "source": "BBC News",
-    "link": "https://www.bbc.com/news/articles/c78j5k2gk02o"
-  },
-  {
-    "title_en": "UK Alleges Russia Used Dart Frog Toxin for Navalny's Death",
-    "title_zh": "英國指俄羅斯用箭毒蛙毒素殺害納瓦爾尼",
-    "summary_en": "The UK Foreign Office has claimed that Russia used a dart frog toxin to kill opposition leader Alexei Navalny, stating there is "no innocent explanation" for its presence in samples from his body. This accusation escalates international tensions and renews calls for accountability regarding Navalny's death, which has been a major point of contention between Russia and Western nations.",
-    "summary_zh": "英國外交部稱俄羅斯使用箭毒蛙毒素殺害反對派領導人納瓦爾尼，並表示沒有 "無辜的解釋"。",
-    "source": "BBC News",
-    "link": "https://www.bbc.com/news/articles/cwyk4lz4e3eo"
-  },
-  {
-    "title_en": "Hebron Mayor Warns of Israeli West Bank Control Expansion",
-    "title_zh": "希伯倫市長警告以色列擴大約旦河西岸控制權",
-    "summary_en": "The mayor of Hebron has voiced concerns that Palestinians are "not protected" as Israel expands its control in the West Bank. He highlighted that this expansion effectively excludes Palestinians from crucial planning and development decisions. The situation underscores ongoing tensions and power imbalances in the region, impacting daily lives and future prospects for Palestinians.",
-    "summary_zh": "希伯倫市長警告，隨著以色列擴大對約旦河西岸的控制，巴勒斯坦人"未受保護"。",
-    "source": "BBC News",
-    "link": "https://www.bbc.com/news/articles/crl4ne5er5zo"
+    "category": "World",
+    "en_title": "UK Court Overturns Ban on Palestinian Activist Group",
+    "cn_title": "英國法院推翻對巴勒斯坦活動組織的禁令",
+    "en_summary": "A London court ruled that the government decision to ban Palestine Action was disproportionate. A victory for free speech and protest rights.",
+    "cn_summary": "倫敦法院裁定，政府取消禁止「巴勒斯坦行動」組織的決定是不相稱的。這是言論自由和抗議權利的勝利。",
+    "source": "NPR",
+    "link": "https://www.npr.org/sections/world/",
+    "date": "2026-02-15 09:11",
+    "timestamp": 1771117875.461327
   }
 ]
