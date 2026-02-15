@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "category": "World",
+    "en_title": "UK Court Overturns Ban on Palestine Action",
+    "cn_title": "英國法院推翻對巴勒斯坦行動組織的禁令",
+    "en_summary": "London court ruled the terror ban disproportionate, protecting protest rights.",
+    "cn_summary": "倫敦法院裁定恐襲禁令不相稱，保護了抗議權利。",
+    "source": "NPR",
+    "link": "https://www.npr.org/sections/world/",
+    "date": "2026-02-15"
+  },
+  {
+    "category": "World",
+    "en_title": "Yemen Tensions: Storming of Ataq Buildings",
+    "cn_title": "也門局勢：群眾衝擊阿塔格政府大樓",
+    "en_summary": "Deadly clashes between STC crowds and security forces resulted in 5 deaths.",
+    "cn_summary": "阿塔格爆發致命衝突，導致 5 人死亡。",
+    "source": "Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Portal:Current_events/February_2026",
+    "date": "2026-02-15"
+  },
+  {
+    "category": "World",
+    "en_title": "EU 2026 Climate Framework Launched",
+    "cn_title": "歐盟發布 2026 氣候政策框架",
+    "en_summary": "Stricter regulations on industrial emissions aim for carbon neutrality.",
+    "cn_summary": "歐盟發布更嚴格排放規定，旨在實現碳中和目標。",
+    "source": "BBC",
+    "link": "https://www.bbc.com/news/world/",
+    "date": "2026-02-15"
+  },
+  {
+    "category": "World",
+    "en_title": "US-Europe Alliance Reassurance",
+    "cn_title": "美國重申大西洋聯盟支持",
+    "en_summary": "Secretary Rubio reassured European leaders of the transatlantic partnership.",
+    "cn_summary": "盧比奧向歐洲領導人保證大西洋夥伴關係的穩固。",
+    "source": "BBC",
+    "link": "https://www.bbc.com/news/articles/c2lrdq47149o",
+    "date": "2026-02-15"
+  },
+  {
+    "category": "World",
+    "en_title": "Middle East Mediators Call for Talks",
+    "cn_title": "中東調解人呼籲重啟停火談判",
+    "en_summary": "Renewed drive by mediators to address geopolitical volatility.",
+    "cn_summary": "調解人推動解決地區動盪，重啟談判。",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/",
+    "date": "2026-02-15"
+  },
+  {
+    "category": "Cyber Security",
+    "en_title": "Apple Fixes Critical 0-Day (CVE-2026-20700)",
+    "cn_title": "蘋果修復關鍵零日漏洞",
+    "en_summary": "Urgent patches released for iOS/macOS code execution vulnerability.",
+    "cn_summary": "蘋果發布緊急補丁，修復影響廣泛的代碼執行漏洞。",
+    "source": "HackerNews",
+    "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "Cyber Security",
+    "en_title": "Google Links Russian Actors to CANFAIL",
+    "cn_title": "Google 揭露俄羅斯行動者使用 CANFAIL",
+    "en_summary": "Threat actors linked to intelligence use LLMs for Ukrainian hit-ops.",
+    "cn_summary": "黑客被指利用大語言模型對烏克蘭進行特定攻擊。",
+    "source": "HackerNews",
+    "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "Cyber Security",
+    "en_title": "Recorded Future 2026 Security Report",
+    "cn_title": "Recorded Future 發布 2026 安全報告",
+    "en_summary": "Cyber-ops identified as core tool of modern global power play.",
+    "cn_summary": "網絡行動被定義為現代全球電力核心工具。",
+    "source": "Newswire",
+    "link": "https://www.prnewswire.com/",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "Cyber Security",
+    "en_title": "Ransomware Attacks Surge 63% in 2025",
+    "cn_title": "2025 年勒索軟體攻擊飆升 63%",
+    "en_summary": "Intel 471 report highlights supply chain vulnerabilities globally.",
+    "cn_summary": "報告強調全球供應鏈漏洞導致勒索攻擊激增。",
+    "source": "CyberDive",
+    "link": "https://www.cybersecuritydive.com/",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "Cyber Security",
+    "en_title": "First Malicious Outlook Add-in Found",
+    "cn_title": "首個惡意 Outlook 插件現身",
+    "en_summary": "AgreeToSteal malware targets Microsoft credentials at scale.",
+    "cn_summary": "名為 AgreeToSteal 的惡意軟體大規模針對微軟憑據。",
+    "source": "HackerNews",
+    "link": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "AI & Fintech",
+    "en_title": "Agentic AI Maturity in Financial Workflows",
+    "cn_title": "代理式 AI 在金融工作流中走向成熟",
+    "en_summary": "Autonomous agents managing cross-border settlements in 2026.",
+    "cn_summary": "2026 年自主代理已能管理跨國結算流程。",
+    "source": "BobsGuide",
+    "link": "https://www.bobsguide.com/",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "AI & Fintech",
+    "en_title": "FinovateEurope 2026 Highlights Quantum AI",
+    "cn_title": "FinovateEurope 大會聚焦量子 AI",
+    "en_summary": "Quantum-enhanced AI models improving trade predictive accuracy.",
+    "cn_summary": "量子增強型 AI 提升了交易預測的準確性。",
+    "source": "FintechFutures",
+    "link": "https://www.fintechfutures.com/",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "AI & Fintech",
+    "en_title": "Taiwan Hikes 2026 Growth on AI Demand",
+    "cn_title": "台灣因 AI 需求強勁上調經濟成長預期",
+    "en_summary": "Forecast raised to 7.7% due to global semiconductor dominance.",
+    "cn_summary": "受益於半導體領先地位，預期增長上調至 7.7%。",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "AI & Fintech",
+    "en_title": "ByteDance Developing In-house AI Chips",
+    "cn_title": "字節跳動研發自研 AI 芯片",
+    "en_summary": "Talks with Samsung initiated for local chip manufacturing.",
+    "cn_summary": "與三星展開洽談，推進本土芯片製造。",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/",
+    "date": "2026-02-14"
+  },
+  {
+    "category": "AI & Fintech",
+    "en_title": "AI Valuations Normalizing in Fintech",
+    "cn_title": "金融科技領域 AI 估值趨於理性",
+    "en_summary": "Market shift towards real utility over speculative hype in 2026.",
+    "cn_summary": "2026 年市場轉向實際效用，告別投機熱潮。",
+    "source": "QED",
+    "link": "https://www.qedinvestors.com/",
+    "date": "2026-02-14"
+  }
+]
