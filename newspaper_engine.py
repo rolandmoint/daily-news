@@ -5,18 +5,21 @@ from datetime import datetime, timedelta
 DATA_FILE = 'news_data.json'
 HTML_FILE = 'index.html'
 
-def update_news(news_list):
+def update_news(new_entries):
+    # 1. Load existing data
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
     else:
         data = []
 
-    for entry in news_list:
-        entry["date"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+    # 2. Add new entries
+    for entry in new_entries:
         entry["timestamp"] = datetime.now().timestamp()
+        entry["date"] = datetime.now().strftime("%Y-%m-%d")
         data.insert(0, entry)
 
+    # 3. Security Check: Deduplication by link
     seen_links = set()
     unique_data = []
     for item in data:
@@ -24,15 +27,26 @@ def update_news(news_list):
             unique_data.append(item)
             seen_links.add(item['link'])
     
+    # 4. Global Sort: Newest First
+    # Assuming the date field exists or using the timestamp we added
+    unique_data.sort(key=lambda x: x.get('timestamp', 0), reverse=True)
+
+    # 5. Remove older than 7 days
     seven_days_ago = (datetime.now() - timedelta(days=7)).timestamp()
     unique_data = [item for item in unique_data if item.get('timestamp', 0) > seven_days_ago]
 
+    # 6. Save back to database
     with open(DATA_FILE, 'w', encoding='utf-8') as f:
         json.dump(unique_data, f, ensure_ascii=False, indent=2)
 
     render_html(unique_data)
 
 def render_html(data):
+    # Separate data into categories
+    world_news = [i for i in data if i['category'] == 'World']
+    cyber_news = [i for i in data if i['category'] == 'Cyber Security']
+    ai_news = [i for i in data if i['category'] == 'AI & Fintech']
+
     html_template = """
     <!DOCTYPE html>
     <html lang="zh-Hant">
@@ -43,97 +57,80 @@ def render_html(data):
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
             body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
-            .feed-card { border-left: 4px solid transparent; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
-            .feed-card:hover { transform: scale(1.01); background-color: #1e293b; }
-            .category-world { border-left-color: #3b82f6; }
-            .category-ai { border-left-color: #10b981; }
-            .category-sec { border-left-color: #ef4444; }
-            .filter-btn { cursor: pointer; transition: all 0.2s; }
-            .filter-active { outline: 2px solid white; outline-offset: 2px; }
+            .section-label { writing-mode: vertical-rl; text-orientation: mixed; }
+            .card { background: #1e293b; border: 1px solid #334155; transition: all 0.2s; }
+            .card:hover { border-color: #3b82f6; transform: translateY(-2px); }
         </style>
     </head>
     <body class="p-4 md:p-12">
-        <header class="max-w-5xl mx-auto mb-16 border-b border-slate-800 pb-12">
-            <div class="flex justify-between items-end">
-                <div>
-                    <h1 class="text-4xl font-black tracking-tighter mb-2 italic">INTELLIGENCE CORE</h1>
-                    <p class="text-slate-500 font-mono text-sm uppercase tracking-widest">Automatic Feed • 7-Day Rolling Window</p>
-                </div>
-                <div class="text-right font-mono text-xs text-slate-600">
-                    SECURED_PROTOCOL_V2<br>ANONYMOUS_SESSION
-                </div>
-            </div>
-            
-            <nav class="mt-12 flex flex-wrap gap-3">
-                <button onclick="filter('all')" class="filter-btn px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-xs font-bold uppercase tracking-tighter">View All</button>
-                <button onclick="filter('world')" class="filter-btn px-4 py-2 bg-blue-900/40 text-blue-400 hover:bg-blue-900/60 rounded-lg text-xs font-bold uppercase tracking-tighter border border-blue-800/50">World</button>
-                <button onclick="filter('ai')" class="filter-btn px-4 py-2 bg-emerald-900/40 text-emerald-400 hover:bg-emerald-900/60 rounded-lg text-xs font-bold uppercase tracking-tighter border border-emerald-800/50">AI & Fintech</button>
-                <button onclick="filter('sec')" class="filter-btn px-4 py-2 bg-red-900/40 text-red-400 hover:bg-red-900/60 rounded-lg text-xs font-bold uppercase tracking-tighter border border-red-800/50">Cyber Security</button>
-            </nav>
+        <header class="max-w-7xl mx-auto mb-16 border-b border-slate-800 pb-12">
+            <h1 class="text-5xl font-black tracking-tighter italic text-blue-500 uppercase">Intelligence Briefing</h1>
+            <p class="text-slate-500 font-mono text-sm mt-2">SECURED FEED • SORTED BY LATEST</p>
         </header>
 
-        <main id="news-container" class="max-w-5xl mx-auto space-y-6">
-            {%CONTENT%}
+        <main class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-3 gap-12">
+            
+            <!-- WORLD NEWS COLUMN -->
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🌐</span>
+                    <h2 class="text-2xl font-black uppercase text-blue-400 tracking-widest">World Updates</h2>
+                </div>
+                <div class="space-y-6">{%WORLD%}</div>
+            </section>
+
+            <!-- CYBER SECURITY COLUMN -->
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🛡️</span>
+                    <h2 class="text-2xl font-black uppercase text-red-400 tracking-widest">Cyber Security</h2>
+                </div>
+                <div class="space-y-6">{%CYBER%}</div>
+            </section>
+
+            <!-- AI & FINTECH COLUMN -->
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🤖</span>
+                    <h2 class="text-2xl font-black uppercase text-emerald-400 tracking-widest">AI / Fintech</h2>
+                </div>
+                <div class="space-y-6">{%AI%}</div>
+            </section>
+
         </main>
 
-        <footer class="max-w-5xl mx-auto mt-24 py-12 border-t border-slate-800 text-center text-slate-600 font-mono text-[10px] uppercase tracking-[0.2em]">
-            Automated Briefing System • End-to-End Generated content
+        <footer class="max-w-7xl mx-auto mt-24 py-12 border-t border-slate-800 text-center text-slate-600 font-mono text-xs italic">
+            END-TO-END AUTOMATED GENERATION • NO_IDENTIFIERS_STORED
         </footer>
-
-        <script>
-            function filter(type) {
-                const cards = document.querySelectorAll('.feed-card');
-                cards.forEach(card => {
-                    if (type === 'all') {
-                        card.style.display = 'block';
-                    } else if (type === 'world' && card.classList.contains('category-world')) {
-                        card.style.display = 'block';
-                    } else if (type === 'ai' && card.classList.contains('category-ai')) {
-                        card.style.display = 'block';
-                    } else if (type === 'sec' && card.classList.contains('category-sec')) {
-                        card.style.display = 'block';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
-            }
-        </script>
     </body>
     </html>
     """
-    
-    content_html = ""
-    for item in data:
-        cat_class = "category-world"
-        cat_name = "World Update"
-        if "AI" in item['category']: 
-            cat_class = "category-ai"
-            cat_name = "AI / Fintech"
-        elif "Cyber" in item['category']: 
-            cat_class = "category-sec"
-            cat_name = "Security"
 
-        content_html += f"""
-        <article class="bg-slate-900/50 p-8 rounded-2xl border border-slate-800/50 feed-card {cat_class}">
-            <div class="flex justify-between items-center mb-6">
-                <span class="font-mono text-[10px] text-slate-500 uppercase tracking-widest">{item['date']}</span>
-                <span class="px-2 py-0.5 bg-slate-800 text-slate-400 border border-slate-700 rounded text-[9px] font-bold uppercase tracking-tighter">{cat_name}</span>
-            </div>
-            <div class="space-y-4">
-                <h3 class="text-2xl font-bold text-slate-100 tracking-tight leading-tight uppercase font-mono">{item['en_title']}</h3>
-                <h3 class="text-xl font-bold text-slate-300 leading-tight border-l-2 border-slate-700 pl-4">{item['cn_title']}</h3>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8 text-sm leading-relaxed">
-                <div class="text-slate-400">{item['en_summary']}</div>
-                <div class="text-slate-500 italic border-l border-slate-800 pl-6">{item['cn_summary']}</div>
-            </div>
-            <div class="flex justify-between items-center pt-6 border-t border-slate-800">
-                <span class="text-[10px] text-slate-600 font-mono italic">REF_ORIGIN: {item['source']}</span>
-                <a href="{item['link']}" target="_blank" rel="noopener noreferrer" class="bg-slate-100 text-slate-900 px-4 py-2 rounded-lg text-xs font-black uppercase hover:bg-white transition-colors">Source_Access &rarr;</a>
-            </div>
-        </article>
-        """
-    
-    final_html = html_template.replace("{%CONTENT%}", content_html)
+    def build_articles(subset):
+        output = ""
+        for item in subset:
+            output += f"""
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 {item['date']}</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">{item['source']}</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">{item['en_title']}</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">{item['cn_title']}</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>{item['en_summary']}</p>
+                    <p class="text-slate-600 italic">{item['cn_summary']}</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="{item['link']}" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
+            """
+        return output
+
+    html = html_template.replace("{%WORLD%}", build_articles(world_news))
+    html = html.replace("{%CYBER%}", build_articles(cyber_news))
+    html = html.replace("{%AI%}", build_articles(ai_news))
+
     with open(HTML_FILE, 'w', encoding='utf-8') as f:
-        f.write(final_html)
+        f.write(html)
