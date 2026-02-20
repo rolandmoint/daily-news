@@ -1,37 +1,37 @@
 [
     {
-        "title_en": "Google Links Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
-        "title_zh": "谷歌关联疑似俄罗斯行为者与针对乌克兰组织的CANFAIL恶意软件攻击",
-        "summary": "Google's Threat Intelligence Group (GTIG) has attributed a previously unknown threat actor, possibly affiliated with Russian intelligence services, to attacks utilizing CANFAIL malware against Ukrainian organizations. These attacks have targeted defense, military, government, and energy sectors, with a growing interest in aerospace, manufacturing, and nuclear research organizations. Notably, the group has begun leveraging large language models (LLMs) to overcome technical limitations, using them for reconnaissance and creating social engineering lures.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html"
+        "title_en": "Prince Andrew Arrested in UK on Suspicion of Misconduct",
+        "title_zh": "安德魯王子因涉嫌不當行為在英國被捕",
+        "summary": "Prince Andrew was arrested in the UK on February 20, 2026, over allegations of misconduct. The arrest follows a renewed investigation into past accusations. Authorities have not disclosed further details, but the case has reignited public scrutiny. Legal experts anticipate a high-profile trial.",
+        "link": "https://www.reuters.com/world/uk/prince-andrew-arrested-2026-02-20/",
+        "source": "Reuters"
     },
     {
-        "title_en": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
-        "title_zh": "谷歌关联中国、伊朗、俄罗斯、朝鲜协同对国防部门的网络行动",
-        "summary": "Google's Threat Intelligence Group (GTIG) has identified state-sponsored actors and cybercriminal groups from China, Iran, North Korea, and Russia actively targeting the defense industrial base (DIB) sector. These operations focus on four key areas: targeting defense entities with battlefield technologies in the Russia-Ukraine War, exploiting hiring processes, using edge devices for initial access, and supply chain risks from manufacturing breaches. GTIG notes that these groups are increasingly interested in autonomous vehicles and drones, critical platforms in modern warfare.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html"
+        "title_en": "Alysa Liu Wins Gold in Figure Skating at Milano Cortina 2026",
+        "title_zh": "劉美賢在米蘭科爾蒂納2026冬奧會花樣滑冰奪金",
+        "summary": "American figure skater Alysa Liu claimed the gold medal in women's figure skating at the Milano Cortina 2026 Winter Olympics. Her flawless performance captivated the judges and audience alike, solidifying her status as one of the sport's brightest stars.",
+        "link": "https://www.reuters.com/sports/alysa-liu-wins-gold-milano-cortina-2026/",
+        "source": "Reuters"
     },
     {
-        "title_en": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
-        "title_zh": "UAT-9921部署VoidLink恶意软件针对科技和金融行业",
-        "summary": "A previously untracked threat actor, identified as UAT-9921, is deploying a sophisticated new modular malware framework named VoidLink. According to Cisco Talos, VoidLink is being used in campaigns primarily targeting technology and financial services sectors. The malware, written in Zig, is designed for long-term, stealthy access to Linux-based cloud environments, indicating a high level of sophistication. This actor has been active since 2019, consistently evolving their tactics and tools.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/02/uat-9921-deploys-voidLink-malware-to.html"
+        "title_en": "Sun Long Wins Silver in Short Track for China at 2026 Winter Olympics",
+        "title_zh": "孫龍在2026冬奧短道速滑為中國奪得銀牌",
+        "summary": "Chinese athlete Sun Long secured a silver medal in the men's short track speed skating event at the 2026 Winter Olympics. His impressive performance brought pride to his nation, as he narrowly missed out on gold in a thrilling final.",
+        "link": "https://www.globaltimes.cn/content/1314.shtml",
+        "source": "Global Times"
     },
     {
-        "title_en": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
-        "title_zh": "恶意Chrome扩展程序被发现窃取商业数据、电子邮件和浏览历史",
-        "summary": "Cybersecurity researchers have uncovered a malicious Google Chrome extension, disguised as a tool for Meta Business Suite, that is actively stealing sensitive business data. The extension, named \"CL Suite by @CLMasters,\" was found to exfiltrate TOTP codes for Facebook and Meta Business accounts, contact lists, and analytics data to attacker-controlled infrastructure. Despite claiming to keep data local, the add-on requests broad access and transmits critical information, posing a significant risk to businesses using such platforms.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html"
+        "title_en": "Apple Fixes Zero-Day Exploited in iOS and macOS",
+        "title_zh": "蘋果修復iOS和macOS中的零日漏洞",
+        "summary": "Apple released urgent security updates for iOS and macOS to address a critical zero-day vulnerability actively exploited by attackers. Users are advised to update their devices immediately to prevent potential data breaches and system compromise.",
+        "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+        "source": "The Hacker News"
     },
     {
-        "title_en": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Other Devices",
-        "title_zh": "苹果修复影响iOS、macOS及其他设备的已利用零日漏洞",
-        "summary": "Apple has released urgent security updates for iOS, iPadOS, macOS Tahoe, tvOS, watchOS, and visionOS to patch a zero-day vulnerability (CVE-2026-20700) that has been actively exploited in highly sophisticated cyberattacks. This memory corruption flaw in Apple's Dynamic Link Editor (dyld) could allow attackers to execute arbitrary code on vulnerable devices. Google Threat Analysis Group (TAG) discovered and reported the bug, noting its exploitation against specific targeted individuals on older iOS versions.",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html"
+        "title_en": "Australia Repatriates ISIS-Linked Family Members from Syria",
+        "title_zh": "澳大利亞從敘利亞遣返與ISIS有關聯的家庭成員",
+        "summary": "The Australian government has repatriated several citizens, including women and children linked to ISIS, from detention camps in Syria. Officials stated the operation was conducted with security precautions, sparking debate over national safety and humanitarian obligations.",
+        "link": "https://www.npr.org/sections/world/2026/02/20/australia-repatriates-isis-family/",
+        "source": "NPR"
     }
 ]
