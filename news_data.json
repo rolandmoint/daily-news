@@ -1,121 +1,156 @@
 [
-  {
-    "title_zh": "美國最高法院推翻特朗普全球關稅政策",
-    "title_en": "US Supreme Court Strikes Down Trump's Global Tariffs",
-    "summary": "The U.S. Supreme Court handed President Donald Trump a major defeat by striking down his sweeping global tariffs, ruling he overstepped his legal authority by using emergency economic powers. / 美國最高法院裁定特朗普總統越權使用緊急經濟權力徵收全球關稅，這項具里程碑意義的裁決讓這位共和黨總統遭遇重大挫敗。",
-    "link": "https://www.reuters.com/world/us/",
-    "source": "Reuters"
-  },
-  {
-    "title_zh": "聯合國警告索馬里糧食援助或於四月全面停止",
-    "title_en": "UN Warns Somalia Food Aid Could Halt by April",
-    "summary": "The U.N. World Food Programme said its life-saving assistance in Somalia could grind to a halt by April without new funding, putting millions at risk of severe hunger. / 聯合國世界糧食計劃署表示，除非獲得新資金，否則其在索馬里的救命糧食援助可能在 4 月全面停止，數百萬人面臨飢餓加劇的風險。",
-    "link": "https://www.reuters.com/world/",
-    "source": "Reuters"
-  },
-  {
-    "title_zh": "金正恩在重要政治會議上讚揚朝鮮經濟及地位提升",
-    "title_en": "Kim Jong Un Lauds North Korea's Economy at Major Party Meeting",
-    "summary": "North Korean leader Kim Jong Un praised his nation's improving economy and regional standing as he opened the country's most important political event. / 朝鮮領導人金正恩在該國最重要的政治活動開幕式上，讚揚了朝鮮不斷改善的經濟狀況和日益提升的地區地位。",
-    "link": "https://apnews.com/article/north-korea-party-congress-kim-jong-un-nuclear-13331f3c040c01f92cabc0cd14972765",
-    "source": "AP News"
-  },
-  {
-    "title_zh": "馬克龍呼籲意大利總理停止評論他國事務",
-    "title_en": "Macron Calls on Italian PM to Stop Commenting on Other Countries' Affairs",
-    "summary": "French President Emmanuel Macron asked Italian Prime Minister Giorgia Meloni to stop \"commenting on what is happening in other people's countries\" following her remarks on a fatal incident in France. / 法國總統馬克龍呼籲意大利總理梅洛尼停止「評論他國發生的事情」，此前她對法國一名極右翼活動人士被毆打致死事件表示震驚。",
-    "link": "https://www.ndtv.com/world-news",
-    "source": "NDTV"
-  },
-  {
-    "title_zh": "示威者在全球特斯拉經銷商抗議馬斯克",
-    "title_en": "Demonstrators Protest Against Elon Musk at Tesla Dealerships Worldwide",
-    "summary": "Protesters gathered at Tesla dealerships globally to demonstrate against Elon Musk's actions and policies. / 示威者聚集在全球各地的特斯拉經銷商門前，抗議埃隆·馬斯克的行為和政策。",
-    "link": "https://www.reuters.com/world/us/donald-trump/",
-    "source": "Reuters"
-  },
-  {
-    "title_zh": "美國在中東部署大規模空軍部隊監視伊朗",
-    "title_en": "US Unleashes Massive Air Armada In Middle East Amid Iran Tension",
-    "summary": "The US has reportedly deployed significant firepower, including F-22 Raptors and F-35 Lightnings, options for a sustained air campaign against Iran. / 據報美國部署了包括 F-22 和 F-35 戰機在內的大規模空中力量，為可能對伊朗進行持續空襲提供選項。",
-    "link": "https://www.ndtv.com/world-news/f-22-raptors-f-35-lightnings-us-unleashes-massive-air-armada-in-middle-east-iran-watches-11061589",
-    "source": "NDTV"
-  },
-  {
-    "title_en": "Prince Andrew Arrested in UK on Suspicion of Misconduct",
-    "title_zh": "安德魯王子因涉嫌不當行為在英國被捕",
-    "summary": "Prince Andrew was arrested in the UK on February 20, 2026, over allegations of misconduct. The arrest follows a renewed investigation into past accusations. Authorities have not disclosed further details, but the case has reignited public scrutiny. Legal experts anticipate a high-profile trial.",
-    "link": "https://www.reuters.com/world/uk/prince-andrew-arrested-2026-02-20/",
-    "source": "Reuters"
-  },
-  {
-    "title_en": "Alysa Liu Wins Gold in Figure Skating at Milano Cortina 2026",
-    "title_zh": "劉美賢在米蘭科爾蒂納2026冬奧會花樣滑冰奪金",
-    "summary": "American figure skater Alysa Liu claimed the gold medal in women's figure skating at the Milano Cortina 2026 Winter Olympics. Her flawless performance captivated the judges and audience alike, solidifying her status as one of the sport's brightest stars.",
-    "link": "https://www.reuters.com/sports/alysa-liu-wins-gold-milano-cortina-2026/",
-    "source": "Reuters"
-  },
-  {
-    "title_en": "Sun Long Wins Silver in Short Track for China at 2026 Winter Olympics",
-    "title_zh": "孫龍在2026冬奧短道速滑為中國奪得銀牌",
-    "summary": "Chinese athlete Sun Long secured a silver medal in the men's short track speed skating event at the 2026 Winter Olympics. His impressive performance brought pride to his nation, as he narrowly missed out on gold in a thrilling final.",
-    "link": "https://www.globaltimes.cn/content/1314.shtml",
-    "source": "Global Times"
-  },
-  {
-    "title_zh": "國際奧林匹克委員會主席會見美國官員",
-    "title_en": "IOC President Addresses 'Board of Peace' Meeting",
-    "summary": "International Olympic Committee President Kirsty Coventry addressed the first meeting of The Board of Peace along with US officials and other global sporting leaders. / 國際奧林匹克委員會主席 Kirsty Coventry 與美國官員及其他全球體育領袖一起出席並在首屆「和平委員會」會議上致辭。",
-    "link": "https://www.reuters.com/world/",
-    "source": "Reuters"
-  },
-  {
-    "title_en": "Apple Fixes Zero-Day Exploited in iOS and macOS",
-    "title_zh": "蘋果修復iOS和macOS中的零日漏洞",
-    "summary": "Apple released urgent security updates for iOS and macOS to address a critical zero-day vulnerability actively exploited by attackers. Users are advised to update their devices immediately to prevent potential data breaches and system compromise.",
-    "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
-    "source": "The Hacker News"
-  },
-  {
-    "title_en": "Australia Repatriates ISIS-Linked Family Members from Syria",
-    "title_zh": "澳大利亞從敘利亞遣返與ISIS有關聯的家庭成員",
-    "summary": "The Australian government has repatriated several citizens, including women and children linked to ISIS, from detention camps in Syria. Officials stated the operation was conducted with security precautions, sparking debate over national safety and humanitarian obligations.",
-    "link": "https://www.npr.org/sections/world/2026/02/20/australia-repatriates-isis-family/",
-    "source": "NPR"
-  },
-  {
-    "title_en": "Cybersecurity Tech Predictions for 2026: Operating in a World of Permanent Instability",
-    "title_zh": "2026年網絡安全技術預測：在永久不穩定的世界中運作",
-    "summary": "Cybersecurity in 2026 shifts to AI defense, Zero Trust identity, lifecycle security, and post-quantum crypto readiness. / 2026年網絡安全將轉向AI防禦、零信任身分、全生命週期安全及後量子密碼準備。",
-    "link": "https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html",
-    "source": "The Hacker News"
-  },
-  {
-    "title_en": "CISA Faces Shutdown Impact Due to Lapse in Appropriations",
-    "title_zh": "受撥款中斷影響，CISA面臨停擺衝擊",
-    "summary": "A partial DHS shutdown, ongoing since February 14, 2026, due to a lapse in appropriations, has severely impacted the Cybersecurity and Infrastructure Security Agency (CISA). / 由於撥款中斷，國土安全部自2026年2月14日起部分停擺，嚴重影響了網絡安全與基礎設施安全局 (CISA) 的運作。",
-    "link": "https://digg.com/cybersecurity/G0OcYRI/cybersecurity-brief-friday-february-20-2026",
-    "source": "Digg"
-  },
-  {
-    "title_en": "White House Expected to Kick Off 2026 With New National Cyber Strategy",
-    "title_zh": "白宮預計將於2026年初啟動新的國家網絡戰略",
-    "summary": "The White House is expected to kick off 2026 with a new national cyber strategy. The past year in federal cybersecurity policy was full of uncertainty. / 白宮預計將以全新的國家網絡戰略拉開2026年的序幕。過去一年，聯邦網絡安全政策充滿了不確定性。",
-    "link": "https://federalnewsnetwork.com/cybersecurity/2026/01/five-things-to-watch-in-cybersecurity-for-2026/",
-    "source": "Federal News Network"
-  },
-  {
-    "title_en": "New U.S. Cybersecurity Rules for Defense Sector Lead Small Suppliers to Rethink Military Work",
-    "title_zh": "美國國防部新網絡安全規則促使小型供應商重新考慮軍事合作",
-    "summary": "New U.S. cybersecurity rules for the defense sector are leading some small suppliers to rethink military work due to high compliance costs, raising production risks. / 由於合規成本高昂，美國針對國防領域出台的新網絡安全規則使得一些小型供應商重新考慮是否繼續參與軍事工作，進而增加了生產風險。",
-    "link": "https://www.reuters.com/technology/",
-    "source": "Reuters"
-  },
-  {
-    "title_en": "Kyndryl Launches Cyber Defense Operations Center to Unify Network and Security Operations",
-    "title_zh": "Kyndryl 推出網絡防禦營運中心以統一網絡及安全營運",
-    "summary": "Information technology infrastructure services provider Kyndryl launched its Cyber Defense Operations Center, a next-generation command hub to unify network and security operations. / 資訊科技基礎架構服務供應商 Kyndryl 推出了其網絡防禦營運中心，這是一個旨在統一網絡和安全營運的新一代指揮中心。",
-    "link": "https://siliconangle.com/2026/02/19/kyndryl-launches-cyber-defense-operations-center-unify-network-security-operations/",
-    "source": "SiliconANGLE"
-  }
+    {
+        "title_en": "Nvidia Nears $30 Billion Investment in OpenAI",
+        "title_zh": "Nvidia 擬向 OpenAI 注資約 300 億美元",
+        "summary": "Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening the ties between the AI chip giant and the leading AI lab. / Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，作為其超過千億級別融資的一部分，進一步鞏固兩家 AI 巨頭的聯盟。",
+        "source": "Reuters",
+        "link": "https://www.reuters.com/business/nvidia-close-finalizing-30-billion-investment-openai-funding-round-ft-reports-2026-02-20/"
+    },
+    {
+        "title_en": "OpenAI Deepens India Push via Pine Labs Fintech Partnership",
+        "title_zh": "OpenAI 攜手 Pine Labs 進軍印度 Fintech 支付領域",
+        "summary": "OpenAI has partnered with major Indian fintech Pine Labs to integrate AI-driven reasoning into its payments stack, aiming to automate invoicing workflows and accelerate AI-led commerce. / OpenAI 與印度頂尖 Fintech 公司 Pine Labs 達成戰略合作，將 AI 推理技術整合至支付系統，推動自動化結算與 AI 賦能的商業發展。",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/02/18/openai-deepens-india-push-with-pine-labs-fintech-partnership/"
+    },
+    {
+        "title_en": "Fintech Giant Figure Confirms Data Breach Impacting 1M Customers",
+        "title_zh": "Fintech 巨頭 Figure 爆出數據安全漏洞，波及近百萬用戶",
+        "summary": "Fintech lending platform Figure suffered a data breach initiated by a social engineering attack, exposing sensitive files and affecting nearly 1 million customer accounts. / 區塊鏈 Fintech 借貸巨頭 Figure 遭到社會工程學攻擊導致數據洩露，約 100 萬名用戶的敏感資料及帳戶受到波及。",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-fintech-firm-figure-affects-nearly-1-million-accounts/"
+    },
+    {
+        "title_en": "Bretton AI Raises $75M to Combat Financial Crime",
+        "title_zh": "Bretton AI 獲 7500 萬美元 B 輪融資，專攻金融反欺詐",
+        "summary": "San Francisco fintech Bretton AI, formerly Greenlite AI, raised $75 million in Series B funding to scale its AI platform designed to automate and standardize financial crime and AML compliance. / 三藩市 Fintech 公司 Bretton AI（前稱 Greenlite AI）籌集 7500 萬美元以擴展其 AI 共融反洗錢合規平台，專注打擊金融犯罪。",
+        "source": "Business Wire",
+        "link": "https://www.businesswire.com/news/home/20260209387593/en/Bretton-AI-Raises-$75M-Series-B-Rebrands-from-Greenlite-AI-to-Build-the-AI-Standard-for-Financial-Crime"
+    },
+    {
+        "title_en": "US Treasury Releases Guides for AI Use in Financial Sector",
+        "title_zh": "美國財政部發布金融業 AI 應用全新指引",
+        "summary": "The U.S. Department of the Treasury introduced two new resources developed to provide practical guidance on safely deploying AI for financial institutions and regulators. / 美國財政部推出兩份全新實用指南與資源，旨在幫助金融機構、監管部門和科技供應商更安全地應用和部署 AI 技術。",
+        "source": "US Treasury",
+        "link": "https://home.treasury.gov/news/press-releases/sb0401"
+    },
+    {
+        "title_zh": "美國最高法院推翻特朗普全球關稅政策",
+        "title_en": "US Supreme Court Strikes Down Trump's Global Tariffs",
+        "summary": "The U.S. Supreme Court handed President Donald Trump a major defeat by striking down his sweeping global tariffs, ruling he overstepped his legal authority by using emergency economic powers. / 美國最高法院裁定特朗普總統越權使用緊急經濟權力徵收全球關稅，這項具里程碑意義的裁決讓這位共和黨總統遭遇重大挫敗。",
+        "link": "https://www.reuters.com/world/us/",
+        "source": "Reuters"
+    },
+    {
+        "title_zh": "聯合國警告索馬里糧食援助或於四月全面停止",
+        "title_en": "UN Warns Somalia Food Aid Could Halt by April",
+        "summary": "The U.N. World Food Programme said its life-saving assistance in Somalia could grind to a halt by April without new funding, putting millions at risk of severe hunger. / 聯合國世界糧食計劃署表示，除非獲得新資金，否則其在索馬里的救命糧食援助可能在 4 月全面停止，數百萬人面臨飢餓加劇的風險。",
+        "link": "https://www.reuters.com/world/",
+        "source": "Reuters"
+    },
+    {
+        "title_zh": "金正恩在重要政治會議上讚揚朝鮮經濟及地位提升",
+        "title_en": "Kim Jong Un Lauds North Korea's Economy at Major Party Meeting",
+        "summary": "North Korean leader Kim Jong Un praised his nation's improving economy and regional standing as he opened the country's most important political event. / 朝鮮領導人金正恩在該國最重要的政治活動開幕式上，讚揚了朝鮮不斷改善的經濟狀況和日益提升的地區地位。",
+        "link": "https://apnews.com/article/north-korea-party-congress-kim-jong-un-nuclear-13331f3c040c01f92cabc0cd14972765",
+        "source": "AP News"
+    },
+    {
+        "title_zh": "馬克龍呼籲意大利總理停止評論他國事務",
+        "title_en": "Macron Calls on Italian PM to Stop Commenting on Other Countries' Affairs",
+        "summary": "French President Emmanuel Macron asked Italian Prime Minister Giorgia Meloni to stop \"commenting on what is happening in other people's countries\" following her remarks on a fatal incident in France. / 法國總統馬克龍呼籲意大利總理梅洛尼停止「評論他國發生的事情」，此前她對法國一名極右翼活動人士被毆打致死事件表示震驚。",
+        "link": "https://www.ndtv.com/world-news",
+        "source": "NDTV"
+    },
+    {
+        "title_zh": "示威者在全球特斯拉經銷商抗議馬斯克",
+        "title_en": "Demonstrators Protest Against Elon Musk at Tesla Dealerships Worldwide",
+        "summary": "Protesters gathered at Tesla dealerships globally to demonstrate against Elon Musk's actions and policies. / 示威者聚集在全球各地的特斯拉經銷商門前，抗議埃隆·馬斯克的行為和政策。",
+        "link": "https://www.reuters.com/world/us/donald-trump/",
+        "source": "Reuters"
+    },
+    {
+        "title_zh": "美國在中東部署大規模空軍部隊監視伊朗",
+        "title_en": "US Unleashes Massive Air Armada In Middle East Amid Iran Tension",
+        "summary": "The US has reportedly deployed significant firepower, including F-22 Raptors and F-35 Lightnings, options for a sustained air campaign against Iran. / 據報美國部署了包括 F-22 和 F-35 戰機在內的大規模空中力量，為可能對伊朗進行持續空襲提供選項。",
+        "link": "https://www.ndtv.com/world-news/f-22-raptors-f-35-lightnings-us-unleashes-massive-air-armada-in-middle-east-iran-watches-11061589",
+        "source": "NDTV"
+    },
+    {
+        "title_en": "Prince Andrew Arrested in UK on Suspicion of Misconduct",
+        "title_zh": "安德魯王子因涉嫌不當行為在英國被捕",
+        "summary": "Prince Andrew was arrested in the UK on February 20, 2026, over allegations of misconduct. The arrest follows a renewed investigation into past accusations. Authorities have not disclosed further details, but the case has reignited public scrutiny. Legal experts anticipate a high-profile trial.",
+        "link": "https://www.reuters.com/world/uk/prince-andrew-arrested-2026-02-20/",
+        "source": "Reuters"
+    },
+    {
+        "title_en": "Alysa Liu Wins Gold in Figure Skating at Milano Cortina 2026",
+        "title_zh": "劉美賢在米蘭科爾蒂納2026冬奧會花樣滑冰奪金",
+        "summary": "American figure skater Alysa Liu claimed the gold medal in women's figure skating at the Milano Cortina 2026 Winter Olympics. Her flawless performance captivated the judges and audience alike, solidifying her status as one of the sport's brightest stars.",
+        "link": "https://www.reuters.com/sports/alysa-liu-wins-gold-milano-cortina-2026/",
+        "source": "Reuters"
+    },
+    {
+        "title_en": "Sun Long Wins Silver in Short Track for China at 2026 Winter Olympics",
+        "title_zh": "孫龍在2026冬奧短道速滑為中國奪得銀牌",
+        "summary": "Chinese athlete Sun Long secured a silver medal in the men's short track speed skating event at the 2026 Winter Olympics. His impressive performance brought pride to his nation, as he narrowly missed out on gold in a thrilling final.",
+        "link": "https://www.globaltimes.cn/content/1314.shtml",
+        "source": "Global Times"
+    },
+    {
+        "title_zh": "國際奧林匹克委員會主席會見美國官員",
+        "title_en": "IOC President Addresses 'Board of Peace' Meeting",
+        "summary": "International Olympic Committee President Kirsty Coventry addressed the first meeting of The Board of Peace along with US officials and other global sporting leaders. / 國際奧林匹克委員會主席 Kirsty Coventry 與美國官員及其他全球體育領袖一起出席並在首屆「和平委員會」會議上致辭。",
+        "link": "https://www.reuters.com/world/",
+        "source": "Reuters"
+    },
+    {
+        "title_en": "Apple Fixes Zero-Day Exploited in iOS and macOS",
+        "title_zh": "蘋果修復iOS和macOS中的零日漏洞",
+        "summary": "Apple released urgent security updates for iOS and macOS to address a critical zero-day vulnerability actively exploited by attackers. Users are advised to update their devices immediately to prevent potential data breaches and system compromise.",
+        "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+        "source": "The Hacker News"
+    },
+    {
+        "title_en": "Australia Repatriates ISIS-Linked Family Members from Syria",
+        "title_zh": "澳大利亞從敘利亞遣返與ISIS有關聯的家庭成員",
+        "summary": "The Australian government has repatriated several citizens, including women and children linked to ISIS, from detention camps in Syria. Officials stated the operation was conducted with security precautions, sparking debate over national safety and humanitarian obligations.",
+        "link": "https://www.npr.org/sections/world/2026/02/20/australia-repatriates-isis-family/",
+        "source": "NPR"
+    },
+    {
+        "title_en": "Cybersecurity Tech Predictions for 2026: Operating in a World of Permanent Instability",
+        "title_zh": "2026年網絡安全技術預測：在永久不穩定的世界中運作",
+        "summary": "Cybersecurity in 2026 shifts to AI defense, Zero Trust identity, lifecycle security, and post-quantum crypto readiness. / 2026年網絡安全將轉向AI防禦、零信任身分、全生命週期安全及後量子密碼準備。",
+        "link": "https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html",
+        "source": "The Hacker News"
+    },
+    {
+        "title_en": "CISA Faces Shutdown Impact Due to Lapse in Appropriations",
+        "title_zh": "受撥款中斷影響，CISA面臨停擺衝擊",
+        "summary": "A partial DHS shutdown, ongoing since February 14, 2026, due to a lapse in appropriations, has severely impacted the Cybersecurity and Infrastructure Security Agency (CISA). / 由於撥款中斷，國土安全部自2026年2月14日起部分停擺，嚴重影響了網絡安全與基礎設施安全局 (CISA) 的運作。",
+        "link": "https://digg.com/cybersecurity/G0OcYRI/cybersecurity-brief-friday-february-20-2026",
+        "source": "Digg"
+    },
+    {
+        "title_en": "White House Expected to Kick Off 2026 With New National Cyber Strategy",
+        "title_zh": "白宮預計將於2026年初啟動新的國家網絡戰略",
+        "summary": "The White House is expected to kick off 2026 with a new national cyber strategy. The past year in federal cybersecurity policy was full of uncertainty. / 白宮預計將以全新的國家網絡戰略拉開2026年的序幕。過去一年，聯邦網絡安全政策充滿了不確定性。",
+        "link": "https://federalnewsnetwork.com/cybersecurity/2026/01/five-things-to-watch-in-cybersecurity-for-2026/",
+        "source": "Federal News Network"
+    },
+    {
+        "title_en": "New U.S. Cybersecurity Rules for Defense Sector Lead Small Suppliers to Rethink Military Work",
+        "title_zh": "美國國防部新網絡安全規則促使小型供應商重新考慮軍事合作",
+        "summary": "New U.S. cybersecurity rules for the defense sector are leading some small suppliers to rethink military work due to high compliance costs, raising production risks. / 由於合規成本高昂，美國針對國防領域出台的新網絡安全規則使得一些小型供應商重新考慮是否繼續參與軍事工作，進而增加了生產風險。",
+        "link": "https://www.reuters.com/technology/",
+        "source": "Reuters"
+    },
+    {
+        "title_en": "Kyndryl Launches Cyber Defense Operations Center to Unify Network and Security Operations",
+        "title_zh": "Kyndryl 推出網絡防禦營運中心以統一網絡及安全營運",
+        "summary": "Information technology infrastructure services provider Kyndryl launched its Cyber Defense Operations Center, a next-generation command hub to unify network and security operations. / 資訊科技基礎架構服務供應商 Kyndryl 推出了其網絡防禦營運中心，這是一個旨在統一網絡和安全營運的新一代指揮中心。",
+        "link": "https://siliconangle.com/2026/02/19/kyndryl-launches-cyber-defense-operations-center-unify-network-security-operations/",
+        "source": "SiliconANGLE"
+    }
 ]
