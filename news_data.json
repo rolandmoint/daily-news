@@ -1,82 +1,42 @@
 [
   {
     "date": "2026-02-22",
-    "title_zh": "川普任命庫許納為和平特使，聚焦加薩與烏克蘭",
-    "title_en": "Trump Appoints Kushner as Peace Envoy, Focusing on Gaza and Ukraine",
-    "summary_zh": "美國總統川普宣佈任命其女婿賈德·庫許納為特使，負責處理加薩戰爭遺留問題、烏克蘭衝突及與伊朗的關係。庫許納此前已在非官方層面進行多輪外交斡旋。",
-    "summary_en": "President Trump has announced the appointment of his son-in-law Jared Kushner as a 'peace envoy.' Kushner will lead diplomatic efforts regarding the post-Gaza war landscape, the Russia-Ukraine conflict, and relations with Iran.",
-    "url": "https://www.timesofisrael.com/liveblog-february-19-2026/"
+    "title_en": "OpenAI and Microsoft Join UK-led AI Safety Initiative",
+    "title_zh": "OpenAI 與微軟加入英國領導的 AI 安全倡議",
+    "summary_en": "OpenAI and Microsoft have joined a UK-led international coalition to strengthen the evaluation and governance of advanced AI systems, supporting the AI Security Institute’s Alignment Project.",
+    "summary_zh": "OpenAI 與微軟已加入由英國領導的國際聯盟，旨在加強對先進 AI 系統的評估與監管，並為人工智慧安全研究所的「對齊項目」提供資金與技術支持。",
+    "url": "https://techstartups.com/2026/02/20/top-tech-news-today-february-20-2026/"
   },
   {
     "date": "2026-02-22",
-    "title_zh": "美參議院擬就「伊朗戰爭權力」投票，防止衝突升級",
-    "title_en": "US Lawmakers Plan Iran War Powers Vote Amid Strike Threats",
-    "summary_zh": "隨著川普政府考慮對伊朗實施軍事打擊，美國國會預計將發起投票，限制總統在未經國會批准下對伊朗發動持續戰爭的權力。",
-    "summary_en": "As the Trump administration weighs potential strikes against Iran, US lawmakers are preparing a vote on war powers to prevent an unauthorized escalation of military conflict in the Middle East.",
-    "url": "https://www.timesofisrael.com/liveblog-february-20-2026/"
+    "title_en": "Taalas Raises $169M for AI Inference Chip Development",
+    "title_zh": "晶片新創 Taalas 融資 1.69 億美元加速 AI 推理晶片研發",
+    "summary_en": "Toronto-based chip startup Taalas announced a massive $169 million funding round to accelerate the development of its specialized AI inference chips, targeting enterprise-scale applications.",
+    "summary_zh": "總部位於多倫多的晶片新創公司 Taalas 宣佈完成 1.69 億美元的巨額融資，用於加速其專用 AI 推理晶片的開發，以滿足企業級大規模應用需求。",
+    "url": "https://techstartups.com/2026/02/19/top-startup-and-tech-funding-news-february-19-2025/"
   },
   {
     "date": "2026-02-22",
-    "title_zh": "聯合國：烏克蘭平民傷亡慘烈，已有 5000 餘名女性喪生",
-    "title_en": "UN: Over 5,000 Women Killed in Ukraine Since 2022 Invasion",
-    "summary_zh": "聯合國婦女署報告顯示，自 2022 年戰爭爆發以來，已有超過 5,000 名女性死亡，1.4 萬人受傷，戰火對當地平民生活造成了持續且毀滅性的打擊。",
-    "summary_en": "The UN reports that over 5,000 women and girls have been killed and 14,000 injured in Ukraine since Russia's full-scale invasion began in 2022, highlighting the severe ongoing civilian toll.",
-    "url": "https://www.reuters.com/world/ukraine-crisis/"
+    "title_en": "Rezolve AI Acquires Reward to Enhance Customer Engagement",
+    "title_zh": "Rezolve AI 以 2.3 億美元收購 Reward 以強化客戶互動",
+    "summary_en": "Rezolve AI has completed the acquisition of customer engagement platform Reward for $230 million, aiming to integrate AI capabilities into personalized retail experiences.",
+    "summary_zh": "Rezolve AI 以 2.3 億美元收購了客戶互動平台 Reward，旨在將人工智慧技術整合到個性化零售體驗中，提升品牌與客戶的連接。",
+    "url": "https://www.fintechfutures.com/fintech"
   },
   {
     "date": "2026-02-22",
-    "title_zh": "美英關係因伊朗基地使用權出現緊張",
-    "title_en": "Tensions Between UK and US Over Use of Bases for Iran Strikes",
-    "summary_zh": "英國外相計劃會見美方官員，針對美方可能使用英國軍事基地對伊朗發動襲擊的計畫表達關切，顯示西方盟友在應對中東局勢上存在分歧。",
-    "summary_en": "The UK Foreign Minister is set to meet US officials to discuss tensions regarding the potential use of British military bases for airstrikes against Iran, signaling a rift in the Western alliance.",
-    "url": "https://www.timesofisrael.com/liveblog-february-20-2026/"
+    "title_en": "Fintech Innovation in 2026: Bank Charters and Vertical Integration",
+    "title_zh": "2026 金融科技趨勢：銀行牌照與垂直整合",
+    "summary_en": "Industry experts predict that 2026 will see more fintech companies seeking bank charters and pursuing vertical integration to control more of the financial value chain.",
+    "summary_zh": "業內專家預測，2026 年將有更多金融科技公司尋求獲得銀行牌照並進行垂直整合，以掌握更多金融價值鏈的主導權。",
+    "url": "https://news.crunchbase.com/fintech/venture-momentum-ai-ipo-ma-forecast-2026/"
   },
   {
     "date": "2026-02-22",
-    "title_zh": "印度邊境政治與全球外交動態更新",
-    "title_en": "Political Roundup: India Border Politics and Global Diplomacy",
-    "summary_zh": "本週國際政壇焦點包括印度邊境最新的地緣政治博弈、寮國大選結果以及美國關稅政策對全球貿易穩定性造成的衝擊。",
-    "summary_en": "Key global updates include the latest developments in India's border politics, the outcome of elections in Laos, and the ongoing turmoil caused by shifts in U.S. tariff policies.",
-    "url": "https://www.oneworldnews.com/desh-ki-baat/political-roundup-22-february/"
-  },
-  {
-    "date": "2026-02-22",
-    "title_zh": "史蒂芬·史匹柏達成 EGOT 大滿貫紀錄",
-    "title_en": "Steven Spielberg Achieves EGOT Status at 2026 Grammys",
-    "summary_zh": "知名導演史蒂芬·史匹柏憑藉《約翰·威廉斯音樂紀錄片》獲得格萊美獎，正式成為影視及音樂界第 22 位橫掃艾美獎、格萊美獎、奧斯卡獎與東尼獎的大滿貫得主。",
-    "summary_en": "Renowned director Steven Spielberg has become the 22nd person to achieve EGOT status after winning a Grammy for Best Music Film, completing the elite circle of Emmy, Grammy, Oscar, and Tony awards.",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events/February_2026"
-  },
-  {
-    "date": "2026-02-22",
-    "title_zh": "甲骨文公司計畫籌集 500 億美元應對雲端需求",
-    "title_en": "Oracle Plans to Raise $50B to Meet Massive AI & Cloud Demand",
-    "summary_zh": "甲骨文宣佈將在 2026 年籌集高達 500 億美元的資金，用於擴建數據中心，以應對來自全球科技公司對雲端服務與人工智慧計算的強烈需求。",
-    "summary_en": "Oracle has announced plans to raise $45 to $50 billion during 2026 to expand its cloud infrastructure capacity to meet unprecedented demand from AI and large-scale enterprise contracts.",
-    "url": "https://www.investopedia.com/dow-jones-today-02022026-11897235"
-  },
-  {
-    "date": "2026-02-22",
-    "title_zh": "2026 年全球十大風險報告：地緣政治與氣候變遷佔據首位",
-    "title_en": "Top Ten Global Risks for 2026: Geopolitics and Climate Dominate",
-    "summary_zh": "智庫報告指出，2026 年全球面臨的最大風險包括加薩與烏克蘭局勢的失控、全球氣候行動的停滯，以及極右翼政治勢力對國際秩序的衝擊。",
-    "summary_en": "A new risk report identifies the ongoing conflicts in Gaza and Ukraine, stalled climate action, and shifts in international leadership as the top geopolitical threats facing the world in 2026.",
-    "url": "https://www.stimson.org/2026/top-ten-global-risks-for-2026/"
-  },
-  {
-    "date": "2026-02-22",
-    "title_zh": "美國德州投資者計劃重啟與俄羅斯的能源交易",
-    "title_en": "Texas Investor Eyes Russian Energy Deals Despite Ukraine Sanctions",
-    "summary_zh": "一位與川普家庭有聯繫的投資者表示正在考慮與俄羅斯能源巨頭 Novatek 簽訂天然氣開發協議，此舉引發了關於對俄制裁效力的激烈爭論。",
-    "summary_en": "A prominent Texas investor with political ties is considering energy deals with Russian gas companies, highlighting a potential shift in business attitudes toward Russia despite the ongoing war in Ukraine.",
-    "url": "https://www.justsecurity.org/132019/early-edition-february-20-2026/"
-  },
-  {
-    "date": "2026-02-22",
-    "title_zh": "孟加拉板球爭議引發政治層面口水戰",
-    "title_en": "Bangladesh Cricket Controversy Sparks Political Feat",
-    "summary_zh": "孟加拉國家隊教練公開批評政府高官，指責其在 2026 年世界盃籌備過程中的說辭不實，反映出南亞地區體育與政治之間日益緊張的關係。",
-    "summary_en": "The Bangladesh cricket coach has launched a public attack on top government officials over T20 World Cup controversies, bringing internal political tensions into the international sporting spotlight.",
-    "url": "https://sundayguardianlive.com/news/school-assembly-news-headlines-today-february-22-top-national-business-news-sports-news-education-news-world-news-with-weather-updates-thought-of-the-day-171545/"
+    "title_en": "AI and ESG: Sustainable Finance to Integrate Precise Analytics",
+    "title_zh": "AI 與 ESG 結合：可持續金融將整合精準分析技術",
+    "summary_en": "By 2026, sustainable finance is expected to deeply integrate AI for precise impact analytics, helping scale green investments and mitigate climate risks through tokenized assets.",
+    "summary_zh": "預計到 2026 年，可持續金融將深度整合 AI 以進行精準的影響力分析，透過代幣化綠色資產推動綠色投資規模化並降低氣候風險。",
+    "url": "https://m2pfintech.com/blog/10-banking-and-fintech-trends-that-will-redefine-2026-and-beyond/"
   }
 ]
