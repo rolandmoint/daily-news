@@ -9,72 +9,121 @@
         body { background-color: #0f172a; color: #f1f5f9; }
         .news-card { background-color: #1e293b; border-left: 4px solid #38bdf8; transition: transform 0.2s; }
         .news-card:hover { transform: translateY(-2px); }
+        .tab-active { border-bottom: 2px solid #38bdf8; color: #38bdf8; }
+        .cyber-border { border-left-color: #f87171; }
+        .ai-border { border-left-color: #fbbf24; }
+        .world-border { border-left-color: #38bdf8; }
     </style>
 </head>
 <body class="font-sans min-h-screen">
     <header class="bg-slate-900 border-b border-slate-700 p-6 sticky top-0 z-10 shadow-xl">
-        <div class="max-w-4xl mx-auto flex justify-between items-center">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
             <div>
                 <h1 class="text-2xl font-bold text-sky-400">🍏 MACBOT 新聞中心</h1>
-                <p class="text-slate-400 text-sm">Roland's Daily Intelligence Briefing</p>
+                <p class="text-slate-400 text-sm italic">Roland's Intelligence Briefing</p>
             </div>
-            <div id="update-date" class="text-right text-slate-500 text-xs font-mono">
-                Loading...
+            <div id="update-date" class="text-right text-slate-500 text-xs font-mono bg-slate-800 px-3 py-1 rounded">
+                SYNCING...
             </div>
+        </div>
+        
+        <!-- Tabs -->
+        <div class="max-w-4xl mx-auto mt-6 flex gap-6 text-sm font-bold border-b border-slate-800">
+            <button onclick="filterNews('all')" id="tab-all" class="tab-btn pb-2 tab-active lowercase">ALL</button>
+            <button onclick="filterNews('world')" id="tab-world" class="tab-btn pb-2 text-slate-500 hover:text-sky-400 lowercase italic">#WORLD</button>
+            <button onclick="filterNews('ai')" id="tab-ai" class="tab-btn pb-2 text-slate-500 hover:text-amber-400 lowercase italic">#AI_FINTECH</button>
+            <button onclick="filterNews('cyber')" id="tab-cyber" class="tab-btn pb-2 text-slate-500 hover:text-red-400 lowercase italic">#CYBER_SEC</button>
         </div>
     </header>
 
     <main class="max-w-4xl mx-auto p-6">
         <div id="news-container" class="space-y-6">
             <div class="text-center py-20 text-slate-500">
-                <p class="animate-pulse">正在同步全球數據...</p>
+                <p class="animate-pulse">正在整理分類檔案...</p>
             </div>
         </div>
     </main>
 
-    <footer class="text-center p-10 text-slate-600 text-xs border-t border-slate-800 mt-10">
-        &copy; 2026 Macbot Intelligence Engine | Powered by OpenClaw
+    <footer class="text-center p-10 text-slate-600 text-[10px] uppercase tracking-widest border-t border-slate-900 mt-10">
+        &copy; 2026 Macbot Intelligence Engine | Terminal Access Only
     </footer>
 
     <script>
+        let allNews = [];
+
         async function loadNews() {
             try {
                 const response = await fetch('news_data.json?t=' + new Date().getTime());
-                const data = await response.json();
+                allNews = await response.json();
                 
-                // Get today's date or the latest date in data
-                const latestDate = data[0]?.date || 'Unknown';
-                document.getElementById('update-date').innerText = 'LAST SYNC: ' + latestDate;
+                const latestDate = allNews[0]?.date || 'Unknown';
+                document.getElementById('update-date').innerText = 'LAST_SYNC: ' + latestDate;
 
-                const container = document.getElementById('news-container');
-                container.innerHTML = '';
-
-                data.forEach(item => {
-                    const card = document.createElement('div');
-                    card.className = 'news-card p-5 rounded-xl shadow-lg';
-                    card.innerHTML = `
-                        <div class="flex justify-between items-start mb-2">
-                            <span class="text-[10px] bg-sky-900 text-sky-200 px-2 py-0.5 rounded uppercase font-bold tracking-wider">${item.date}</span>
-                            <a href="${item.url}" target="_blank" class="text-sky-400 hover:text-sky-300">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                            </a>
-                        </div>
-                        <h2 class="text-lg font-bold text-white mb-1">${item.title_zh}</h2>
-                        <h3 class="text-sm font-medium text-slate-400 mb-3 italic">${item.title_en}</h3>
-                        <p class="text-slate-300 text-sm leading-relaxed mb-4">${item.summary_zh}</p>
-                        <hr class="border-slate-700 mb-4">
-                        <p class="text-slate-500 text-xs italic leading-relaxed">${item.summary_en}</p>
-                    `;
-                    container.appendChild(card);
-                });
+                filterNews('all');
             } catch (error) {
-                document.getElementById('news-container').innerHTML = `
-                    <div class="bg-red-900/20 border border-red-500/50 p-6 rounded-xl text-center">
-                        <p class="text-red-400 font-bold mb-2">數據讀取失敗</p>
-                        <p class="text-slate-400 text-sm italic">請確保 news_data.json 已正確 Push。詳情請聯絡管家 Macbot。</p>
+                document.getElementById('news-container').innerHTML = `<div class="text-red-400 text-center p-10">FAIL: DATA_REF_LOST</div>`;
+            }
+        }
+
+        function filterNews(category) {
+            // Update TUI tabs
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('tab-active', 'text-sky-400', 'text-amber-400', 'text-red-400');
+                btn.classList.add('text-slate-500');
+            });
+            const activeTab = document.getElementById('tab-' + category);
+            activeTab.classList.add('tab-active');
+            if (category === 'world') activeTab.classList.add('text-sky-400');
+            if (category === 'ai') activeTab.classList.add('text-amber-400');
+            if (category === 'cyber') activeTab.classList.add('text-red-400');
+
+            const container = document.getElementById('news-container');
+            container.innerHTML = '';
+
+            const filtered = allNews.filter(item => {
+                if (category === 'all') return true;
+                // Heuristic categorization based on title/summary keywords
+                const text = (item.title_en + item.summary_en + item.title_zh).toLowerCase();
+                if (category === 'cyber') return text.includes('cyber') || text.includes('hacker') || text.includes('vulnerability') || text.includes('安全') || text.includes('黑客');
+                if (category === 'ai') return text.includes('ai') || text.includes('fintech') || text.includes('gpt') || text.includes('智能') || text.includes('金融');
+                if (category === 'world') return !text.includes('cyber') && !text.includes('ai') && !text.includes('智能');
+                return true;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="text-slate-600 text-center py-10 italic lowercase">empty_set: no items found for this filter</div>`;
+                return;
+            }
+
+            filtered.forEach(item => {
+                const isCyber = (item.title_en + item.summary_en).toLowerCase().match(/cyber|hacker|vulnerability/);
+                const isAI = (item.title_en + item.summary_en).toLowerCase().match(/ai|fintech|gpt/);
+                
+                let borderClass = 'world-border';
+                let tagColor = 'bg-sky-900 text-sky-200';
+                let tagText = 'WORLD';
+                
+                if (isCyber) { borderClass = 'cyber-border'; tagColor = 'bg-red-900 text-red-200'; tagText = 'CYBER'; }
+                else if (isAI) { borderClass = 'ai-border'; tagColor = 'bg-amber-900 text-amber-200'; tagText = 'AI/FIN'; }
+
+                const card = document.createElement('div');
+                card.className = `news-card p-5 rounded-xl shadow-lg ${borderClass}`;
+                card.innerHTML = `
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="text-[10px] ${tagColor} px-2 py-0.5 rounded uppercase font-bold tracking-wider">${tagText} | ${item.date}</span>
+                        <a href="${item.url}" target="_blank" class="text-slate-500 hover:text-white transition-colors">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                        </a>
+                    </div>
+                    <h2 class="text-lg font-bold text-white mb-1 tracking-tight">${item.title_zh}</h2>
+                    <h3 class="text-xs font-medium text-slate-500 mb-3 italic uppercase">${item.title_en}</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">${item.summary_zh}</p>
+                    <div class="pl-4 border-l border-slate-700">
+                        <p class="text-slate-500 text-xs italic leading-relaxed">${item.summary_en}</p>
                     </div>
                 `;
-            }
+                container.appendChild(card);
+            });
         }
         loadNews();
     </script>
