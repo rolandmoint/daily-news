@@ -3,7 +3,7 @@
     "date": "2026-02-23",
     "title_zh": "2026 冬奧會圓滿閉幕：米蘭-科爾蒂納正式交棒",
     "title_en": "2026 Winter Olympics Conclude with Spectacular Closing Ceremony",
-    "summary_zh": "2026 年米蘭-科爾蒂納冬奧會今日正式落下帷幕。閉幕式在維羅納圓形競技場舉行，多位運動員在冰雪競技中創下紀錄，各國代表團共同慶祝這場體育盛事，並象徵性地將奧運精神傳遞給下一屆主辦方。",
+    "summary_zh": "2026 年米蘭-科爾蒂納冬奧會今日正式落下慶幕。閉幕式在維羅納圓形競技場舉行，多位運動員在冰雪競技中創下紀錄，各國代表團共同慶祝這場體育盛事，並象徵性地將奧運精神傳遞給下一屆主辦方。",
     "summary_en": "The Milan-Cortina 2026 Winter Olympics officially concluded today. The closing ceremony, held at the Verona Arena, celebrated record-breaking performances and the unified spirit of international athletes, marking the transition to the next host city.",
     "url": "https://apnews.com/live/milan-cortina-winter-olympics-hockey-closing-ceremony-updates"
   },
@@ -43,7 +43,7 @@
     "date": "2026-02-23",
     "title_zh": "美國關稅司法爭端：歐盟要求美方遵守貿易協議",
     "title_en": "Tariff Legal Battle: EU Urges U.S. to Honor Trade Agreements",
-    "summary_zh": "在美國法院暫停部分特朗普擬定的關稅後，歐盟委員會敦促美國必須履行現有貿易協議。最高法院的裁決令中美及美歐貿易關係充滿新的不確定性。",
+    "summary_zh": "在美國法院暫停部分特朗普擬定的關稅後，歐盟委員會敦促美國必須履行現有貿易協議。「最高法院」的裁決令中美及美歐貿易關係充滿新的不確定性。",
     "summary_en": "Following a court ruling that blocked several of Trump's proposed tariffs, the EU Commission insisted that the U.S. must honor existing trade deals. The legal battle adds fresh uncertainty to global trade relations with China and Europe.",
     "url": "https://apnews.com/article/eu-us-trump-tariffs-commission-trade-8c5f9fa35d9f0f13afef0ddbaf88b1f6"
   },
@@ -78,5 +78,45 @@
     "summary_zh": "墨西哥軍方在一次旨在捕獲「艾爾·門喬」的行動中，擊斃了強大的哈利斯科新一代販毒集團（CJNG）的一名高級領袖。此舉被視為打擊跨國毒品貿易的重大進展。",
     "summary_en": "The Mexican army killed a leader of the powerful Jalisco New Generation Cartel (CJNG) during an operation focused on capturing high-ranking cartel members. This marks a significant blow to the trans-national drug trade.",
     "url": "https://apnews.com/article/jalisco-cartel-drugs-mexico-mencho-new-generation-5014a70bc62a81d74849146c59ba19f8"
+  },
+  {
+    "date": "2026-02-22",
+    "summary_en": "OpenAI and Microsoft have joined a UK-led international coalition to strengthen the evaluation and governance of advanced AI systems, supporting the AI Security Institute’s Alignment Project.",
+    "summary_zh": "OpenAI 與微軟已加入由英國領導的國際聯盟，旨在加強對先進 AI 系統的評估與監管，並為人工智慧安全研究所的「對齊項目」提供資金與技術支持。",
+    "title_en": "OpenAI and Microsoft Join UK-led AI Safety Initiative",
+    "title_zh": "OpenAI 與微軟加入英國領導的 AI 安全倡議",
+    "url": "https://techstartups.com/2026/02/20/top-tech-news-today-february-20-2026/"
+  },
+  {
+    "date": "2026-02-22",
+    "summary_en": "Toronto-based chip startup Taalas announced a massive $169 million funding round to accelerate the development of its specialized AI inference chips, targeting enterprise-scale applications.",
+    "summary_zh": "總部位於多倫多的晶片新創公司 Taalas 宣佈完成 1.69 億美元的巨額融資，用於加速其專用 AI 推理晶片的開發，以滿足企業級大規模應用需求。",
+    "title_en": "Taalas Raises $169M for AI Inference Chip Development",
+    "title_zh": "晶片新創 Taalas 融資 1.69 億美元加速 AI 推理晶片研發",
+    "url": "https://techstartups.com/2026/02/19/top-startup-and-tech-funding-news-february-19-2025/"
+  },
+  {
+    "date": "2026-02-22",
+    "summary_en": "Rezolve AI has completed the acquisition of customer engagement platform Reward for $230 million, aiming to integrate AI capabilities into personalized retail experiences.",
+    "summary_zh": "Rezolve AI 以 2.3 億美元收購了客戶互動平台 Reward，旨在將人工智慧技術整合到個性化零售體驗中，提升品牌與客戶的連接。",
+    "title_en": "Rezolve AI Acquires Reward to Enhance Customer Engagement",
+    "title_zh": "Rezolve AI 以 2.3 億美元收購 Reward 以強化客戶互動",
+    "url": "https://www.fintechfutures.com/fintech"
+  },
+  {
+    "date": "2026-02-22",
+    "summary_en": "Industry experts predict that 2026 will see more fintech companies seeking bank charters and pursuing vertical integration to control more of the financial value chain.",
+    "summary_zh": "業內專家預測，2026 年將有更多金融科技公司尋求獲得銀行牌照並進行垂直整合，以掌握更多金融價值鏈的主導權。",
+    "title_en": "Fintech Innovation in 2026: Bank Charters and Vertical Integration",
+    "title_zh": "2026 金融科技趨勢：銀行牌照與垂直整合",
+    "url": "https://news.crunchbase.com/fintech/venture-momentum-ai-ipo-ma-forecast-2026/"
+  },
+  {
+    "date": "2026-02-22",
+    "summary_en": "By 2026, sustainable finance is expected to deeply integrate AI for precise impact analytics, helping scale green investments and mitigate climate risks through tokenized assets.",
+    "summary_zh": "預計到 2026 年，可持續金融將深度整合 AI 以進行精準的影響力分析，透過代幣化綠色資產推動綠色投資規模化並降低氣候風險。",
+    "title_en": "AI and ESG: Sustainable Finance to Integrate Precise Analytics",
+    "title_zh": "AI 與 ESG 結合：可持續金融將整合精準分析技術",
+    "url": "https://m2pfintech.com/blog/10-banking-and-fintech-trends-that-will-redefine-2026-and-beyond/"
   }
 ]
