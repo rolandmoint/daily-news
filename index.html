@@ -110,19 +110,24 @@
                 else if (isAI) { borderClass = 'ai-border'; tagColor = 'bg-amber-900 text-amber-200'; tagText = 'AI/FIN'; }
 
                 const card = document.createElement('div');
-                card.className = `news-card p-5 rounded-xl shadow-lg ${borderClass}`;
+                card.className = `news-card p-6 rounded-2xl shadow-xl ${borderClass}`;
                 card.innerHTML = `
-                    <div class="flex justify-between items-start mb-2">
-                        <span class="text-[10px] ${tagColor} px-2 py-0.5 rounded uppercase font-bold tracking-wider">${tagText} | ${item.date}</span>
-                        <a href="${item.url}" target="_blank" class="text-slate-500 hover:text-white transition-colors">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-[10px] ${tagColor} px-2.5 py-1 rounded-full uppercase font-black tracking-widest shadow-inner">${tagText} | ${item.date}</span>
+                        <a href="${item.url}" target="_blank" class="text-slate-500 hover:text-white transition-all transform hover:scale-110">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                         </a>
                     </div>
-                    <h2 class="text-lg font-bold text-white mb-1 tracking-tight">${item.title_zh}</h2>
-                    <h3 class="text-xs font-medium text-slate-500 mb-3 italic uppercase">${item.title_en}</h3>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-4">${item.summary_zh}</p>
-                    <div class="pl-4 border-l border-slate-700">
-                        <p class="text-slate-500 text-xs italic leading-relaxed">${item.summary_en}</p>
+                    <h2 class="text-xl font-black text-white mb-2 leading-tight tracking-tight border-b border-slate-700/50 pb-3">${item.title_zh}</h2>
+                    <h3 class="text-xs font-bold text-slate-500 mb-4 uppercase tracking-wide leading-relaxed">${item.title_en}</h3>
+                    
+                    <div class="bg-slate-900/50 p-4 rounded-lg border border-slate-700/30 mb-4">
+                        <p class="text-slate-200 text-sm leading-7 font-medium">📜 ${item.summary_zh}</p>
+                    </div>
+                    
+                    <div class="flex items-start gap-2 opacity-60 hover:opacity-100 transition-opacity">
+                        <span class="text-[10px] text-slate-500 mt-1">EN</span>
+                        <p class="text-slate-500 text-[11px] italic leading-5">${item.summary_en}</p>
                     </div>
                 `;
                 container.appendChild(card);
