@@ -81,12 +81,14 @@
             container.innerHTML = '';
 
             const filtered = allNews.filter(item => {
+                const text = (item.title_en + item.summary_en + item.title_zh + (item.category || '')).toLowerCase();
+                const isCyber = text.includes('cyber') || text.includes('hacker') || text.includes('vulnerability') || text.includes('exploit') || text.includes('安全') || text.includes('黑客') || text.includes('漏洞');
+                const isAI = text.includes('ai ') || text.includes(' ai') || text.includes('gpt') || text.includes('fintech') || text.includes('intelligence') || text.includes('智能') || text.includes('金融');
+
                 if (category === 'all') return true;
-                // Heuristic categorization based on title/summary keywords
-                const text = (item.title_en + item.summary_en + item.title_zh).toLowerCase();
-                if (category === 'cyber') return text.includes('cyber') || text.includes('hacker') || text.includes('vulnerability') || text.includes('安全') || text.includes('黑客');
-                if (category === 'ai') return text.includes('ai') || text.includes('fintech') || text.includes('gpt') || text.includes('智能') || text.includes('金融');
-                if (category === 'world') return !text.includes('cyber') && !text.includes('ai') && !text.includes('智能');
+                if (category === 'cyber') return isCyber;
+                if (category === 'ai') return isAI && !isCyber; // Cyber keywords take precedence
+                if (category === 'world') return !isCyber && !isAI;
                 return true;
             });
 
@@ -96,8 +98,9 @@
             }
 
             filtered.forEach(item => {
-                const isCyber = (item.title_en + item.summary_en).toLowerCase().match(/cyber|hacker|vulnerability/);
-                const isAI = (item.title_en + item.summary_en).toLowerCase().match(/ai|fintech|gpt/);
+                const text = (item.title_en + item.summary_en + item.title_zh + (item.category || '')).toLowerCase();
+                const isCyber = text.includes('cyber') || text.includes('hacker') || text.includes('vulnerability') || text.includes('exploit') || text.includes('安全') || text.includes('黑客') || text.includes('漏洞');
+                const isAI = text.includes('ai ') || text.includes(' ai') || text.includes('gpt') || text.includes('fintech') || text.includes('intelligence') || text.includes('智能') || text.includes('金融');
                 
                 let borderClass = 'world-border';
                 let tagColor = 'bg-sky-900 text-sky-200';
