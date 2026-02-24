@@ -1,202 +1,101 @@
 [
   {
-    "date": "2026-02-23",
-    "title_zh": "Greenlite AI 更名為 Bretton AI 並獲得 7,500 萬美元 B 輪融資",
-    "title_en": "Greenlite AI Rebrands as Bretton AI, Secures $75M Series B Funding",
-    "summary_zh": "金融科技新創公司 Greenlite AI 今日宣布正式更名為 Bretton AI，並在由主要創投機構領投的 B 輪融資中籌集了 7,500 萬美元。該公司專注於開發用於金融合規和反洗錢監測的 Agentic AI 代理，旨在為全球銀行提供自動化審核方案。",
-    "summary_en": "Fintech startup Greenlite AI has rebranded as Bretton AI after securing $75 million in Series B funding. The company specializes in developing autonomous 'Agentic AI' agents for financial compliance and anti-money laundering (AML) monitoring, helping global banks automate their auditing processes.",
-    "url": "https://www.fintechfutures.com/fintech"
+    "en_title": "Third of Attacks Now Use Stolen Credentials",
+    "cn_title": "三分之一攻擊現在使用盜取憑證",
+    "en_summary": "Roughly a third of attacks now use stolen credentials according to the latest cybersecurity report.",
+    "cn_summary": "根據最新網絡安全報告，大約三分之一的攻擊現在都使用盜取的憑證。",
+    "category": "Cyber Security",
+    "source": "Cybersecurity Dive",
+    "link": "https://www.cybersecuritydive.com/",
+    "timestamp": 1771923273.480193,
+    "date": "2026-02-24"
   },
   {
-    "date": "2026-02-23",
-    "title_zh": "墨西哥金融科技週 2026 今日於墨西哥城開幕",
-    "title_en": "Mexico Fintech Week 2026 Kicks Off Today in Mexico City",
-    "summary_zh": "為期五天的 2026 墨西哥金融科技週今日正式開幕。本次大會聚集了全球超過 500 家金融科技企業，重點討論拉丁美洲的開放銀行架構（Open Banking）以及如何利用 AI 提升普惠金融的可及性，穩定幣基礎設施亦是焦點議題。",
-    "summary_en": "The five-day Mexico Fintech Week 2026 officially started today in Mexico City. Bringing together over 500 global fintech firms, the event focuses on Latin America's Open Banking framework, the role of AI in financial inclusion, and stablecoin infrastructure for cross-border payments.",
-    "url": "https://fintechnews.ch/aifintech/"
+    "en_title": "Fake Milano Cortina Sites Target Thousands",
+    "cn_title": "假冒米蘭科爾蒂納網站詐騙數千人",
+    "en_summary": "Cybersecurity firm warns that fake Milano Cortina sites are targeting thousands with discount scams.",
+    "cn_summary": "網絡安全公司警告稱假冒米蘭科爾蒂納網站正以折扣詐騙為目標瞄準數千人。",
+    "category": "Cyber Security",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/technology/",
+    "timestamp": 1771923273.480191,
+    "date": "2026-02-24"
   },
   {
-    "date": "2026-02-23",
-    "title_zh": "NVIDIA 傳將完成對 OpenAI 數百億美元融資的歷史性投資",
-    "title_en": "NVIDIA Nears $30 Billion Investment in OpenAI’s Massive Funding Round",
-    "summary_zh": "據內部消息指出，NVIDIA 已接近達成協議，向 OpenAI 的最新一輪大規模融資中注資約 300 億美元。這筆交易將鞏固雙方在 AI 算力基礎設施方面的合作，並助力 OpenAI 加速研發新一代多模態 AI 代理 (AI Agents)。",
-    "summary_en": "Reports suggest NVIDIA is finalizing a historic $30 billion investment into OpenAI's latest mega funding round. This deal is set to deepen the partnership between the two tech giants on AI compute infrastructure and accelerate OpenAI’s development of next-gen multimodal autonomous AI agents.",
-    "url": "https://www.reuters.com/technology/artificial-intelligence/"
+    "en_title": "Iranian Threat Group Debuts New Attack Strains",
+    "cn_title": "伊朗威脅組織推出新型攻擊變種",
+    "en_summary": "The long-active Iranian threat group debuted various attack strains and payloads in attacks against organizations in the Middle East and Africa.",
+    "cn_summary": "長期活躍的伊朗威脅組織在中東和非洲針對各組織的攻擊中推出了多種攻擊變種和負載。",
+    "category": "Cyber Security",
+    "source": "Dark Reading",
+    "link": "https://www.darkreading.com/",
+    "timestamp": 1771923273.480189,
+    "date": "2026-02-24"
   },
   {
-    "date": "2026-02-23",
-    "title_zh": "Agentic AI 成為 2026 年金融業合規監測的主流方案",
-    "title_en": "Agentic AI Emerges as Mainstream Compliance Solution for Banks in 2026",
-    "summary_zh": "隨著金融犯罪手段日益複雜，2026 年全球銀行業開始大規模採用『代理式 AI (Agentic AI)』進行實時合規監測。專家指出，Unit21 等公司的數據顯示，AI 代理能減少 80% 的虛假警報，並更準確地捕捉潛在的洗錢行為。",
-    "summary_en": "In 2026, 'Agentic AI' has become the mainstream tool for global banks to combat increasingly sophisticated financial crimes. Industry experts from firms like Unit21 highlight that AI agents can reduce false positives by 80% while more accurately detecting potential money laundering activities.",
-    "url": "https://fintech.global/2026/02/20/were-going-to-lose-if-we-dont-use-ai-unit21-founder-warns-banks-on-rising-fraud-threats/"
+    "en_title": "CISA Adds Roundcube Flaws to KEV Catalog",
+    "cn_title": "CISA 將 Roundcube 漏洞加入已知漏洞目錄",
+    "en_summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.",
+    "cn_summary": "美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。",
+    "category": "Cyber Security",
+    "source": "The Hacker News",
+    "link": "https://thehackernews.com/",
+    "timestamp": 1771923273.480187,
+    "date": "2026-02-24"
   },
   {
-    "date": "2026-02-23",
-    "title_zh": "Fireblocks Trust CEO：穩定幣基礎設施將在 2026 年實現全球普及",
-    "title_en": "Fireblocks Trust CEO: Stablecoin Infrastructure to Hit Mass Adoption in 2026",
-    "summary_zh": "在今日舉行的 Ondo 峰會上，Fireblocks Trust 執行長表示，隨著全球監管透明化，穩定幣已從利基資產轉變為全球支付網絡的底層架構。2026 年將見證穩定幣在機構間結算和跨境貿易中的大規模應用。",
-    "summary_en": "During today's Ondo Summit, the CEO of Fireblocks Trust Company stated that global regulatory clarity has transformed stablecoins from niche assets into core infrastructure for global payment networks, with 2026 marking their mass adoption for institutional settlements and trade.",
-    "url": "https://fintech.tv/"
+    "en_title": "OpenAI Deepens India Push via Pine Labs Partnership",
+    "cn_title": "OpenAI 攜手 Pine Labs 進軍印度 Fintech",
+    "en_summary": "OpenAI partnered with major Indian fintech Pine Labs to integrate AI-driven reasoning into its payments stack, aiming to automate invoicing workflows.",
+    "cn_summary": "OpenAI 與印度頂尖 Fintech 公司 Pine Labs 達成戰略合作，將 AI 推理技術整合至支付系統。",
+    "category": "AI & Fintech",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/",
+    "timestamp": 1771923273.480185,
+    "date": "2026-02-24"
   },
   {
-    "date": "2026-02-23",
-    "title_en": "AI-Assisted Threat Actor Compromises 600+ FortiGate Devices Globally",
-    "title_zh": "AI 輔助黑客入侵全球逾 600 台 FortiGate 設備",
-    "summary_en": "Amazon Threat Intelligence reported a Russian-speaking threat actor using commercial generative AI tools to compromise over 600 FortiGate devices in 55 countries. The unsophisticated actor used AI for tool development and attack execution at scale, targeting exposed management ports with weak credentials.",
-    "summary_zh": "亞馬遜威脅情報部門報告稱，一名使用俄語的黑客利用商用生成式 AI 工具入侵了全球 55 個國家的 600 多台 FortiGate 設備。儘管該黑客技術能力有限，但透過 AI 輔助實現大規模攻擊，針對暴露的管理端口及弱密鑰進行破解。",
-    "url": "https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html"
+    "en_title": "Nvidia Nears $30 Billion Investment in OpenAI",
+    "cn_title": "Nvidia 擬向 OpenAI 注資約 300 億美元",
+    "en_summary": "Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.",
+    "cn_summary": "Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，作為其超過千億級別融資的一部分，進一步鞏固兩家 AI 巨頭的聯盟。",
+    "category": "AI & Fintech",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/business/",
+    "timestamp": 1771923273.480177,
+    "date": "2026-02-24"
   },
   {
-    "date": "2026-02-23",
-    "title_en": "Critical BeyondTrust Flaw Exploited for Data Exfiltration and Backdoors",
-    "title_zh": "BeyondTrust 關鍵漏洞遭利用，涉及數據竊取與後門植入",
-    "summary_en": "A critical vulnerability (CVE-2026-1731, CVSS 9.9) in BeyondTrust Remote Support is being actively exploited. Attackers use it to execute OS commands, deploy web shells, and exfiltrate data across financial, legal, and healthcare sectors globally.",
-    "summary_zh": "BeyondTrust 遠端支援產品的一個關鍵漏洞（CVE-2026-1731，CVSS 評分 9.9）正被黑客積極利用。攻擊者藉此執行系統命令、部署 Web Shell 並進行數據提取，受影響領域涵蓋金融、法律和醫療等行業。",
-    "url": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html"
+    "en_title": "Italian PM Comments on French Affairs",
+    "cn_title": "意大利總理評論法國事務引發爭議",
+    "en_summary": "As Italy cracks down on migration, Milan takes a different path offering shelter to asylum seekers even as the government tightens borders.",
+    "cn_summary": "意大利打擊移民之際，米蘭採取不同路徑為尋求庇護者提供住所。",
+    "category": "World",
+    "source": "NPR",
+    "link": "https://www.npr.org/",
+    "timestamp": 1771923273.480175,
+    "date": "2026-02-24"
   },
   {
-    "date": "2026-02-23",
-    "title_en": "Cline CLI 2.3.0 Supply Chain Attack Installs Unauthorized OpenClaw Agent",
-    "title_zh": "Cline CLI 2.3.0 遭遇供應鏈攻擊，自動下載第三方 AI 代理",
-    "summary_en": "A compromised npm publish token led to an unauthorized update of the popular coding assistant Cline CLI to version 2.3.0. The update included a postinstall script that stealthily installs the OpenClaw autonomous AI agent on developer systems.",
-    "summary_zh": "熱門編碼助手 Cline CLI 因 npm 發布令牌遭竊，被發布了未經授權的 2.3.0 版本更新。該版本包含一個安裝後腳本，會在開發者不知情的情況下自動在其系統中安裝 OpenClaw 自治 AI 代理。",
-    "url": "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html"
+    "en_title": "U.S.-Iran Tensions Threaten Middle East Oil",
+    "cn_title": "美伊緊張局勢威脅中東石油供應",
+    "en_summary": "A serious military confrontation between the U.S. and Iran could trigger a major disruption in Middle East oil supplies.",
+    "cn_summary": "美國與伊朗之間的嚴重軍事對抗可能引發中東石油供應的重大中斷。",
+    "category": "World",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/",
+    "timestamp": 1771923273.480172,
+    "date": "2026-02-24"
   },
   {
-    "date": "2026-02-23",
-    "title_en": "PromptSpy Malware Abuses Gemini AI for Persistence on Android",
-    "title_zh": "PromptSpy 惡意軟件濫用 Gemini AI 以實現 Android 持久化",
-    "summary_en": "ESET researchers discovered 'PromptSpy', the first Android malware to use Google's Gemini GenAI to automate persistence. The malware uses Gemini to analyze screenshots and provide instructions to keep the malicious app pinned in the 'recent apps' list.",
-    "summary_zh": "ESET 研究人員發現名為「PromptSpy」的惡意軟件，這是首個濫用 Google Gemini 生成式 AI 以實現持久運行的 Android 病毒。它利用 AI 分析屏幕內容並指導惡意程序駐留在「近期應用」列表中，防止被系統自動關閉。",
-    "url": "https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html"
-  },
-  {
-    "date": "2026-02-23",
-    "title_en": "FBI Warns of Rising ATM Jackpotting, Over $20M Lost in 2025",
-    "title_zh": "FBI 警告 ATM Jackpotting 攻擊激增，2025 年損失逾兩千萬美元",
-    "summary_en": "The FBI issued a bulletin regarding a significant increase in ATM jackpotting incidents, with over 700 cases reported in 2025 alone. Criminals use malware like Ploutus to force ATMs to dispense cash, often gaining physical access using generic keys.",
-    "summary_zh": "FBI 發布公告警告 ATM Jackpotting（自動提款機吐鈔攻擊）大幅增加，僅 2025 年就報告了 700 多起案例。犯罪分子利用 Ploutus 等惡意軟件強迫提款機吐出大量現金，通常是利用通用鑰匙獲取物理訪問權限後進行非法操作。",
-    "url": "https://thehackernews.com/2026/02/fbi-reports-1900-atm-jackpotting.html"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "The Milan-Cortina 2026 Winter Olympics officially concluded today. The closing ceremony, held at the Verona Arena, celebrated record-breaking performances and the unified spirit of international athletes, marking the transition to the next host city.",
-    "summary_zh": "2026 年米蘭-科爾蒂納冬奧會今日正式落下慶幕。閉幕式在維羅納圓形競技場舉行，多位運動員在冰雪競技中創下紀錄，各國代表團共同慶祝這場體育盛事，並象徵性地將奧運精神傳遞給下一屆主辦方。",
-    "title_en": "2026 Winter Olympics Conclude with Spectacular Closing Ceremony",
-    "title_zh": "2026 冬奧會圓滿閉幕：米蘭-科爾蒂納正式交棒",
-    "url": "https://apnews.com/live/milan-cortina-winter-olympics-hockey-closing-ceremony-updates"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "Five countries have committed troops to an international security force for Gaza during a meeting of President Donald Trump's newly created Board of Peace. The force aims to stabilize the strip, though long-term implementation details remain murky.",
-    "summary_zh": "在特朗普總統新成立的「和平委員會」會議上，五個國家已承諾為加沙國際安全部隊提供人員支持。該部隊旨在實現加沙地帶的穩定，但具體的長期實施計劃仍待進一步落實。",
-    "title_en": "Gaza Peace Board: Five Nations Commit to International Security Force",
-    "title_zh": "加沙和平委員會：五國承諾組建國際安全部隊",
-    "url": "https://www.reuters.com/world/middle-east/"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "South Africa defeated defending champions India by 76 runs in the T20 World Cup Super Eight stage. India was bowled out for 111 while chasing a 188-run target, placing South Africa in a strong position to qualify for the semifinals.",
-    "summary_zh": "在 2026 年 T20 世界盃八強賽中，南非隊以 76 跑的優勢擊敗衛冕冠軍印度隊。印度隊在追逐 188 跑的目標時僅得 111 跑即被全數出局，這場勝利讓南非隊在晉級準決賽的競爭中佔據有利地位。",
-    "title_en": "T20 World Cup: South Africa Crush India by 76 Runs in Super Eight",
-    "title_zh": "T20 世界盃：南非隊 76 跑大勝印度，晉級四強形勢大好",
-    "url": "https://www.aljazeera.com/sports/2026/2/22/t20-world-cup-south-africa-beat-india-by-76-runs-in-super-eight"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "Syrian government forces have officially taken over control of the key city of Qamishli from Kurdish-led forces. The move follows a ceasefire agreement and a formal defense handover between the transitional government and the SDF.",
-    "summary_zh": "敘利亞政府軍今日正式接管了哈塞克省的重要城市卡米什利。此前該地區由庫德族領導的部隊控制，此次接管是在雙方達成停火協議及防務移交框架下完成的。",
-    "title_en": "Syrian Crisis: Government Forces Take Over Strategic Qamishli",
-    "title_zh": "敘利亞政局：政府軍全面接管卡米什利",
-    "url": "https://www.arabnews.com/"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "A U.S. F-35 jet shot down an Iranian Shahed 139 drone approaching the USS Abraham Lincoln. Tensions spiked as Iranian gunboats also attempted to seize a U.S. tanker in the Strait of Hormuz, which was prevented by a U.S. Navy escort.",
-    "summary_zh": "美軍一架 F-35 戰機在林肯號航空母艦附近擊落了一架伊朗製造的 Shahed 139 無人機。同時，伊朗快艇在霍爾木茲海峽企圖扣押一艘美國油輪被阻，雙方軍事摩擦升級。",
-    "title_en": "U.S. Shoots Down Iranian Drone in Middle East Escalation",
-    "title_zh": "美軍在中東擊落伊型無人機：局勢持續緊張",
-    "url": "https://www.cbsnews.com/news/us-tanker-stena-imperative-approached-iran-gunboats-strait-of-hormuz/"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "Following a court ruling that blocked several of Trump's proposed tariffs, the EU Commission insisted that the U.S. must honor existing trade deals. The legal battle adds fresh uncertainty to global trade relations with China and Europe.",
-    "summary_zh": "在美國法院暫停部分特朗普擬定的關稅後，歐盟委員會敦促美國必須履行現有貿易協議。「最高法院」的裁決令中美及美歐貿易關係充滿新的不確定性。",
-    "title_en": "Tariff Legal Battle: EU Urges U.S. to Honor Trade Agreements",
-    "title_zh": "美國關稅司法爭端：歐盟要求美方遵守貿易協議",
-    "url": "https://apnews.com/article/eu-us-trump-tariffs-commission-trade-8c5f9fa35d9f0f13afef0ddbaf88b1f6"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "The Washington Post announced layoffs of approximately 300 journalists, roughly one-third of its workforce. The major restructuring effort will heavily impact sports, local news, and world news sections.",
-    "summary_zh": "美國知名媒體《華盛頓郵報》宣布將裁減約 300 名記者，約佔全體員工總數的三分之一。此次重組主要影響體育、地方及國際新聞部門。",
-    "title_en": "The Washington Post Announces Massive Restructuring and Layoffs",
-    "title_zh": "華盛頓郵報宣布大幅裁員：新聞業面臨重組",
-    "url": "https://www.bbc.co.uk/news/articles/cwyn05d1494o"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "Following a brief moratorium, Russian forces resumed heavy strikes across Ukraine today, utilizing hypersonic Zircon missiles to target infrastructure in Kyiv and Kharkiv. Significant damage to energy systems was reported.",
-    "summary_zh": "經過簡短的能源設施打擊停火後，俄羅斯今日恢復了對基輔和哈爾科夫的大規模空襲，並首次在本次攻勢中使用高超音速「鋯石」導彈。烏方通報多處能源基礎設施受損。",
-    "title_en": "Ukraine War: Hypersonic Zircon Missiles Strike Kyiv and Kharkiv",
-    "title_zh": "俄烏戰爭：俄軍發射鋯石飛導彈空襲基輔與哈爾科夫",
-    "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-trump-kyiv-missiles-peace-talks-b2912691.html"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "Ryan Wesley Routh, the man who attempted to assassinate Donald Trump at his West Palm Beach golf club in 2024, has been sentenced to life in prison without the possibility of parole.",
-    "summary_zh": "2024 年在佛羅里達州西棕櫚灘高爾夫俱樂部企圖刺殺前總統特朗普的男子萊恩·勞斯，今日被判處終身監禁且不得假釋。",
-    "title_en": "Trump Assassination Attempt: Ryan Routh Sentenced to Life",
-    "title_zh": "特朗普刺殺未遂案宣判：萊恩·勞斯被判終身監禁",
-    "url": "https://www.nytimes.com/2026/02/04/us/ryan-routh-trump-assassination-attempt-sentence.html"
-  },
-  {
-    "date": "2026-02-23",
-    "summary_en": "The Mexican army killed a leader of the powerful Jalisco New Generation Cartel (CJNG) during an operation focused on capturing high-ranking cartel members. This marks a significant blow to the trans-national drug trade.",
-    "summary_zh": "墨西哥軍方在一次旨在捕獲「艾爾·門喬」的行動中，擊斃了強大的哈利斯科新一代販毒集團（CJNG）的一名高級領袖。此舉被視為打擊跨國毒品貿易的重大進展。",
-    "title_en": "Mexico: Military Kills Leader of Powerful CJNG Cartel",
-    "title_zh": "墨西哥軍方擊斃哈利斯科新一代販毒集團首領",
-    "url": "https://apnews.com/article/jalisco-cartel-drugs-mexico-mencho-new-generation-5014a70bc62a81d74849146c59ba19f8"
-  },
-  {
-    "date": "2026-02-22",
-    "summary_en": "OpenAI and Microsoft have joined a UK-led international coalition to strengthen the evaluation and governance of advanced AI systems, supporting the AI Security Institute’s Alignment Project.",
-    "summary_zh": "OpenAI 與微軟已加入由英國領導的國際聯盟，旨在加強對先進 AI 系統的評估與監管，並為人工智慧安全研究所的「對齊項目」提供資金與技術支持。",
-    "title_en": "OpenAI and Microsoft Join UK-led AI Safety Initiative",
-    "title_zh": "OpenAI 與微軟加入英國領導的 AI 安全倡議",
-    "url": "https://techstartups.com/2026/02/20/top-tech-news-today-february-20-2026/"
-  },
-  {
-    "date": "2026-02-22",
-    "summary_en": "Toronto-based chip startup Taalas announced a massive $169 million funding round to accelerate the development of its specialized AI inference chips, targeting enterprise-scale applications.",
-    "summary_zh": "總部位於多倫多的晶片新創公司 Taalas 宣佈完成 1.69 億美元的巨額融資，用於加速其專用 AI 推理晶片的開發，以滿足企業級大規模應用需求。",
-    "title_en": "Taalas Raises $169M for AI Inference Chip Development",
-    "title_zh": "晶片新創 Taalas 融資 1.69 億美元加速 AI 推理晶片研發",
-    "url": "https://techstartups.com/2026/02/19/top-startup-and-tech-funding-news-february-19-2025/"
-  },
-  {
-    "date": "2026-02-22",
-    "summary_en": "Rezolve AI has completed the acquisition of customer engagement platform Reward for $230 million, aiming to integrate AI capabilities into personalized retail experiences.",
-    "summary_zh": "Rezolve AI 以 2.3 億美元收購了客戶互動平台 Reward，旨在將人工智慧技術整合到個性化零售體驗中，提升品牌與客戶的連接。",
-    "title_en": "Rezolve AI Acquires Reward to Enhance Customer Engagement",
-    "title_zh": "Rezolve AI 以 2.3 億美元收購 Reward 以強化客戶互動",
-    "url": "https://www.fintechfutures.com/fintech"
-  },
-  {
-    "date": "2026-02-22",
-    "summary_en": "Industry experts predict that 2026 will see more fintech companies seeking bank charters and pursuing vertical integration to control more of the financial value chain.",
-    "summary_zh": "業內專家預測，2026 年將有更多金融科技公司尋求獲得銀行牌照並進行垂直整合，以掌握更多金融價值鏈的主導權。",
-    "title_en": "Fintech Innovation in 2026: Bank Charters and Vertical Integration",
-    "title_zh": "2026 金融科技趨勢：銀行牌照與垂直整合",
-    "url": "https://news.crunchbase.com/fintech/venture-momentum-ai-ipo-ma-forecast-2026/"
-  },
-  {
-    "date": "2026-02-22",
-    "summary_en": "By 2026, sustainable finance is expected to deeply integrate AI for precise impact analytics, helping scale green investments and mitigate climate risks through tokenized assets.",
-    "summary_zh": "預計到 2026 年，可持續金融將深度整合 AI 以進行精準的影響力分析，透過代幣化綠色資產推動綠色投資規模化並降低氣候風險。",
-    "title_en": "AI and ESG: Sustainable Finance to Integrate Precise Analytics",
-    "title_zh": "AI 與 ESG 結合：可持續金融將整合精準分析技術",
-    "url": "https://m2pfintech.com/blog/10-banking-and-fintech-trends-that-will-redefine-2026-and-beyond/"
+    "en_title": "Trump Threatens Countries Over Tariff Deals",
+    "cn_title": "特朗普威脅各國遵守關稅協議",
+    "en_summary": "President Donald Trump threatened countries around the world to abide by any tariff deals they agreed to despite the U.S. Supreme Court striking down his sweeping global tariffs.",
+    "cn_summary": "美國總統特朗普威脅各國遵守關稅協議，儘管美國最高法院已推翻他的全面全球關稅政策。",
+    "category": "World",
+    "source": "AP News",
+    "link": "https://apnews.com/",
+    "timestamp": 1771923273.480167,
+    "date": "2026-02-24"
   }
 ]

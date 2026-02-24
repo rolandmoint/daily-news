@@ -1,139 +1,195 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MACBOT 新聞中心 | Roland's Intelligence Briefing</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { background-color: #0f172a; color: #f1f5f9; }
-        .news-card { background-color: #1e293b; border-left: 4px solid #38bdf8; transition: transform 0.2s; }
-        .news-card:hover { transform: translateY(-2px); }
-        .tab-active { border-bottom: 2px solid #38bdf8; color: #38bdf8; }
-        .cyber-border { border-left-color: #f87171; }
-        .ai-border { border-left-color: #fbbf24; }
-        .world-border { border-left-color: #38bdf8; }
-    </style>
-</head>
-<body class="font-sans min-h-screen">
-    <header class="bg-slate-900 border-b border-slate-700 p-6 sticky top-0 z-10 shadow-xl">
-        <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <div>
-                <h1 class="text-2xl font-bold text-sky-400">🍏 MACBOT 新聞中心</h1>
-                <p class="text-slate-400 text-sm italic">Roland's Intelligence Briefing</p>
+
+    <!DOCTYPE html>
+    <html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intelligence Briefing Core</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
+            .section-label { writing-mode: vertical-rl; text-orientation: mixed; }
+            .card { background: #1e293b; border: 1px solid #334155; transition: all 0.2s; }
+            .card:hover { border-color: #3b82f6; transform: translateY(-2px); }
+        </style>
+    </head>
+    <body class="p-4 md:p-12">
+        <header class="max-w-7xl mx-auto mb-16 border-b border-slate-800 pb-12">
+            <h1 class="text-5xl font-black tracking-tighter italic text-blue-500 uppercase">Intelligence Briefing</h1>
+            <p class="text-slate-500 font-mono text-sm mt-2">SECURED FEED • SORTED BY LATEST</p>
+        </header>
+
+        <main class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-3 gap-12">
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🌐</span>
+                    <h2 class="text-2xl font-black uppercase text-blue-400 tracking-widest">World Updates (3)</h2>
+                </div>
+                <div class="space-y-6">
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">NPR</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Italian PM Comments on French Affairs</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">意大利總理評論法國事務引發爭議</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>As Italy cracks down on migration, Milan takes a different path offering shelter to asylum seekers even as the government tightens borders.</p>
+                    <p class="text-slate-600 italic">意大利打擊移民之際，米蘭採取不同路徑為尋求庇護者提供住所。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://www.npr.org/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
+            
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">Reuters</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">U.S.-Iran Tensions Threaten Middle East Oil</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">美伊緊張局勢威脅中東石油供應</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>A serious military confrontation between the U.S. and Iran could trigger a major disruption in Middle East oil supplies.</p>
+                    <p class="text-slate-600 italic">美國與伊朗之間的嚴重軍事對抗可能引發中東石油供應的重大中斷。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://www.reuters.com/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
+            
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">AP News</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Trump Threatens Countries Over Tariff Deals</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">特朗普威脅各國遵守關稅協議</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>President Donald Trump threatened countries around the world to abide by any tariff deals they agreed to despite the U.S. Supreme Court striking down his sweeping global tariffs.</p>
+                    <p class="text-slate-600 italic">美國總統特朗普威脅各國遵守關稅協議，儘管美國最高法院已推翻他的全面全球關稅政策。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://apnews.com/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
             </div>
-            <div id="update-date" class="text-right text-slate-500 text-xs font-mono bg-slate-800 px-3 py-1 rounded">
-                SYNCING...
+            </section>
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🛡️</span>
+                    <h2 class="text-2xl font-black uppercase text-red-400 tracking-widest">Cyber Security (4)</h2>
+                </div>
+                <div class="space-y-6">
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">Cybersecurity Dive</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Third of Attacks Now Use Stolen Credentials</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">三分之一攻擊現在使用盜取憑證</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>Roughly a third of attacks now use stolen credentials according to the latest cybersecurity report.</p>
+                    <p class="text-slate-600 italic">根據最新網絡安全報告，大約三分之一的攻擊現在都使用盜取的憑證。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://www.cybersecuritydive.com/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
+            
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">Reuters</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Fake Milano Cortina Sites Target Thousands</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">假冒米蘭科爾蒂納網站詐騙數千人</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>Cybersecurity firm warns that fake Milano Cortina sites are targeting thousands with discount scams.</p>
+                    <p class="text-slate-600 italic">網絡安全公司警告稱假冒米蘭科爾蒂納網站正以折扣詐騙為目標瞄準數千人。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://www.reuters.com/technology/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
+            
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">Dark Reading</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Iranian Threat Group Debuts New Attack Strains</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">伊朗威脅組織推出新型攻擊變種</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>The long-active Iranian threat group debuted various attack strains and payloads in attacks against organizations in the Middle East and Africa.</p>
+                    <p class="text-slate-600 italic">長期活躍的伊朗威脅組織在中東和非洲針對各組織的攻擊中推出了多種攻擊變種和負載。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://www.darkreading.com/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
+            
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">The Hacker News</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">CISA Adds Roundcube Flaws to KEV Catalog</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">CISA 將 Roundcube 漏洞加入已知漏洞目錄</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.</p>
+                    <p class="text-slate-600 italic">美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://thehackernews.com/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
             </div>
-        </div>
-        
-        <!-- Tabs -->
-        <div class="max-w-4xl mx-auto mt-6 flex gap-6 text-sm font-bold border-b border-slate-800">
-            <button onclick="filterNews('all')" id="tab-all" class="tab-btn pb-2 tab-active lowercase">ALL</button>
-            <button onclick="filterNews('world')" id="tab-world" class="tab-btn pb-2 text-slate-500 hover:text-sky-400 lowercase italic">#WORLD</button>
-            <button onclick="filterNews('ai')" id="tab-ai" class="tab-btn pb-2 text-slate-500 hover:text-amber-400 lowercase italic">#AI_FINTECH</button>
-            <button onclick="filterNews('cyber')" id="tab-cyber" class="tab-btn pb-2 text-slate-500 hover:text-red-400 lowercase italic">#CYBER_SEC</button>
-        </div>
-    </header>
-
-    <main class="max-w-4xl mx-auto p-6">
-        <div id="news-container" class="space-y-6">
-            <div class="text-center py-20 text-slate-500">
-                <p class="animate-pulse">正在整理分類檔案...</p>
+            </section>
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🤖</span>
+                    <h2 class="text-2xl font-black uppercase text-emerald-400 tracking-widest">AI / Fintech (2)</h2>
+                </div>
+                <div class="space-y-6">
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">TechCrunch</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">OpenAI Deepens India Push via Pine Labs Partnership</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">OpenAI 攜手 Pine Labs 進軍印度 Fintech</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>OpenAI partnered with major Indian fintech Pine Labs to integrate AI-driven reasoning into its payments stack, aiming to automate invoicing workflows.</p>
+                    <p class="text-slate-600 italic">OpenAI 與印度頂尖 Fintech 公司 Pine Labs 達成戰略合作，將 AI 推理技術整合至支付系統。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://techcrunch.com/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
+            
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-24</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">Reuters</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Nvidia Nears $30 Billion Investment in OpenAI</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">Nvidia 擬向 OpenAI 注資約 300 億美元</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.</p>
+                    <p class="text-slate-600 italic">Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，作為其超過千億級別融資的一部分，進一步鞏固兩家 AI 巨頭的聯盟。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://www.reuters.com/business/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
             </div>
-        </div>
-    </main>
+            </section>
+        </main>
 
-    <footer class="text-center p-10 text-slate-600 text-[10px] uppercase tracking-widest border-t border-slate-900 mt-10">
-        &copy; 2026 Macbot Intelligence Engine | Terminal Access Only
-    </footer>
-
-    <script>
-        let allNews = [];
-
-        async function loadNews() {
-            try {
-                const response = await fetch('news_data.json?t=' + new Date().getTime());
-                allNews = await response.json();
-                
-                const latestDate = allNews[0]?.date || 'Unknown';
-                document.getElementById('update-date').innerText = 'LAST_SYNC: ' + latestDate;
-
-                filterNews('all');
-            } catch (error) {
-                document.getElementById('news-container').innerHTML = `<div class="text-red-400 text-center p-10">FAIL: DATA_REF_LOST</div>`;
-            }
-        }
-
-        function filterNews(category) {
-            // Update TUI tabs
-            document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.classList.remove('tab-active', 'text-sky-400', 'text-amber-400', 'text-red-400');
-                btn.classList.add('text-slate-500');
-            });
-            const activeTab = document.getElementById('tab-' + category);
-            activeTab.classList.add('tab-active');
-            if (category === 'world') activeTab.classList.add('text-sky-400');
-            if (category === 'ai') activeTab.classList.add('text-amber-400');
-            if (category === 'cyber') activeTab.classList.add('text-red-400');
-
-            const container = document.getElementById('news-container');
-            container.innerHTML = '';
-
-            const filtered = allNews.filter(item => {
-                const text = (item.title_en + item.summary_en + item.title_zh + (item.category || '')).toLowerCase();
-                const isCyber = text.includes('cyber') || text.includes('hacker') || text.includes('vulnerability') || text.includes('exploit') || text.includes('安全') || text.includes('黑客') || text.includes('漏洞');
-                const isAI = text.includes('ai ') || text.includes(' ai') || text.includes('gpt') || text.includes('fintech') || text.includes('intelligence') || text.includes('智能') || text.includes('金融');
-
-                if (category === 'all') return true;
-                if (category === 'cyber') return isCyber;
-                if (category === 'ai') return isAI && !isCyber; // Cyber keywords take precedence
-                if (category === 'world') return !isCyber && !isAI;
-                return true;
-            });
-
-            if (filtered.length === 0) {
-                container.innerHTML = `<div class="text-slate-600 text-center py-10 italic lowercase">empty_set: no items found for this filter</div>`;
-                return;
-            }
-
-            filtered.forEach(item => {
-                const text = (item.title_en + item.summary_en + item.title_zh + (item.category || '')).toLowerCase();
-                const isCyber = text.includes('cyber') || text.includes('hacker') || text.includes('vulnerability') || text.includes('exploit') || text.includes('安全') || text.includes('黑客') || text.includes('漏洞');
-                const isAI = text.includes('ai ') || text.includes(' ai') || text.includes('gpt') || text.includes('fintech') || text.includes('intelligence') || text.includes('智能') || text.includes('金融');
-                
-                let borderClass = 'world-border';
-                let tagColor = 'bg-sky-900 text-sky-200';
-                let tagText = 'WORLD';
-                
-                if (isCyber) { borderClass = 'cyber-border'; tagColor = 'bg-red-900 text-red-200'; tagText = 'CYBER'; }
-                else if (isAI) { borderClass = 'ai-border'; tagColor = 'bg-amber-900 text-amber-200'; tagText = 'AI/FIN'; }
-
-                const card = document.createElement('div');
-                card.className = `news-card p-6 rounded-2xl shadow-xl ${borderClass}`;
-                card.innerHTML = `
-                    <div class="flex justify-between items-center mb-4">
-                        <span class="text-[10px] ${tagColor} px-2.5 py-1 rounded-full uppercase font-black tracking-widest shadow-inner">${tagText} | ${item.date}</span>
-                        <a href="${item.url}" target="_blank" class="text-slate-500 hover:text-white transition-all transform hover:scale-110">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        </a>
-                    </div>
-                    <h2 class="text-xl font-black text-white mb-2 leading-tight tracking-tight border-b border-slate-700/50 pb-3">${item.title_zh}</h2>
-                    <h3 class="text-xs font-bold text-slate-500 mb-4 uppercase tracking-wide leading-relaxed">${item.title_en}</h3>
-                    
-                    <div class="bg-slate-900/50 p-4 rounded-lg border border-slate-700/30 mb-4">
-                        <p class="text-slate-200 text-sm leading-7 font-medium">📜 ${item.summary_zh}</p>
-                    </div>
-                    
-                    <div class="flex items-start gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                        <span class="text-[10px] text-slate-500 mt-1">EN</span>
-                        <p class="text-slate-500 text-[11px] italic leading-5">${item.summary_en}</p>
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-        }
-        loadNews();
-    </script>
-</body>
-</html>
+        <footer class="max-w-7xl mx-auto mt-24 py-12 border-t border-slate-800 text-center text-slate-600 font-mono text-xs italic">
+            END-TO-END AUTOMATED GENERATION • NO_IDENTIFIERS_STORED
+        </footer>
+    </body>
+    </html>
+    
