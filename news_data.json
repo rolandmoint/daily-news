@@ -2,12 +2,111 @@
   {
     "en_title": "Third of Attacks Now Use Stolen Credentials",
     "cn_title": "三分之一攻擊現在使用盜取憑證",
-    "en_summary": "Roughly a third of attacks now use stolen credentials according to the latest cybersecurity report.",
-    "cn_summary": "根據最新網絡安全報告，大約三分之一的攻擊現在都使用盜取的憑證。",
+    "en_summary": "Roughly a third of attacks now use stolen credentials according to the latest cybersecurity report from leading security firms.",
+    "cn_summary": "根據主要安全公司最新網絡安全報告，大約三分之一的攻擊現在使用盜取的憑證。",
     "category": "Cyber Security",
     "source": "Cybersecurity Dive",
     "link": "https://www.cybersecuritydive.com/",
-    "timestamp": 1771923273.480193,
+    "timestamp": 1771935878.410547,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "Iranian Threat Group Debuts New Attack Strains",
+    "cn_title": "伊朗威脅組織推出新型攻擊變種",
+    "en_summary": "The long-active Iranian threat group debuted various attack strains and payloads in attacks against organizations in the Middle East and Africa.",
+    "cn_summary": "長期活躍的伊朗威脅組織在中東和非洲針對各組織的攻擊中推出了多種攻擊變種和負載。",
+    "category": "Cyber Security",
+    "source": "Dark Reading",
+    "link": "https://www.darkreading.com/",
+    "timestamp": 1771935878.410543,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "CISA Adds Roundcube Flaws to KEV Catalog",
+    "cn_title": "CISA 將 Roundcube 漏洞加入已知漏洞目錄",
+    "en_summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.",
+    "cn_summary": "美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。",
+    "category": "Cyber Security",
+    "source": "The Hacker News",
+    "link": "https://thehackernews.com/",
+    "timestamp": 1771935878.410539,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "China CBDC Cross-Border Payment Expansion",
+    "cn_title": "中國數碼人民幣跨境支付擴展",
+    "en_summary": "The People's Bank of China announced expanded cross-border testing of the digital yuan e-CNY with partners in ASEAN countries for trade settlement.",
+    "cn_summary": "中國人民銀行宣布擴展數碼人民幣跨境測試，與東盟國家合作夥伴進行貿易結算試點。",
+    "category": "Fintech",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/",
+    "timestamp": 1771935878.410534,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "HSBC Launches Tokenized Gold Product in Hong Kong",
+    "cn_title": "滙豐銀行於香港推出代幣化黃金產品",
+    "en_summary": "HSBC has launched a retail tokenized gold product allowing Hong Kong customers to trade fractional ownership of physical gold via blockchain technology.",
+    "cn_summary": "滙豐銀行推出零售代幣化黃金產品，讓香港客戶可透過區塊鏈技術交易實物黃金的分數所有權。",
+    "category": "Fintech",
+    "source": "SCMP",
+    "link": "https://www.scmp.com/",
+    "timestamp": 1771935878.410529,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "OpenAI Deepens India Push via Pine Labs Partnership",
+    "cn_title": "OpenAI 携手 Pine Labs 进军印度 Fintech",
+    "en_summary": "OpenAI partnered with major Indian fintech Pine Labs to integrate AI-driven reasoning into its payments stack, aiming to automate invoicing workflows and accelerate AI-led commerce.",
+    "cn_summary": "OpenAI 与印度顶尖 Fintech 公司 Pine Labs 达成战略合作，将 AI 推理技术整合至支付系统，推动自动化结算与 AI 赋能的商业发展。",
+    "category": "Fintech",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/02/18/openai-india/",
+    "timestamp": 1771935878.410525,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "OpenAI Deepens Research Push in Robotics",
+    "cn_title": "OpenAI 深化机器人领域研究推进",
+    "en_summary": "OpenAI has restructured its robotics research team to focus on developing advanced embodied AI systems capable of complex physical tasks.",
+    "cn_summary": "OpenAI 重组了机器人研究团队，专注于开发能够执行复杂物理任务的先进具身 AI 系统。",
+    "category": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/",
+    "timestamp": 1771935878.41052,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "Nvidia Nears $30 Billion Investment in OpenAI",
+    "cn_title": "Nvidia 拟向 OpenAI 注资约 300 亿美元",
+    "en_summary": "Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.",
+    "cn_summary": "Nvidia 接近敲定一项对 OpenAI 高达 300 亿美元的投资，作为其超过千亿级别融资的一部分，进一步巩固两家 AI 巨头的联盟。",
+    "category": "AI",
+    "source": "Reuters",
+    "link": "https://www.reuters.com/business/",
+    "timestamp": 1771935878.410515,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "Italian PM Comments on French Affairs",
+    "cn_title": "意大利总理评论法国事务引发争议",
+    "en_summary": "As Italy cracks down on migration, Milan takes a different path offering shelter to asylum seekers even as the government tightens borders.",
+    "cn_summary": "意大利打击移民之际，米兰采取不同路径为寻求庇护者提供住所。",
+    "category": "World",
+    "source": "NPR",
+    "link": "https://www.npr.org/",
+    "timestamp": 1771935878.41051,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "Trump Threatens Countries Over Tariff Deals",
+    "cn_title": "特朗普威脅各国遵守关税协议",
+    "en_summary": "President Donald Trump threatened countries around the world to abide by any tariff deals they agreed to despite the U.S. Supreme Court striking down his sweeping global tariffs.",
+    "cn_summary": "美国总统特朗普威胁各国遵守关税协议，尽管美国最高法院已推翻他的全面全球关税政策。",
+    "category": "World",
+    "source": "AP News",
+    "link": "https://apnews.com/",
+    "timestamp": 1771935878.410491,
     "date": "2026-02-24"
   },
   {
@@ -19,83 +118,6 @@
     "source": "Reuters",
     "link": "https://www.reuters.com/technology/",
     "timestamp": 1771923273.480191,
-    "date": "2026-02-24"
-  },
-  {
-    "en_title": "Iranian Threat Group Debuts New Attack Strains",
-    "cn_title": "伊朗威脅組織推出新型攻擊變種",
-    "en_summary": "The long-active Iranian threat group debuted various attack strains and payloads in attacks against organizations in the Middle East and Africa.",
-    "cn_summary": "長期活躍的伊朗威脅組織在中東和非洲針對各組織的攻擊中推出了多種攻擊變種和負載。",
-    "category": "Cyber Security",
-    "source": "Dark Reading",
-    "link": "https://www.darkreading.com/",
-    "timestamp": 1771923273.480189,
-    "date": "2026-02-24"
-  },
-  {
-    "en_title": "CISA Adds Roundcube Flaws to KEV Catalog",
-    "cn_title": "CISA 將 Roundcube 漏洞加入已知漏洞目錄",
-    "en_summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.",
-    "cn_summary": "美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。",
-    "category": "Cyber Security",
-    "source": "The Hacker News",
-    "link": "https://thehackernews.com/",
-    "timestamp": 1771923273.480187,
-    "date": "2026-02-24"
-  },
-  {
-    "en_title": "OpenAI Deepens India Push via Pine Labs Partnership",
-    "cn_title": "OpenAI 攜手 Pine Labs 進軍印度 Fintech",
-    "en_summary": "OpenAI partnered with major Indian fintech Pine Labs to integrate AI-driven reasoning into its payments stack, aiming to automate invoicing workflows.",
-    "cn_summary": "OpenAI 與印度頂尖 Fintech 公司 Pine Labs 達成戰略合作，將 AI 推理技術整合至支付系統。",
-    "category": "AI & Fintech",
-    "source": "TechCrunch",
-    "link": "https://techcrunch.com/",
-    "timestamp": 1771923273.480185,
-    "date": "2026-02-24"
-  },
-  {
-    "en_title": "Nvidia Nears $30 Billion Investment in OpenAI",
-    "cn_title": "Nvidia 擬向 OpenAI 注資約 300 億美元",
-    "en_summary": "Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.",
-    "cn_summary": "Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，作為其超過千億級別融資的一部分，進一步鞏固兩家 AI 巨頭的聯盟。",
-    "category": "AI & Fintech",
-    "source": "Reuters",
-    "link": "https://www.reuters.com/business/",
-    "timestamp": 1771923273.480177,
-    "date": "2026-02-24"
-  },
-  {
-    "en_title": "Italian PM Comments on French Affairs",
-    "cn_title": "意大利總理評論法國事務引發爭議",
-    "en_summary": "As Italy cracks down on migration, Milan takes a different path offering shelter to asylum seekers even as the government tightens borders.",
-    "cn_summary": "意大利打擊移民之際，米蘭採取不同路徑為尋求庇護者提供住所。",
-    "category": "World",
-    "source": "NPR",
-    "link": "https://www.npr.org/",
-    "timestamp": 1771923273.480175,
-    "date": "2026-02-24"
-  },
-  {
-    "en_title": "U.S.-Iran Tensions Threaten Middle East Oil",
-    "cn_title": "美伊緊張局勢威脅中東石油供應",
-    "en_summary": "A serious military confrontation between the U.S. and Iran could trigger a major disruption in Middle East oil supplies.",
-    "cn_summary": "美國與伊朗之間的嚴重軍事對抗可能引發中東石油供應的重大中斷。",
-    "category": "World",
-    "source": "Reuters",
-    "link": "https://www.reuters.com/",
-    "timestamp": 1771923273.480172,
-    "date": "2026-02-24"
-  },
-  {
-    "en_title": "Trump Threatens Countries Over Tariff Deals",
-    "cn_title": "特朗普威脅各國遵守關稅協議",
-    "en_summary": "President Donald Trump threatened countries around the world to abide by any tariff deals they agreed to despite the U.S. Supreme Court striking down his sweeping global tariffs.",
-    "cn_summary": "美國總統特朗普威脅各國遵守關稅協議，儘管美國最高法院已推翻他的全面全球關稅政策。",
-    "category": "World",
-    "source": "AP News",
-    "link": "https://apnews.com/",
-    "timestamp": 1771923273.480167,
     "date": "2026-02-24"
   }
 ]
