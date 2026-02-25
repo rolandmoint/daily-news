@@ -1,5 +1,60 @@
 [
   {
+    "category": "Cyber Security",
+    "cn_summary": "Anthropic 透露 DeepSeek、月之暗面及 MiniMax 通過 2.4 萬個虛假賬號發起大規模「蒸餾攻擊」，非法提取 Claude 的技術數據以提升自身模型。",
+    "cn_title": "Anthropic 指控中國 AI 公司利用 1,600 萬次查詢「盜取」Claude 模型能力",
+    "date": "2026-02-25",
+    "en_summary": "Anthropic identified industrial-scale campaigns by DeepSeek, Moonshot AI, and MiniMax to extract Claude's capabilities via 16 million exchanges from 24,000 fraudulent accounts.",
+    "en_title": "Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model",
+    "link": "https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html",
+    "source": "The Hacker News",
+    "timestamp": 1771927200
+  },
+  {
+    "category": "Cyber Security",
+    "cn_summary": "研究人員發現一種新型門羅幣挖礦病毒，其利用盜版軟件套件作為誘餌，並具備蠕蟲特性，可通過外部存儲設備在物理隔離的環境中橫向移動。",
+    "cn_title": "蠕蟲式 XMRig 挖礦病毒通過盜版軟件及外部存儲設備擴散",
+    "date": "2026-02-25",
+    "en_summary": "Researchers discovered a sophisticated cryptojacking campaign using pirated software to deploy XMRig miners with worm-like spreading capabilities via external storage.",
+    "en_title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
+    "link": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
+    "source": "The Hacker News",
+    "timestamp": 1771927200
+  },
+  {
+    "category": "Cyber Security",
+    "cn_summary": "一個評分達 10.0 的最高級別漏洞（CVE-2026-22769）已被監測到遭到與特定區域相關的威脅組織利用，嚴重威脅虛擬化備份環境。",
+    "cn_title": "戴爾 RecoverPoint 虛擬機零日漏洞遭高級威脅組織利用",
+    "date": "2026-02-25",
+    "en_summary": "A maximum severity vulnerability (CVSS 10.0) in Dell RecoverPoint has been exploited as a zero-day by a suspected China-nexus threat cluster since mid-2024.",
+    "en_title": "Dell RecoverPoint for VMs Zero-Day Exploited",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html",
+    "source": "The Hacker News",
+    "timestamp": 1771927200
+  },
+  {
+    "category": "Cyber Security",
+    "cn_summary": "代號為 SANDWORM_MODE 的供應鏈攻擊通過惡意 npm 包滲透開發者環境，竊取 SSH 密鑰、LLM API 密鑰，並通過竊取的賬號進一步自我擴散。",
+    "cn_title": "供應鏈攻擊：19 個惡意 npm 套件被用於收割加密密鑰及 API 令牌",
+    "date": "2026-02-25",
+    "en_summary": "A supply chain campaign codenamed SANDWORM_MODE used 19 malicious npm packages to harvest credentials and propagate by abusing stolen GitHub identities.",
+    "en_title": "Malicious npm Packages Harvest Crypto Keys, CI Secrets, and API Tokens",
+    "link": "https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html",
+    "source": "The Hacker News",
+    "timestamp": 1771927200
+  },
+  {
+    "category": "Cyber Security",
+    "cn_summary": "監測顯示伊朗威脅組織 MuddyWater 最近啟動了名為 Olalampo 的行動，使用新型 GhostFetch 下載器和 Rust 編寫的 CHAR 後門程序進行間諜傳輸。",
+    "cn_title": "伊朗 MuddyWater 威脅組織更新武器庫攻擊中東及北非機構",
+    "date": "2026-02-25",
+    "en_summary": "The Iranian hacking group MuddyWater is using new malware families including GhostFetch and a Rust backdoor called CHAR to target organizations in the MENA region.",
+    "en_title": "MuddyWater Targets MENA Organizations with GhostFetch and CHAR",
+    "link": "https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html",
+    "source": "The Hacker News",
+    "timestamp": 1771927200
+  },
+  {
     "en_title": "Third of Attacks Now Use Stolen Credentials",
     "cn_title": "三分之一攻擊現在使用盜取憑證",
     "en_summary": "Roughly a third of attacks now use stolen credentials according to the latest cybersecurity report from leading security firms.",
