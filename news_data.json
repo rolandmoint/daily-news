@@ -1,5 +1,50 @@
 [
   {
+    "title_en": "SLH Offers –,000 Per Call to Recruit Women for Help Desk Vishing",
+    "title_zh": "SLH 組織月薪招募女性專員進行語音社交工程攻擊",
+    "summary_en": "Cybercrime collective SLH is recruiting women for voice phishing campaigns targeting IT help desks, offering upfront payments.",
+    "summary_zh": "網絡罪犯團體 SLH 正招募女性對企業 IT Help Desk 進行語音釣魚，旨在提高社交工程成功率。",
+    "link": "https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html",
+    "date": "2026-02-26",
+    "category": "Social Engineering"
+  },
+  {
+    "title_en": "Critical Cisco SD-WAN Bug Exploited in Zero-Day Attacks Since 2023",
+    "title_zh": "Cisco SD-WAN 關鍵漏洞 CVE-2026-20127 遭到零日攻擊",
+    "summary_en": "Cisco warns of a critical auth bypass bug in Catalyst SD-WAN exploited since 2023.",
+    "summary_zh": "Cisco 警告其 Catalyst SD-WAN 存在嚴重漏洞，自 2023 年起已被黑客用於零日攻擊。",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
+    "date": "2026-02-26",
+    "category": "Vulnerability"
+  },
+  {
+    "title_en": "Malicious NuGet Packages Stole ASP.NET Data",
+    "title_zh": "惡意 NuGet 套件鎖定 ASP.NET 開發者竊取數據",
+    "summary_en": "Researchers found malicious NuGet packages targeting ASP.NET developers to exfiltrate identity data.",
+    "summary_zh": "研究人員發現針對 ASP.NET 開發者的惡意 NuGet 套件，專用於竊取身份數據。",
+    "link": "https://thehackernews.com/2026/02/malicious-nuget-packages-stole-aspnet.html",
+    "date": "2026-02-26",
+    "category": "Supply Chain"
+  },
+  {
+    "title_en": "Medical Device Maker UFP Technologies Warns of Data Stolen in Cyberattack",
+    "title_zh": "醫療設備商 UFP Technologies 證實數據洩露",
+    "summary_en": "UFP Technologies disclosed a cybersecurity incident that resulted in the theft of company data.",
+    "summary_zh": "醫療設備製造商 UFP Technologies 披露其 IT 系統受損且部分數據被盜。",
+    "link": "https://www.bleepingcomputer.com/news/security/medical-device-maker-ufp-technologies-warns-of-data-stolen-in-cyberattack/",
+    "date": "2026-02-26",
+    "category": "Data Breach"
+  },
+  {
+    "title_en": "AI Dominates Cybersecurity Predictions for 2026",
+    "title_zh": "2026 網絡安全預測：AI 生成與影子模型攻擊面激增",
+    "summary_en": "Experts predict shadow AI models will represent a significant invisible attack surface in 2026.",
+    "summary_zh": "專家預測 2026 年影子 AI 模型將成為隱形攻擊面，顯著提高企業風險。",
+    "link": "https://www.technewsworld.com/story/ai-dominates-cybersecurity-predictions-for-2026-180077.html",
+    "date": "2026-02-26",
+    "category": "AI/Trends"
+  },
+  {
     "category": "World",
     "cn_title": "巴基斯坦俾路支省反恐行動結束",
     "en_title": "Counter-terrorism Operations in Balochistan, Pakistan Conclude",
