@@ -1,253 +1,47 @@
 [
   {
-    "title_en": "SLH Offers –,000 Per Call to Recruit Women for Help Desk Vishing",
-    "title_zh": "SLH 組織月薪招募女性專員進行語音社交工程攻擊",
-    "summary_en": "Cybercrime collective SLH is recruiting women for voice phishing campaigns targeting IT help desks, offering upfront payments.",
-    "summary_zh": "網絡罪犯團體 SLH 正招募女性對企業 IT Help Desk 進行語音釣魚，旨在提高社交工程成功率。",
-    "link": "https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html",
-    "date": "2026-02-26",
-    "category": "Social Engineering"
-  },
-  {
-    "title_en": "Critical Cisco SD-WAN Bug Exploited in Zero-Day Attacks Since 2023",
-    "title_zh": "Cisco SD-WAN 關鍵漏洞 CVE-2026-20127 遭到零日攻擊",
-    "summary_en": "Cisco warns of a critical auth bypass bug in Catalyst SD-WAN exploited since 2023.",
-    "summary_zh": "Cisco 警告其 Catalyst SD-WAN 存在嚴重漏洞，自 2023 年起已被黑客用於零日攻擊。",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
-    "date": "2026-02-26",
-    "category": "Vulnerability"
-  },
-  {
-    "title_en": "Malicious NuGet Packages Stole ASP.NET Data",
-    "title_zh": "惡意 NuGet 套件鎖定 ASP.NET 開發者竊取數據",
-    "summary_en": "Researchers found malicious NuGet packages targeting ASP.NET developers to exfiltrate identity data.",
-    "summary_zh": "研究人員發現針對 ASP.NET 開發者的惡意 NuGet 套件，專用於竊取身份數據。",
-    "link": "https://thehackernews.com/2026/02/malicious-nuget-packages-stole-aspnet.html",
-    "date": "2026-02-26",
-    "category": "Supply Chain"
-  },
-  {
-    "title_en": "Medical Device Maker UFP Technologies Warns of Data Stolen in Cyberattack",
-    "title_zh": "醫療設備商 UFP Technologies 證實數據洩露",
-    "summary_en": "UFP Technologies disclosed a cybersecurity incident that resulted in the theft of company data.",
-    "summary_zh": "醫療設備製造商 UFP Technologies 披露其 IT 系統受損且部分數據被盜。",
-    "link": "https://www.bleepingcomputer.com/news/security/medical-device-maker-ufp-technologies-warns-of-data-stolen-in-cyberattack/",
-    "date": "2026-02-26",
-    "category": "Data Breach"
-  },
-  {
-    "title_en": "AI Dominates Cybersecurity Predictions for 2026",
-    "title_zh": "2026 網絡安全預測：AI 生成與影子模型攻擊面激增",
-    "summary_en": "Experts predict shadow AI models will represent a significant invisible attack surface in 2026.",
-    "summary_zh": "專家預測 2026 年影子 AI 模型將成為隱形攻擊面，顯著提高企業風險。",
-    "link": "https://www.technewsworld.com/story/ai-dominates-cybersecurity-predictions-for-2026-180077.html",
-    "date": "2026-02-26",
-    "category": "AI/Trends"
-  },
-  {
-    "category": "World",
-    "cn_title": "巴基斯坦俾路支省反恐行動結束",
-    "en_title": "Counter-terrorism Operations in Balochistan, Pakistan Conclude",
-    "cn_summary": "巴基斯坦軍方宣佈結束在俾路支省為期 40 小時的反恐行動，共擊斃 145 名俾路支解放軍 (BLA) 武裝份子，行動中另有 18 名平民及 18 名安全人員喪生。",
-    "en_summary": "Pakistani military forces concluded a 40-hour counter-terrorism operation in Balochistan, resulting in the deaths of 145 Baloch Liberation Army (BLA) insurgents, 18 civilians, and 18 security personnel.",
-    "link": "https://apnews.com/article/pakistan-insurgency-balochistan-deadly-attacks-militants-killed-51af1ee3b96f6fac5d2abfa21a607ad8",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "俄羅斯無人機襲擊烏克蘭第聶伯羅",
-    "en_title": "Russian Drone Strike Hits Dnipro, Ukraine",
-    "cn_summary": "一架俄羅斯無人機擊中第聶伯羅一輛載有礦工的巴士，造成至少 15 人死亡， 7 人受傷。",
-    "en_summary": "A Russian drone strike hit a minibus transporting mineworkers in Dnipro, Ukraine, killing at least 15 people and injuring seven others.",
-    "link": "https://www.bbc.co.uk/news/articles/cdre7g2je63o",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "美國對全球徵收 10% 關稅首週情況",
-    "en_title": "First Week of Trump's 10% Global Tariffs",
-    "cn_summary": "特朗普政府的新 10% 全球關稅於 2 月 24 日生效。美國最高法院雖一度對此提出質疑，但總統誓言將透過其他手段維持大部分關稅。",
-    "en_summary": "The Trump administration's new 10% global tariffs kicked in on Feb 24. Despite legal challenges, the administration pledges to maintain them via other means.",
-    "link": "https://www.cnn.com/us/live-news/trump-administration-tariffs-iran-news-02-21-26",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "美伊日內瓦談判取得進展但軍事緊張持續",
-    "en_title": "Progress in US-Iran Talks Amid Military Buildup",
-    "cn_summary": "美國與伊朗代表在瑞士日內瓦的談判傳出進展，但美軍仍持續向中東增兵並擊落接近航母的無人機。",
-    "en_summary": "Progress was reported in negotiations between US and Iranian officials in Geneva, even as the US military continues its buildup and downs drones near carriers.",
-    "link": "https://www.npr.org/2026/02/20/nx-s1-5721117/the-news-roundup-for-february-20-2026",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "利比亞領導人之子賽義夫·卡扎菲遇刺",
-    "en_title": "Assassination of Saif al-Islam Gaddafi in Libya",
-    "cn_summary": "利比亞前領導人卡扎菲之子、總統候選人賽義夫·卡扎菲在津坦住處外遇刺身亡。",
-    "en_summary": "Saif al-Islam Gaddafi, son of Libya's former leader and a presidential candidate, was assassinated outside his home in Zintan, Libya.",
-    "link": "https://english.alarabiya.net/News/north-africa/2026/02/03/saif-alislam-gaddafi-has-been-killed-gaddafi-family-source-tells-al-arabiya",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "哥斯達黎加選出新任女總統",
-    "en_title": "Costa Rica Elects Laura Fernández as President",
-    "cn_summary": "主權人民黨的勞拉·費爾南德斯以 48% 的選票贏得哥斯達黎加總統大選。",
-    "en_summary": "Laura Fernández of the Sovereign People's Party (PPSO) won the Costa Rican presidency with 48% of the vote.",
-    "link": "https://www.bbc.com/news/articles/cdre7me407yo",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "巴基斯坦伊斯蘭堡清真寺自殺式襲擊",
-    "en_title": "Suicide Bombing at Mosque in Islamabad, Pakistan",
-    "cn_summary": "伊斯蘭堡一座什葉派清真寺遭到自殺式爆彈襲擊，造成 32 人死亡，170 人受傷。「伊斯蘭國」宣稱負責。",
-    "en_summary": "A suicide bombing at a Shia mosque in Islamabad killed 32 people and wounded 170 others. ISIS claimed responsibility.",
-    "link": "https://www.aljazeera.com/news/2026/2/7/thousands-mourn-32-victims-of-islamabad-shia-mosque-bombing-in-pakistan",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "星鏈停用在烏克蘭俄佔區的终端",
-    "en_title": "SpaceX Deactivates Starlink in Russian-Occupied Ukraine",
-    "cn_summary": "在烏克蘭壓力下，SpaceX 已停用俄佔區內的星鏈終端，以防止俄羅斯軍隊利用該網路。",
-    "en_summary": "SpaceX has deactivated Starlink terminals in Russian-occupied territories of Ukraine to prevent their use by Russian forces.",
-    "link": "https://www.reuters.com/world/europe/starlink-used-by-russian-forces-deactivated-battlefield-ukraine-says-2026-02-05/",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "《華盛頓郵報》重組裁員 300 人",
-    "en_title": "Washington Post Lays Off 300 Journalists",
-    "cn_summary": "作為重組的一部分，《華盛頓郵報》宣佈裁員約三分之一的員工，主要影響體育及國際新聞部門。",
-    "en_summary": "The Washington Post announced layoffs for about 300 journalists, representing one-third of its staff, as part of a restructuring.",
-    "link": "https://www.bbc.co.uk/news/articles/cwyn05d1494o",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "World",
-    "cn_title": "日本開始鑽探深海稀土礦以減少對華依賴",
-    "en_title": "Japan Drills for Rare Earth Minerals to Rival China",
-    "cn_summary": "日本成功從南鳥島附近提取含稀土沉積物，旨在減少工業對中方關鍵礦產的依賴。",
-    "en_summary": "Japan has begun retrieving deep-sea sediment containing rare earth minerals near Minamitorishima to reduce its reliance on China.",
-    "link": "https://www.asahi.com/ajw/articles/16327883",
-    "date": "2026-02-26",
-    "timestamp": 1772064040
-  },
-  {
-    "category": "AI",
-    "cn_title": "法官暫時駁回 xAI 對競爭對手 OpenAI 的商業秘密賠償訴訟",
-    "en_title": "Judge Dismisses xAI Trade-Secrets Suit Against Rival OpenAI",
-    "cn_summary": "舊金山聯邦法官駁回了 Elon Musk 旗下 xAI 對 OpenAI 的訴訟，裁定其目前未能具體證明 OpenAI 存在不當行為，但允許 xAI 在完善指控後重新起訴。",
-    "en_summary": "A U.S. District Judge in San Francisco dismissed a lawsuit filed by Elon Musk's xAI against OpenAI, ruling that it failed to demonstrate specific misconduct, though xAI is permitted to refile its claims.",
-    "date": "2026-02-25",
-    "link": "https://www.claimsjournal.com/news/national/2026/02/25/335899.htm",
-    "timestamp": 1772001000
-  },
-  {
-    "category": "AI",
-    "cn_title": "OpenAI 調整支出預期：2030 年算力投入目標約為 6000 億美元",
-    "en_title": "OpenAI Resets Spending Expectations:  Billion by 2030",
-    "cn_summary": "OpenAI 向投資者明確了其算力規劃，預計到 2030 年的總算力支出約為 6000 億美元，此前曾有報導稱其目標高達 1.4 萬億美元。",
-    "en_summary": "OpenAI has signaled a shift in its long-term financial planning, clarifying that it targets roughly  billion in total compute spend by 2030, a reduction from earlier trillion-dollar projections.",
-    "date": "2026-02-25",
-    "link": "https://www.cnbc.com/2026/02/20/openai-resets-spend-expectations-targets-around-600-billion-by-2030.html",
-    "timestamp": 1772001000
-  },
-  {
+    "en_title": "HSBC Gold Token Unlocks New Investment Horizons",
+    "cn_title": "滙豐 Gold Token 開啟投資新境界",
+    "en_summary": "HSBC's Gold Token enables investors to acquire fractional ownership in physical gold securely via digital platforms, leveraging blockchain technology.",
+    "cn_summary": "滙豐 Gold Token 讓投資者可通過數碼平台安全地獲取實物黃金的分數所有權，利用區塊鏈技術實現。",
     "category": "Fintech",
-    "cn_title": "2026 福布斯金融科技 50 強：Polymarket 與 Hyperliquid 榜上有名",
-    "en_title": "Forbes Fintech 50 2026: Polymarket and Hyperliquid Make the List",
-    "cn_summary": "2026 年福布斯金融科技 50 強名單發佈，包括 Polymarket 和 Hyperliquid 在內的市場平台因其在數字金融領域的領先地位而入選。",
-    "en_summary": "The prestigious Forbes Fintech 50 for 2026 has been released, highlighting market platforms like Polymarket and Hyperliquid as leaders in the current digital financial landscape.",
-    "date": "2026-02-25",
-    "link": "https://www.weex.com/news/detail/polymarket-hyperliquid-and-others-make-the-2026-forbes-fintech-50-346563",
-    "timestamp": 1772001000
+    "source": "HSBC",
+    "link": "https://www.hsbc.com.hk/investments/products/gold-token/",
+    "timestamp": 1772063520.795218,
+    "date": "2026-02-26"
   },
   {
+    "en_title": "Nvidia Nears $30 Billion Investment in OpenAI",
+    "cn_title": "Nvidia 擬向 OpenAI 注資約 300 億美元",
+    "en_summary": "Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.",
+    "cn_summary": "Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，進一步鞏固兩家 AI 巨頭的聯盟。",
     "category": "AI",
-    "cn_title": "OpenAI 深化與諮詢巨頭合作，推動企業級 AI 應用",
-    "en_title": "OpenAI Deepens Partnerships with Consulting Giants for Enterprise AI",
-    "cn_summary": "OpenAI 與 BCG、麥肯錫、埃森哲及凱捷諮詢等巨頭建立「前沿聯盟」(Frontier Alliance)，旨在協助企業將 AI 項目從初步試點推向全面部署。",
-    "en_summary": "OpenAI launched the \"Frontier Alliance\" with BCG, McKinsey, Accenture, and Capgemini to help enterprises move AI projects from limited pilots to full-scale deployment.",
-    "date": "2026-02-25",
-    "link": "https://www.reuters.com/business/openai-deepens-partnerships-with-consulting-giants-push-enterprise-ai-beyond-2026-02-23/",
-    "timestamp": 1772001000
+    "source": "Reuters",
+    "link": "https://www.reuters.com/business/nvidia-openai-investment-2026/",
+    "timestamp": 1772063520.795211,
+    "date": "2026-02-26"
   },
   {
-    "category": "Fintech/AI",
-    "cn_title": "Greenlite AI 更名為 Bretton AI 並完成 7500 萬美元 B 輪融資",
-    "en_title": "Greenlite AI Rebrands as Bretton AI, Secures m Series B",
-    "cn_summary": "金融科技初創公司 Greenlite AI 在完成 7500 萬美元 B 輪融資後正式更名為 Bretton AI，專注於提供 AI 原生合規解決方案。",
-    "en_summary": "Fintech startup Greenlite AI has officially rebranded to Bretton AI following a successful  million Series B funding round, focusing on AI-native compliance solutions.",
-    "date": "2026-02-25",
-    "link": "https://www.fintechfutures.com/fintech",
-    "timestamp": 1772001000
-  },
-  {
+    "en_title": "CISA Adds Roundcube Flaws to KEV Catalog",
+    "cn_title": "CISA 將 Roundcube 漏洞加入已知漏洞目錄",
+    "en_summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.",
+    "cn_summary": "美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。",
     "category": "Cyber Security",
-    "cn_summary": "Anthropic 透露 DeepSeek、月之暗面及 MiniMax 通過 2.4 萬個虛假賬號發起大規模「蒸餾攻擊」，非法提取 Claude 的技術數據以提升自身模型。",
-    "cn_title": "Anthropic 指控中國 AI 公司利用 1,600 萬次查詢「盜取」Claude 模型能力",
-    "date": "2026-02-25",
-    "en_summary": "Anthropic identified industrial-scale campaigns by DeepSeek, Moonshot AI, and MiniMax to extract Claude's capabilities via 16 million exchanges from 24,000 fraudulent accounts.",
-    "en_title": "Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model",
-    "link": "https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html",
     "source": "The Hacker News",
-    "timestamp": 1771927200
+    "link": "https://thehackernews.com/2026/02/cisa-roundcube-flaws.html",
+    "timestamp": 1772063520.795202,
+    "date": "2026-02-26"
   },
   {
-    "category": "Cyber Security",
-    "cn_summary": "研究人員發現一種新型門羅幣挖礦病毒，其利用盜版軟件套件作為誘餌，並具備蠕蟲特性，可通過外部存儲設備在物理隔離的環境中橫向移動。",
-    "cn_title": "蠕蟲式 XMRig 挖礦病毒通過盜版軟件及外部存儲設備擴散",
-    "date": "2026-02-25",
-    "en_summary": "Researchers discovered a sophisticated cryptojacking campaign using pirated software to deploy XMRig miners with worm-like spreading capabilities via external storage.",
-    "en_title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
-    "link": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
-    "source": "The Hacker News",
-    "timestamp": 1771927200
-  },
-  {
-    "category": "Cyber Security",
-    "cn_summary": "一個評分達 10.0 的最高級別漏洞（CVE-2026-22769）已被監測到遭到與特定區域相關的威脅組織利用，嚴重威脅虛擬化備份環境。",
-    "cn_title": "戴爾 RecoverPoint 虛擬機零日漏洞遭高級威脅組織利用",
-    "date": "2026-02-25",
-    "en_summary": "A maximum severity vulnerability (CVSS 10.0) in Dell RecoverPoint has been exploited as a zero-day by a suspected China-nexus threat cluster since mid-2024.",
-    "en_title": "Dell RecoverPoint for VMs Zero-Day Exploited",
-    "link": "https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html",
-    "source": "The Hacker News",
-    "timestamp": 1771927200
-  },
-  {
-    "category": "Cyber Security",
-    "cn_summary": "代號為 SANDWORM_MODE 的供應鏈攻擊通過惡意 npm 包滲透開發者環境，竊取 SSH 密鑰、LLM API 密鑰，並通過竊取的賬號進一步自我擴散。",
-    "cn_title": "供應鏈攻擊：19 個惡意 npm 套件被用於收割加密密鑰及 API 令牌",
-    "date": "2026-02-25",
-    "en_summary": "A supply chain campaign codenamed SANDWORM_MODE used 19 malicious npm packages to harvest credentials and propagate by abusing stolen GitHub identities.",
-    "en_title": "Malicious npm Packages Harvest Crypto Keys, CI Secrets, and API Tokens",
-    "link": "https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html",
-    "source": "The Hacker News",
-    "timestamp": 1771927200
-  },
-  {
-    "category": "Cyber Security",
-    "cn_summary": "監測顯示伊朗威脅組織 MuddyWater 最近啟動了名為 Olalampo 的行動，使用新型 GhostFetch 下載器和 Rust 編寫的 CHAR 後門程序進行間諜傳輸。",
-    "cn_title": "伊朗 MuddyWater 威脅組織更新武器庫攻擊中東及北非機構",
-    "date": "2026-02-25",
-    "en_summary": "The Iranian hacking group MuddyWater is using new malware families including GhostFetch and a Rust backdoor called CHAR to target organizations in the MENA region.",
-    "en_title": "MuddyWater Targets MENA Organizations with GhostFetch and CHAR",
-    "link": "https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html",
-    "source": "The Hacker News",
-    "timestamp": 1771927200
+    "en_title": "Supreme Court Strikes Down Trump's Sweeping Tariffs",
+    "cn_title": "最高法院推翻特朗普全面關稅政策",
+    "en_summary": "The U.S. Supreme Court ruled that President Donald Trump overstepped his authority by imposing sweeping global tariffs, throwing U.S. trade policy into uncertainty.",
+    "cn_summary": "美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。",
+    "category": "World",
+    "source": "AP News",
+    "link": "https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9",
+    "timestamp": 1772063520.795158,
+    "date": "2026-02-26"
   },
   {
     "en_title": "Third of Attacks Now Use Stolen Credentials",

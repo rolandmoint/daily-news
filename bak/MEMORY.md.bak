@@ -1,0 +1,5 @@
+- **API 設定偏好:** Roland 確認以後主力使用 `custom-openrouter-fans` (連線至 https://openrouter.fans/v1) 作為預設 Provider，並選用 Gemini 3.1 Pro Preview 模型。呢個係最穩定嘅連線方式。
+- **程式編寫與開發:** 已成功安裝並配置 Claude Code (2.1.49)。以後所有編寫程式、開發項目、或複雜嘅 refactoring 任務，一律強制交由 `claude` (Claude Code) 處理，唔會再由我(Macbot)自己直接寫 code。執行方式透過 background pty 呼叫。
+- **知識備份與管理:** 以後學到嘅任何新知識、新技能或工作流程，都會優先寫入相應嘅 `skill` 文件中，方便 Roland 將來備份及轉移我的能力。
+- **師兄弟同步機制:** 已建立與 138 (rwadm) 及 139 (mcqadm) 的 SSH 互信與文件同步。每當身分、靈魂 (SOUL.md) 或工具 (TOOLS.md) 有重大更新，需同步至兩位師弟機。
+- **維護任務:** 記得定期 Check 師弟機的狀態，並確保同步機制運作正常。

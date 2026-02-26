@@ -1,0 +1,137 @@
+{
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "model": {
+        "primary": "custom-openrouter-fans/google/gemini-2.0-flash-exp:free"
+      },
+      "models": {
+        "custom-openrouter-fans/google/gemini-3.1-pro-preview": {}
+      },
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "workspace": "/Users/rolandint/.openclaw/workspace"
+    }
+  },
+  "auth": {
+    "profiles": {
+      "openrouter:default": {
+        "mode": "api_key",
+        "provider": "openrouter"
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "botToken": "8582316626:AAGP0aLVcOMVt2IXVKYvKqzvFs_rPafyiuw",
+      "dmPolicy": "pairing",
+      "enabled": true,
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "de566df86566b706d21992f0d05916f7cbec4a74d6f7bb36"
+    },
+    "bind": "loopback",
+    "mode": "local",
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    },
+    "port": 18789,
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "meta": {
+    "lastTouchedAt": "2026-02-21T08:35:13.381Z",
+    "lastTouchedVersion": "2026.2.19-2"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "custom-openrouter-fans": {
+        "api": "openai-completions",
+        "apiKey": "sk-UYu4y4AtO0iaDihvfTxJJXETd2RZXD1OVRHsz33JDnfriANj",
+        "baseUrl": "https://openrouter.fans/v1",
+        "models": [
+          {
+            "contextWindow": 1000000,
+            "id": "google/gemini-2.0-flash-exp:free",
+            "input": [
+              "text"
+            ],
+            "name": "Gemini 2.0 Flash Exp (free)"
+          },
+          {
+            "contextWindow": 128000,
+            "id": "google/gemini-3-flash-preview",
+            "input": [
+              "text"
+            ],
+            "name": "Gemini 3.0 Flash Preview"
+          },
+          {
+            "contextWindow": 128000,
+            "id": "google/gemini-3.1-pro-preview",
+            "input": [
+              "text"
+            ],
+            "name": "Gemini Pro 3.1 Preview"
+          }
+        ]
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      }
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "tools": {
+    "web": {
+      "fetch": {
+        "enabled": true
+      },
+      "search": {
+        "apiKey": "BSAhewnxL4dXm4aZjzt7AxNASKAbC4n",
+        "enabled": true
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-21T07:42:13.074Z",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local",
+    "lastRunVersion": "2026.2.19-2"
+  }
+}

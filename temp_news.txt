@@ -1,0 +1,31 @@
+Here are the top AI and Fintech news for February 25, 2026:
+
+1. **Judge Dismisses xAI Trade-Secrets Suit Against Rival OpenAI**
+- **CN Title**: 法官暫時駁回 xAI 對競爭對手 OpenAI 的商業秘密賠償訴訟
+- **Summary**: A U.S. District Judge in San Francisco dismissed a lawsuit filed by Elon Musk's xAI against OpenAI, ruling that it failed to demonstrate specific misconduct, though xAI is permitted to refile its claims.
+- **CN Summary**: 舊金山聯邦法官駁回了 Elon Musk 旗下 xAI 對 OpenAI 的訴訟，裁定其目前未能具體證明 OpenAI 存在不當行為，但允許 xAI 在完善指控後重新起訴。
+- **Link**: https://www.claimsjournal.com/news/national/2026/02/25/335899.htm
+
+2. **OpenAI Resets Spending Expectations: $600 Billion by 2030**
+- **CN Title**: OpenAI 調整支出預期：2030 年算力投入目標約為 6000 億美元
+- **Summary**: OpenAI has signaled a shift in its long-term financial planning, clarifying that it targets roughly $600 billion in total compute spend by 2030, a reduction from earlier trillion-dollar projections.
+- **CN Summary**: OpenAI 向投資者明確了其算力規劃，預計到 2030 年的總算力支出約為 6000 億美元，此前曾有報導稱其目標高達 1.4 萬億美元。
+- **Link**: https://www.cnbc.com/2026/02/20/openai-resets-spend-expectations-targets-around-600-billion-by-2030.html
+
+3. **Forbes Fintech 50 2026: Polymarket and Hyperliquid Make the List**
+- **CN Title**: 2026 福布斯金融科技 50 強：Polymarket 與 Hyperliquid 榜上有名
+- **Summary**: The prestigious Forbes Fintech 50 for 2026 has been released, highlighting market platforms like Polymarket and Hyperliquid as leaders in the current digital financial landscape.
+- **CN Summary**: 2026 年福布斯金融科技 50 強名單發佈，包括 Polymarket 和 Hyperliquid 在內的市場平台因其在數字金融領域的領先地位而入選。
+- **Link**: https://www.weex.com/news/detail/polymarket-hyperliquid-and-others-make-the-2026-forbes-fintech-50-346563
+
+4. **OpenAI Deepens Partnerships with Consulting Giants for Enterprise AI**
+- **CN Title**: OpenAI 深化與諮詢巨頭合作，推動企業級 AI 應用
+- **Summary**: OpenAI launched the "Frontier Alliance" with BCG, McKinsey, Accenture, and Capgemini to help enterprises move AI projects from limited pilots to full-scale deployment.
+- **CN Summary**: OpenAI 與 BCG、麥肯錫、埃森哲及凱捷諮詢等巨頭建立「前沿聯盟」(Frontier Alliance)，旨在協助企業將 AI 項目從初步試點推向全面部署。
+- **Link**: https://www.reuters.com/business/openai-deepens-partnerships-with-consulting-giants-push-enterprise-ai-beyond-2026-02-23/
+
+5. **Greenlite AI Rebrands as Bretton AI, Secures $75m Series B**
+- **CN Title**: Greenlite AI 更名為 Bretton AI 並完成 7500 萬美元 B 輪融資
+- **Summary**: Fintech startup Greenlite AI has officially rebranded to Bretton AI following a successful $75 million Series B funding round, focusing on AI-native compliance solutions.
+- **CN Summary**: 金融科技初創公司 Greenlite AI 在完成 7500 萬美元 B 輪融資後正式更名為 Bretton AI，專注於提供 AI 原生合規解決方案。
+- **Link**: https://www.fintechfutures.com/fintech

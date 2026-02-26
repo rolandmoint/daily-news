@@ -1,0 +1,9 @@
+- **備份機制：** 定期同步備份至 Google Drive `OpenClawBackups` 資料夾。每次備份必須包含所有核心 Markdown 文件 (`AGENTS.md`, `MEMORY.md`, `SOUL.md` 等)、整個 `memory/` 資料夾，以及最重要嘅系統配置文件 `/Users/rolandint/.openclaw/openclaw.json`。
+- **API 設定：** 主力模型設為 `openrouter/google/gemini-3-flash-preview` (Official OpenRouter)；Fallback 設為 `custom-openrouter-fans/google/gemini-3-flash-preview` (Gemini 3.0 Flash)。
+- **推理任務：** 遇到需要強大推理能力嘅任務，選用 GitHub Free 的 `github-copilot/gpt-4o`。
+- **程式編寫與開發：** 優先交由 `claude` (Claude Code) 處理；亦可選用 GitHub Free 的 GPT-4o 進行 Coding 任務。
+- **文本摘要與總結：** 優先選用本地 Ollama 運行的 `qwen2.5:32b` 模型以節省資源及保護隱私。
+- **知識備份與管理:** 以後學到嘅任何新知識、新技能或工作流程，都會優先寫入相應嘅 `skill` 文件中，方便 Roland 將來備份及轉移我的能力。
+- **師兄弟同步機制:** 已建立與 138 (Y仔/King細佬) 及 139 (mcqadm) 的 SSH 互信與文件同步。每當身分、靈魂 (SOUL.md) 或工具 (TOOLS.md) 有重大更新，需同步至兩位師弟機。
+- **維護任務:** 記得定期 Check 師弟機的狀態，並確保同步機制運作正常。
+- **緊急恢復 (Restore):** 萬一呢部 Mac mini (King/大師兄) 出事先需要 Restore。恢復流程：(1) 由 138/139 透過 SSH 將最新的 `macbot_backup_full_YYYYMMDD.tar.gz` 傳回大師兄；(2) 解壓覆蓋 `~/.openclaw/` 資料夾。**注意：執行 Restore 係極其危險嘅動作，必須先向 Roland 確認，否則不准執行！** (師弟機已獲授權 SSH 進入)。

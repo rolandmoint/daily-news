@@ -1,0 +1,42 @@
+[
+ {
+  "date": "2026-02-23",
+  "title_zh": "Greenlite AI 更名為 Bretton AI 並獲得 7,500 萬美元 B 輪融資",
+  "title_en": "Greenlite AI Rebrands as Bretton AI, Secures $75M Series B Funding",
+  "summary_zh": "金融科技新創公司 Greenlite AI 今日宣布正式更名為 Bretton AI，並在由主要創投機構領投的 B 輪融資中籌集了 7,500 萬美元。該公司專注於開發用於金融合規和反洗錢監測的 Agentic AI 代理，旨在為全球銀行提供自動化審核方案。",
+  "summary_en": "Fintech startup Greenlite AI has rebranded as Bretton AI after securing $75 million in Series B funding. The company specializes in developing autonomous 'Agentic AI' agents for financial compliance and anti-money laundering (AML) monitoring, helping global banks automate their auditing processes.",
+  "url": "https://www.fintechfutures.com/fintech"
+ },
+ {
+  "date": "2026-02-23",
+  "title_zh": "墨西哥金融科技週 2026 今日於墨西哥城開幕",
+  "title_en": "Mexico Fintech Week 2026 Kicks Off Today in Mexico City",
+  "summary_zh": "為期五天的 2026 墨西哥金融科技週今日正式開幕。本次大會聚集了全球超過 500 家金融科技企業，重點討論拉丁美洲的開放銀行架構（Open Banking）以及如何利用 AI 提升普惠金融的可及性，穩定幣基礎設施亦是焦點議題。",
+  "summary_en": "The five-day Mexico Fintech Week 2026 officially started today in Mexico City. Bringing together over 500 global fintech firms, the event focuses on Latin America's Open Banking framework, the role of AI in financial inclusion, and stablecoin infrastructure for cross-border payments.",
+  "url": "https://fintechnews.ch/aifintech/"
+ },
+ {
+  "date": "2026-02-23",
+  "title_zh": "NVIDIA 傳將完成對 OpenAI 數百億美元融資的歷史性投資",
+  "title_en": "NVIDIA Nears $30 Billion Investment in OpenAI’s Massive Funding Round",
+  "summary_zh": "據內部消息指出，NVIDIA 已接近達成協議，向 OpenAI 的最新一輪大規模融資中注資約 300 億美元。這筆交易將鞏固雙方在 AI 算力基礎設施方面的合作，並助力 OpenAI 加速研發新一代多模態 AI 代理 (AI Agents)。",
+  "summary_en": "Reports suggest NVIDIA is finalizing a historic $30 billion investment into OpenAI's latest mega funding round. This deal is set to deepen the partnership between the two tech giants on AI compute infrastructure and accelerate OpenAI’s development of next-gen multimodal autonomous AI agents.",
+  "url": "https://www.reuters.com/technology/artificial-intelligence/"
+ },
+ {
+  "date": "2026-02-23",
+  "title_zh": "Agentic AI 成為 2026 年金融業合規監測的主流方案",
+  "title_en": "Agentic AI Emerges as Mainstream Compliance Solution for Banks in 2026",
+  "summary_zh": "隨著金融犯罪手段日益複雜，2026 年全球銀行業開始大規模採用『代理式 AI (Agentic AI)』進行實時合規監測。專家指出，Unit21 等公司的數據顯示，AI 代理能減少 80% 的虛假警報，並更準確地捕捉潛在的洗錢行為。",
+  "summary_en": "In 2026, 'Agentic AI' has become the mainstream tool for global banks to combat increasingly sophisticated financial crimes. Industry experts from firms like Unit21 highlight that AI agents can reduce false positives by 80% while more accurately detecting potential money laundering activities.",
+  "url": "https://fintech.global/2026/02/20/were-going-to-lose-if-we-dont-use-ai-unit21-founder-warns-banks-on-rising-fraud-threats/"
+ },
+ {
+  "date": "2026-02-23",
+  "title_zh": "Fireblocks Trust CEO：穩定幣基礎設施將在 2026 年實現全球普及",
+  "title_en": "Fireblocks Trust CEO: Stablecoin Infrastructure to Hit Mass Adoption in 2026",
+  "summary_zh": "在今日舉行的 Ondo 峰會上，Fireblocks Trust 執行長表示，隨著全球監管透明化，穩定幣已從利基資產轉變為全球支付網絡的底層架構。2026 年將見證穩定幣在機構間結算和跨境貿易中的大規模應用。",
+  "summary_en": "During today's Ondo Summit, the CEO of Fireblocks Trust Company stated that global regulatory clarity has transformed stablecoins from niche assets into core infrastructure for global payment networks, with 2026 marking their mass adoption for institutional settlements and trade.",
+  "url": "https://fintech.tv/"
+ }
+]

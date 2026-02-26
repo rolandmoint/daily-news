@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.17",
+    "lastTouchedAt": "2026-02-20T14:24:03.774Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-19T17:38:28.086Z",
+    "lastRunVersion": "2026.2.17",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "custom-openrouter-fans": {
+        "baseUrl": "https://openrouter.fans/v1",
+        "apiKey": "sk-UYu4y4AtO0iaDihvfTxJJXETd2RZXD1OVRHsz33JDnfriANj",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "anthropic/claude-sonnet-4.6",
+            "name": "anthropic/claude-sonnet-4.6 (Custom Provider)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 16000,
+            "maxTokens": 4096
+          },
+          {
+            "id": "google/gemini-3.1-pro-preview",
+            "name": "Gemini 3.1 Pro Preview (Custom)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "custom-pikachu-claudecode": {
+        "baseUrl": "https://pikachu.claudecode.love/v1/messages",
+        "apiKey": "sk-d23393594647b567710882773889ae7b3e521ed88ed9c256350bb1d47264fb87",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-opus-4-6",
+            "name": "claude-opus-4-6 (Custom Provider)",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 16000,
+            "maxTokens": 4096
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "custom-openrouter-fans/google/gemini-3-pro-preview"
+      },
+      "models": {
+        "custom-pikachu-claudecode/claude-opus-4-6": {},
+        "openrouter/auto": {
+          "alias": "OpenRouter"
+        },
+        "openrouter/google/gemini-3-flash-preview": {},
+        "custom-openrouter-fans/google/gemini-3-flash-preview": {},
+        "custom-openrouter-fans/google/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "/Users/rolandint/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": true,
+        "apiKey": "BSAhewnxL4dXm4aZjzt7AxNASKAbC4n"
+      },
+      "fetch": {
+        "enabled": true
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "8582316626:AAGP0aLVcOMVt2IXVKYvKqzvFs_rPafyiuw",
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "de566df86566b706d21992f0d05916f7cbec4a74d6f7bb36"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      }
+    }
+  }
+}
