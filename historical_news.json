@@ -1,27 +1,5 @@
 [
   {
-    "category": "Business",
-    "cn_title": "華納兄弟稱其派拉蒙收購報價優於對手，市場屏息以待 Netflix 回應",
-    "en_title": "Warner Bros declares Paramount bid superior as Netflix response looms",
-    "cn_summary": "華納兄弟探索公司 (Warner Bros. Discovery) 今日宣布對派拉蒙全球嘅收購條款已全面升級，聲稱其報價遠優於目前市場上嘅其他對手。媒體分析師認為，Netflix 是否會喺今日內做出反擊，將決定全球媒體版圖嘅最新走勢。",
-    "en_summary": "Warner Bros. Discovery has intensified the bidding war for Paramount Global, claiming its deal is superior. The media industry is now focused on Netflix's potential counter-move expected on Feb 27.",
-    "link": "https://www.reuters.com/business/warner-bros-paramount-update-2026",
-    "date": "2026-02-27",
-    "source": "Reuters",
-    "timestamp": 1772166900
-  },
-  {
-    "category": "AI",
-    "cn_title": "匯豐報告：『軟件將吞噬 AI』，列出頂級推薦股票名單",
-    "en_title": "HSBC: 'Software will eat AI', Bank releases top stock picks",
-    "cn_summary": "匯豐環球研究今日發佈新報告，認為軟件應用將主導 AI 增長嘅下一階段，市場焦點正由 Nvidia 等硬件轉向 SaaS 服務商。",
-    "en_summary": "HSBC Global Research released a new report today suggesting that software applications will dominate the next phase of AI growth, shifting focus from hardware like Nvidia to SaaS providers.",
-    "link": "https://www.cnbc.com/2026/02/27/hsbc-ai-software-picks",
-    "date": "2026-02-27",
-    "source": "CNBC",
-    "timestamp": 1772166901
-  },
-  {
     "en_title": "HSBC Gold Token Unlocks New Investment Horizons",
     "cn_title": "滙豐 Gold Token 開啟投資新境界",
     "en_summary": "HSBC's Gold Token enables investors to acquire fractional ownership in physical gold securely via digital platforms, leveraging blockchain technology.",
@@ -85,6 +63,17 @@
     "source": "Dark Reading",
     "link": "https://www.darkreading.com/",
     "timestamp": 1771936049.314382,
+    "date": "2026-02-24"
+  },
+  {
+    "en_title": "CISA Adds Roundcube Flaws to KEV Catalog",
+    "cn_title": "CISA 將 Roundcube 漏洞加入已知漏洞目錄",
+    "en_summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.",
+    "cn_summary": "美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。",
+    "category": "Cyber Security",
+    "source": "The Hacker News",
+    "link": "https://thehackernews.com/",
+    "timestamp": 1771936049.31438,
     "date": "2026-02-24"
   },
   {
