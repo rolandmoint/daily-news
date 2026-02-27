@@ -1,129 +1,45 @@
-
-    <!DOCTYPE html>
-    <html lang="zh-Hant">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Intelligence Briefing Core</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <style>
-            body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
-            .section-label { writing-mode: vertical-rl; text-orientation: mixed; }
-            .card { background: #1e293b; border: 1px solid #334155; transition: all 0.2s; }
-            .card:hover { border-color: #3b82f6; transform: translateY(-2px); }
-        </style>
-    </head>
-    <body class="p-4 md:p-12">
-        <header class="max-w-7xl mx-auto mb-16 border-b border-slate-800 pb-12">
-            <h1 class="text-5xl font-black tracking-tighter italic text-blue-500 uppercase">Intelligence Briefing</h1>
-            <p class="text-slate-500 font-mono text-sm mt-2">SECURED FEED • SORTED BY LATEST</p>
-        </header>
-
-        <main class="max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- WORLD NEWS COLUMN -->
-            <section class="space-y-6">
-                <div class="flex items-center gap-4 mb-8">
-                    <span class="text-3xl">🌐</span>
-                    <h2 class="text-2xl font-black uppercase text-blue-400 tracking-widest">World (1)</h2>
-                </div>
-                <div class="space-y-6">
-            <article class="card p-6 rounded-2xl">
-                <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-27</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">AP News</span>
-                </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Supreme Court Strikes Down Trump's Sweeping Tariffs</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">最高法院推翻特朗普全面關稅政策</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>The U.S. Supreme Court ruled that President Donald Trump overstepped his authority by imposing sweeping global tariffs, throwing U.S. trade policy into uncertainty.</p>
-                    <p class="text-slate-600 italic">美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
-                </div>
-            </article>
-            </div>
-            </section>
-
-            <!-- CYBER SECURITY COLUMN -->
-            <section class="space-y-6">
-                <div class="flex items-center gap-4 mb-8">
-                    <span class="text-3xl">🛡️</span>
-                    <h2 class="text-2xl font-black uppercase text-red-400 tracking-widest">Cyber Sec (1)</h2>
-                </div>
-                <div class="space-y-6">
-            <article class="card p-6 rounded-2xl">
-                <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-27</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">The Hacker News</span>
-                </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">CISA Adds Roundcube Flaws to KEV Catalog</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">CISA 將 Roundcube 漏洞加入已知漏洞目錄</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.</p>
-                    <p class="text-slate-600 italic">美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://thehackernews.com/2026/02/cisa-roundcube-flaws.html" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
-                </div>
-            </article>
-            </div>
-            </section>
-
-            <!-- AI COLUMN -->
-            <section class="space-y-6">
-                <div class="flex items-center gap-4 mb-8">
-                    <span class="text-3xl">🤖</span>
-                    <h2 class="text-2xl font-black uppercase text-emerald-400 tracking-widest">AI (1)</h2>
-                </div>
-                <div class="space-y-6">
-            <article class="card p-6 rounded-2xl">
-                <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-27</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">Reuters</span>
-                </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Nvidia Nears $30 Billion Investment in OpenAI</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">Nvidia 擬向 OpenAI 注資約 300 億美元</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.</p>
-                    <p class="text-slate-600 italic">Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，進一步鞏固兩家 AI 巨頭的聯盟。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://www.reuters.com/business/nvidia-openai-investment-2026/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
-                </div>
-            </article>
-            </div>
-            </section>
-
-            <!-- FINTECH COLUMN -->
-            <section class="space-y-6">
-                <div class="flex items-center gap-4 mb-8">
-                    <span class="text-3xl">💰</span>
-                    <h2 class="text-2xl font-black uppercase text-amber-400 tracking-widest">Fintech (1)</h2>
-                </div>
-                <div class="space-y-6">
-            <article class="card p-6 rounded-2xl">
-                <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-27</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">HSBC</span>
-                </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">HSBC Gold Token Unlocks New Investment Horizons</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">滙豐 Gold Token 開啟投資新境界</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>HSBC's Gold Token enables investors to acquire fractional ownership in physical gold securely via digital platforms, leveraging blockchain technology.</p>
-                    <p class="text-slate-600 italic">滙豐 Gold Token 讓投資者可通過數碼平台安全地獲取實物黃金的分數所有權，利用區塊鏈技術實現。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://www.hsbc.com.hk/investments/products/gold-token/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
-                </div>
-            </article>
-            </div>
-            </section>
-        </main>
-
-        <footer class="max-w-7xl mx-auto mt-24 py-12 border-t border-slate-800 text-center text-slate-600 font-mono text-xs italic">
-            END-TO-END AUTOMATED GENERATION • NO_IDENTIFIERS_STORED
-        </footer>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Intelligence Briefing</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; color: #333; }
+        .card { background: #fff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px; border-left: 5px solid #007aff; }
+        .date { color: #888; font-size: 0.9em; margin-bottom: 5px; }
+        .category { background: #007aff; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; margin-bottom: 10px; display: inline-block; }
+        h2 { margin-top: 0; color: #000; font-size: 1.4em; }
+        .summary { color: #555; margin-bottom: 15px; }
+        .source { font-size: 0.9em; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>🗞️ Daily Intelligence Briefing - 2026-02-27</h1>
     
+    <div class="card">
+        <div class="date">📅 2026-02-27</div>
+        <div class="category">Business</div>
+        <h2>華納兄弟稱其派拉蒙收購報價優於對手，Netflix 今日回應受關注</h2>
+        <p class="summary">華納兄弟探索公司加強咗對派拉蒙全球嘅收購攻勢，聲稱其報價更具優勢。媒體行業目前正密切關注 Netflix 預計於 2 月 27 日做出嘅回應。</p>
+        <div class="source">Source: Reuters</div>
+    </div>
+
+    <div class="card">
+        <div class="date">📅 2026-02-27</div>
+        <div class="category">Finance</div>
+        <h2>匯豐報告：『軟件將吞噬 AI』，列出頂級推薦股票名單</h2>
+        <p class="summary">匯豐環球研究今日發佈新報告，認為軟件應用將主導 AI 增長嘅下一階段，市場焦點正由 Nvidia 等硬件轉向 SaaS 服務商。</p>
+        <div class="source">Source: CNBC</div>
+    </div>
+
+    <div class="card">
+        <div class="date">📅 2026-02-27</div>
+        <div class="category">Tech</div>
+        <h2>LiqTech International 公佈 2025 年全年財務業績報告</h2>
+        <p class="summary">納斯達克上市清潔技術公司 LiqTech 今日公佈 2025 財年業績，強調其國際過濾系統部署增長強勁。</p>
+        <div class="source">Source: GlobeNewswire</div>
+    </div>
+
+</body>
+</html>
