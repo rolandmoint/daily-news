@@ -1,34 +1,34 @@
 [
   {
-    "en_title": "Warner Bros says Paramount bid superior, Netflix response awaited",
-    "cn_title": "華納兄弟稱對派拉蒙報價更優，正等待 Netflix 回應",
-    "en_summary": "Warner Bros. Discovery has declared its bid for Paramount Global superior to rival offers, shifting the focus to how Netflix will counter in the tightening media consolidation race.",
-    "cn_summary": "華納兄弟探索公司宣布其對派拉蒙全球的收購報價優於競爭對手，市場正關注 Netflix 將如何應對這一媒體整合浪潮。",
+    "en_title": "Warner Bros declares Paramount bid superior as Netflix response looms",
+    "cn_title": "華納兄弟稱其派拉蒙收購報價優於對手，Netflix 今日回應受關注",
+    "en_summary": "Warner Bros. Discovery has intensified the bidding war for Paramount Global, claiming its deal is superior. The media industry is now focused on Netflix's potential counter-move expected on Feb 27.",
+    "cn_summary": "華納兄弟探索公司加強咗對派拉蒙全球嘅收購攻勢，聲稱其報價更具優勢。媒體行業目前正密切關注 Netflix 預計於 2 月 27 日做出嘅回應。",
     "category": "Business",
     "source": "Reuters",
-    "link": "https://www.reuters.com/business/warner-bros-paramount-bid-2026-02-27",
+    "link": "https://www.reuters.com/business/warner-bros-paramount-update-2026",
     "timestamp": 1772138400,
     "date": "2026-02-27"
   },
   {
-    "en_title": "LiqTech International Reports Fiscal Year 2025 Results",
-    "cn_title": "LiqTech International 公佈 2025 財年業績",
-    "en_summary": "Clean technology leader LiqTech specialized in advanced filtration reported its Q4 and full-year results today, showing resilient growth in sustainable industrial solutions.",
-    "cn_summary": "清潔技術領導者 LiqTech 今日公佈第四季度及全年業績，顯示其在可持續工業解決方案領域保持穩健增長。",
-    "category": "Fintech",
+    "en_title": "HSBC: 'Software will eat AI', Bank releases top stock picks",
+    "cn_title": "匯豐報告：『軟件將吞噬 AI』，列出頂級推薦股票名單",
+    "en_summary": "HSBC Global Research released a new report today suggesting that software applications will dominate the next phase of AI growth, shifting focus from hardware like Nvidia to SaaS providers.",
+    "cn_summary": "匯豐環球研究今日發佈新報告，認為軟件應用將主導 AI 增長嘅下一階段，市場焦點正由 Nvidia 等硬件轉向 SaaS 服務商。",
+    "category": "Finance",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/02/27/hsbc-ai-software-picks",
+    "timestamp": 1772138400,
+    "date": "2026-02-27"
+  },
+  {
+    "en_title": "LiqTech International announces 2025 Full-Year financial results",
+    "cn_title": "LiqTech International 公佈 2025 年全年財務業績報告",
+    "en_summary": "Nasdaq-listed clean tech firm LiqTech reported its fiscal year 2025 results today, highlighting strong growth in international filtration system deployments.",
+    "cn_summary": "納斯達克上市清潔技術公司 LiqTech 今日公佈 2025 財年業績，強調其國際過濾系統部署增長強勁。",
+    "category": "Tech",
     "source": "GlobeNewswire",
-    "link": "https://www.globenewswire.com/news-release/2026/02/27/liqtech-results",
-    "timestamp": 1772138400,
-    "date": "2026-02-27"
-  },
-  {
-    "en_title": "BNF Bank Goes Live on Temenos Transact Core System",
-    "cn_title": "BNF Bank 成功上線 Temenos Transact 核心系統",
-    "en_summary": "Malta-based BNF Bank has completed its core banking transition using Temenos Transact and Validata's ConnectIQ technology to accelerate digital transformation.",
-    "cn_summary": "馬耳他 BNF Bank 使用 Temenos Transact 同 Validata 嘅數據技術完成咗核心銀行系統轉型，加速數碼化進程。",
-    "category": "Fintech",
-    "source": "Fintech Futures",
-    "link": "https://www.fintechfutures.com/2026/02/bnf-bank-temenos-live",
+    "link": "https://www.globenewswire.com/news-release/2026/02/27/liqtech-fy25",
     "timestamp": 1772138400,
     "date": "2026-02-27"
   }
