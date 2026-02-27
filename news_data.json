@@ -1,79 +1,72 @@
 [
   {
-    "en_title": "HSBC Gold Token Unlocks New Investment Horizons",
-    "cn_title": "滙豐 Gold Token 開啟投資新境界",
-    "en_summary": "HSBC's Gold Token enables investors to acquire fractional ownership in physical gold securely via digital platforms, leveraging blockchain technology.",
-    "cn_summary": "滙豐 Gold Token 讓投資者可通過數碼平台安全地獲取實物黃金的分數所有權，利用區塊鏈技術實現。",
-    "category": "Fintech",
-    "source": "HSBC",
-    "link": "https://www.hsbc.com.hk/investments/products/gold-token/",
-    "timestamp": 1772166904.379864,
-    "date": "2026-02-27"
-  },
-  {
-    "en_title": "Nvidia Nears $30 Billion Investment in OpenAI",
-    "cn_title": "Nvidia 擬向 OpenAI 注資約 300 億美元",
-    "en_summary": "Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.",
-    "cn_summary": "Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，進一步鞏固兩家 AI 巨頭的聯盟。",
-    "category": "AI",
-    "source": "Reuters",
-    "link": "https://www.reuters.com/business/nvidia-openai-investment-2026/",
-    "timestamp": 1772166904.379852,
-    "date": "2026-02-27"
-  },
-  {
-    "en_title": "CISA Adds Roundcube Flaws to KEV Catalog",
-    "cn_title": "CISA 將 Roundcube 漏洞加入已知漏洞目錄",
-    "en_summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.",
-    "cn_summary": "美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。",
-    "category": "Cyber Security",
-    "source": "The Hacker News",
-    "link": "https://thehackernews.com/2026/02/cisa-roundcube-flaws.html",
-    "timestamp": 1772166904.379837,
-    "date": "2026-02-27"
-  },
-  {
-    "en_title": "Supreme Court Strikes Down Trump's Sweeping Tariffs",
-    "cn_title": "最高法院推翻特朗普全面關稅政策",
-    "en_summary": "The U.S. Supreme Court ruled that President Donald Trump overstepped his authority by imposing sweeping global tariffs, throwing U.S. trade policy into uncertainty.",
-    "cn_summary": "美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。",
-    "category": "World",
-    "source": "AP News",
-    "link": "https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9",
-    "timestamp": 1772166904.379787,
-    "date": "2026-02-27"
-  },
-  {
-    "en_title": "Warner Bros declares Paramount bid superior as Netflix response looms",
-    "cn_title": "華納兄弟稱其派拉蒙收購報價優於對手，Netflix 今日回應受關注",
-    "en_summary": "Warner Bros. Discovery has intensified the bidding war for Paramount Global, claiming its deal is superior. The media industry is now focused on Netflix's potential counter-move expected on Feb 27.",
-    "cn_summary": "華納兄弟探索公司加強咗對派拉蒙全球嘅收購攻勢，聲稱其報價更具優勢。媒體行業目前正密切關注 Netflix 預計於 2 月 27 日做出嘅回應。",
     "category": "Business",
-    "source": "Reuters",
+    "cn_summary": "華納兄弟探索公司 (Warner Bros. Discovery) 今日宣布對派拉蒙全球嘅收購條款已全面升級，聲稱其報價遠優於目前市場上嘅其他對手。媒體分析師認為，Netflix 是否會喺今日內做出反擊，將決定全球媒體版圖嘅最新走勢。",
+    "cn_title": "華納兄弟稱其派拉蒙收購報價優於對手，市場屏息以待 Netflix 回應",
+    "date": "2026-02-27",
+    "en_summary": "Warner Bros. Discovery has intensified the bidding war for Paramount Global, claiming its deal is superior. The media industry is now focused on Netflix's potential counter-move expected on Feb 27.",
+    "en_title": "Warner Bros declares Paramount bid superior as Netflix response looms",
     "link": "https://www.reuters.com/business/warner-bros-paramount-update-2026",
-    "timestamp": 1772138400,
-    "date": "2026-02-27"
+    "source": "Reuters"
   },
   {
-    "en_title": "HSBC: 'Software will eat AI', Bank releases top stock picks",
-    "cn_title": "匯豐報告：『軟件將吞噬 AI』，列出頂級推薦股票名單",
-    "en_summary": "HSBC Global Research released a new report today suggesting that software applications will dominate the next phase of AI growth, shifting focus from hardware like Nvidia to SaaS providers.",
+    "category": "AI",
     "cn_summary": "匯豐環球研究今日發佈新報告，認為軟件應用將主導 AI 增長嘅下一階段，市場焦點正由 Nvidia 等硬件轉向 SaaS 服務商。",
-    "category": "Finance",
-    "source": "CNBC",
+    "cn_title": "匯豐報告：『軟件將吞噬 AI』，列出頂級推薦股票名單",
+    "date": "2026-02-27",
+    "en_summary": "HSBC Global Research released a new report today suggesting that software applications will dominate the next phase of AI growth, shifting focus from hardware like Nvidia to SaaS providers.",
+    "en_title": "HSBC: 'Software will eat AI', Bank releases top stock picks",
     "link": "https://www.cnbc.com/2026/02/27/hsbc-ai-software-picks",
-    "timestamp": 1772138400,
-    "date": "2026-02-27"
+    "source": "CNBC"
   },
   {
-    "en_title": "LiqTech International announces 2025 Full-Year financial results",
-    "cn_title": "LiqTech International 公佈 2025 年全年財務業績報告",
+    "category": "World",
+    "cn_summary": "聯合國今日通過咗首個具備實質約束力嘅 AI 全球監管框架，重點打擊 AI 武器化及深度偽造技術，同時推動跨國合作以縮減全球數碼鴻溝。",
+    "cn_title": "聯合國就 AI 全球監管框架達成歷史性共識，確保技術造福人類",
+    "date": "2026-02-27",
+    "en_summary": "The UN has adopted its first legally binding global regulatory framework for AI, focusing on curbing AI weaponization and deepfakes while promoting international digital cooperation.",
+    "en_title": "UN Reaches Historic Consensus on Global AI Regulatory Framework",
+    "link": "https://www.un.org/news/ai-global-consensus-2026",
+    "source": "UN News"
+  },
+  {
+    "category": "Cyber Security",
+    "cn_summary": "世界經濟論壇 (WEF) 今日警告，隨住 AI 代理技術成熟，黑客正利用自動化工具進行大規模漏洞偵測與憑證竊取，全球企業需加快向『Zero Trust』架構轉型。",
+    "cn_title": "WEF 發佈 2026 網絡威脅展望：AI 驅動嘅攻擊將成最大風險",
+    "date": "2026-02-27",
+    "en_summary": "The World Economic Forum warned today that AI-driven cyberattacks, leveraging autonomous agents for breach detection, will be the biggest risk in 2026, urging a shift to Zero Trust.",
+    "en_title": "WEF Releases 2026 Cyber Threat Outlook: AI Attacks are Top Risk",
+    "link": "https://www.weforum.org/reports/cyber-threat-outlook-2026",
+    "source": "World Economic Forum"
+  },
+  {
+    "category": "Fintech",
+    "cn_summary": "納斯達克上市清潔技術公司 LiqTech (NASDAQ: LIQT) 今日公佈全年業績，得益於國際工業數碼化需求，營收創下歷史新高。",
+    "cn_title": "LiqTech International 公佈 2025 財年亮眼業績，股價應聲上漲",
+    "date": "2026-02-27",
     "en_summary": "Nasdaq-listed clean tech firm LiqTech reported its fiscal year 2025 results today, highlighting strong growth in international filtration system deployments.",
-    "cn_summary": "納斯達克上市清潔技術公司 LiqTech 今日公佈 2025 財年業績，強調其國際過濾系統部署增長強勁。",
-    "category": "Tech",
-    "source": "GlobeNewswire",
+    "en_title": "LiqTech International announces 2025 Full-Year financial results",
     "link": "https://www.globenewswire.com/news-release/2026/02/27/liqtech-fy25",
-    "timestamp": 1772138400,
-    "date": "2026-02-27"
+    "source": "GlobeNewswire"
+  },
+  {
+    "date": "2026-02-23",
+    "summary_en": "Amazon Threat Intelligence reported a Russian-speaking threat actor using commercial generative AI tools to compromise over 600 FortiGate devices in 55 countries. The unsophisticated actor used AI for tool development and attack execution at scale, targeting exposed management ports with weak credentials.",
+    "summary_zh": "亞馬遜威脅情報部門報告稱，一名使用俄語的黑客利用商用生成式 AI 工具入侵了全球 55 個國家的 600 多台 FortiGate 設備。儘管該黑客技術能力有限，但透過 AI 輔助實現大規模攻擊，針對暴露的管理端口及弱密鑰進行破解。",
+    "title_en": "AI-Assisted Threat Actor Compromises 600+ FortiGate Devices Globally",
+    "title_zh": "AI 輔助黑客入侵全球逾 600 台 FortiGate 設備",
+    "url": "https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html",
+    "category": "Cyber Security",
+    "source": "The Hacker News"
+  },
+  {
+    "date": "2026-02-23",
+    "summary_en": "A critical vulnerability (CVE-2026-1731, CVSS 9.9) in BeyondTrust Remote Support is being actively exploited. Attackers use it to execute OS commands, deploy web shells, and exfiltrate data across financial, legal, and healthcare sectors globally.",
+    "summary_zh": "BeyondTrust 遠端支援產品的一個關鍵漏洞（CVE-2026-1731，CVSS 評分 9.9）正被黑客積極利用。攻擊者藉此執行系統命令、部署 Web Shell 並進行數據提取，受影響領域涵蓋金融、法律和醫療等行業。",
+    "title_en": "Critical BeyondTrust Flaw Exploited for Data Exfiltration and Backdoors",
+    "title_zh": "BeyondTrust 關鍵漏洞遭利用，涉及數據竊取與後門植入",
+    "url": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html",
+    "category": "Cyber Security",
+    "source": "The Hacker News"
   }
 ]
