@@ -43,8 +43,8 @@ if [[ -n $(git status --porcelain) ]]; then
     git add -A
     git commit -m "🗞️ Daily Briefing: $TODAY [Automated]"
     git push origin main
-    echo "✅ SUCCESS: News deployed to GitHub Pages!"
-    echo "🌐 URL: https://rolandmoint.github.io/daily-news/"
+    echo "✅ SUCCESS: News deployed to Vercel!"
+    echo "🌐 URL: https://daily-news-lac.vercel.app/"
 else
     echo "ℹ️ No changes to push."
 fi

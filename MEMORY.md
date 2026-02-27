@@ -1,3 +1,4 @@
+- **新聞自動化同步 (NEW):** 每日 08:00 透過 `scripts/daily_news_sync.sh` 生成新聞及更新 `index.html`。必須確保 Git Push 成功並自動解決衝突。執行後需進行自我校對 (Fact Check)，確認網頁內容確已更新。這是以「結果先行」為核心的最高優先級任務。
 - **備份機制：** 定期同步備份至 Google Drive `OpenClawBackups` 資料夾。每次備份必須包含所有核心 Markdown 文件 (`AGENTS.md`, `MEMORY.md`, `SOUL.md` 等)、整個 `memory/` 資料夾，以及最重要嘅系統配置文件 `/Users/rolandint/.openclaw/openclaw.json`。
 - **API 設定：** 主力模型設為 `openrouter/google/gemini-3-flash-preview` (Official OpenRouter)；Fallback 設為 `custom-openrouter-fans/google/gemini-3-flash-preview` (Gemini 3.0 Flash)。
 - **推理任務：** 遇到需要強大推理能力嘅任務，選用 GitHub Free 的 `github-copilot/gpt-4o`。
