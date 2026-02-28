@@ -1,14 +1,47 @@
 [
   {
-    "category": "Business",
-    "cn_title": "華納兄弟稱其派拉蒙收購報價優於對手，市場屏息以待 Netflix 回應",
-    "en_title": "Warner Bros declares Paramount bid superior as Netflix response looms",
-    "cn_summary": "華納兄弟探索公司 (Warner Bros. Discovery) 今日宣布對派拉蒙全球嘅收購條款已全面升級，聲稱其報價遠優於目前市場上嘅其他對手。媒體分析師認為，Netflix 是否會喺今日內做出反擊，將決定全球媒體版圖嘅最新走勢。",
-    "en_summary": "Warner Bros. Discovery has intensified the bidding war for Paramount Global, claiming its deal is superior. The media industry is now focused on Netflix's potential counter-move expected on Feb 27.",
-    "link": "https://www.reuters.com/business/warner-bros-paramount-update-2026",
-    "date": "2026-02-27",
+    "en_title": "HSBC Gold Token Unlocks New Investment Horizons",
+    "cn_title": "滙豐 Gold Token 開啟投資新境界",
+    "en_summary": "HSBC's Gold Token enables investors to acquire fractional ownership in physical gold securely via digital platforms, leveraging blockchain technology.",
+    "cn_summary": "滙豐 Gold Token 讓投資者可通過數碼平台安全地獲取實物黃金的分數所有權，利用區塊鏈技術實現。",
+    "category": "Fintech",
+    "source": "HSBC",
+    "link": "https://www.hsbc.com.hk/investments/products/gold-token/",
+    "timestamp": 1772271095.241359,
+    "date": "2026-02-28"
+  },
+  {
+    "en_title": "Nvidia Nears $30 Billion Investment in OpenAI",
+    "cn_title": "Nvidia 擬向 OpenAI 注資約 300 億美元",
+    "en_summary": "Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.",
+    "cn_summary": "Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，進一步鞏固兩家 AI 巨頭的聯盟。",
+    "category": "AI",
     "source": "Reuters",
-    "timestamp": 1772166900
+    "link": "https://www.reuters.com/business/nvidia-openai-investment-2026/",
+    "timestamp": 1772271095.241347,
+    "date": "2026-02-28"
+  },
+  {
+    "en_title": "CISA Adds Roundcube Flaws to KEV Catalog",
+    "cn_title": "CISA 將 Roundcube 漏洞加入已知漏洞目錄",
+    "en_summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.",
+    "cn_summary": "美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。",
+    "category": "Cyber Security",
+    "source": "The Hacker News",
+    "link": "https://thehackernews.com/2026/02/cisa-roundcube-flaws.html",
+    "timestamp": 1772271095.241333,
+    "date": "2026-02-28"
+  },
+  {
+    "en_title": "Supreme Court Strikes Down Trump's Sweeping Tariffs",
+    "cn_title": "最高法院推翻特朗普全面關稅政策",
+    "en_summary": "The U.S. Supreme Court ruled that President Donald Trump overstepped his authority by imposing sweeping global tariffs, throwing U.S. trade policy into uncertainty.",
+    "cn_summary": "美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。",
+    "category": "World",
+    "source": "AP News",
+    "link": "https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9",
+    "timestamp": 1772271095.241283,
+    "date": "2026-02-28"
   },
   {
     "category": "AI",
@@ -22,48 +55,15 @@
     "timestamp": 1772166901
   },
   {
-    "en_title": "HSBC Gold Token Unlocks New Investment Horizons",
-    "cn_title": "滙豐 Gold Token 開啟投資新境界",
-    "en_summary": "HSBC's Gold Token enables investors to acquire fractional ownership in physical gold securely via digital platforms, leveraging blockchain technology.",
-    "cn_summary": "滙豐 Gold Token 讓投資者可通過數碼平台安全地獲取實物黃金的分數所有權，利用區塊鏈技術實現。",
-    "category": "Fintech",
-    "source": "HSBC",
-    "link": "https://www.hsbc.com.hk/investments/products/gold-token/",
-    "timestamp": 1772063520.795218,
-    "date": "2026-02-26"
-  },
-  {
-    "en_title": "Nvidia Nears $30 Billion Investment in OpenAI",
-    "cn_title": "Nvidia 擬向 OpenAI 注資約 300 億美元",
-    "en_summary": "Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.",
-    "cn_summary": "Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，進一步鞏固兩家 AI 巨頭的聯盟。",
-    "category": "AI",
+    "category": "Business",
+    "cn_title": "華納兄弟稱其派拉蒙收購報價優於對手，市場屏息以待 Netflix 回應",
+    "en_title": "Warner Bros declares Paramount bid superior as Netflix response looms",
+    "cn_summary": "華納兄弟探索公司 (Warner Bros. Discovery) 今日宣布對派拉蒙全球嘅收購條款已全面升級，聲稱其報價遠優於目前市場上嘅其他對手。媒體分析師認為，Netflix 是否會喺今日內做出反擊，將決定全球媒體版圖嘅最新走勢。",
+    "en_summary": "Warner Bros. Discovery has intensified the bidding war for Paramount Global, claiming its deal is superior. The media industry is now focused on Netflix's potential counter-move expected on Feb 27.",
+    "link": "https://www.reuters.com/business/warner-bros-paramount-update-2026",
+    "date": "2026-02-27",
     "source": "Reuters",
-    "link": "https://www.reuters.com/business/nvidia-openai-investment-2026/",
-    "timestamp": 1772063520.795211,
-    "date": "2026-02-26"
-  },
-  {
-    "en_title": "CISA Adds Roundcube Flaws to KEV Catalog",
-    "cn_title": "CISA 將 Roundcube 漏洞加入已知漏洞目錄",
-    "en_summary": "The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.",
-    "cn_summary": "美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。",
-    "category": "Cyber Security",
-    "source": "The Hacker News",
-    "link": "https://thehackernews.com/2026/02/cisa-roundcube-flaws.html",
-    "timestamp": 1772063520.795202,
-    "date": "2026-02-26"
-  },
-  {
-    "en_title": "Supreme Court Strikes Down Trump's Sweeping Tariffs",
-    "cn_title": "最高法院推翻特朗普全面關稅政策",
-    "en_summary": "The U.S. Supreme Court ruled that President Donald Trump overstepped his authority by imposing sweeping global tariffs, throwing U.S. trade policy into uncertainty.",
-    "cn_summary": "美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。",
-    "category": "World",
-    "source": "AP News",
-    "link": "https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9",
-    "timestamp": 1772063520.795158,
-    "date": "2026-02-26"
+    "timestamp": 1772166900
   },
   {
     "en_title": "Third of Attacks Now Use Stolen Credentials",
