@@ -1,145 +1,147 @@
 
-    <!DOCTYPE html>
-    <html lang="zh-Hant">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Intelligence Briefing Core</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <style>
-            body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
-            .section-label { writing-mode: vertical-rl; text-orientation: mixed; }
-            .card { background: #1e293b; border: 1px solid #334155; transition: all 0.2s; }
-            .card:hover { border-color: #3b82f6; transform: translateY(-2px); }
-        </style>
-    </head>
-    <body class="p-4 md:p-12">
-        <header class="max-w-7xl mx-auto mb-16 border-b border-slate-800 pb-12">
-            <h1 class="text-5xl font-black tracking-tighter italic text-blue-500 uppercase">Intelligence Briefing</h1>
-            <p class="text-slate-500 font-mono text-sm mt-2">SECURED FEED • SORTED BY LATEST</p>
-        </header>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchenman Intel - 2026-03-05</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f1f5f9; font-family: 'JetBrains Mono', monospace; }
+        .glass { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
+        .AI { border-left: 4px solid #10b981; }
+        .CyberSecurity { border-left: 4px solid #ef4444; }
+        .World { border-left: 4px solid #3b82f6; }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+    <header class="max-w-6xl mx-auto mb-12 flex justify-between items-center bg-slate-900/50 p-6 rounded-3xl border border-slate-800">
+        <div>
+            <h1 class="text-3xl font-black italic tracking-tighter text-blue-500">KITCHENMAN_INTEL</h1>
+            <p class="text-xs text-slate-500 font-mono mt-1 uppercase">Automated Intelligence Pipeline • 5d Retention</p>
+        </div>
+        <div class="text-right">
+            <div class="text-[10px] text-slate-400 font-mono">LATEST_SYNC</div>
+            <div class="text-sm font-bold text-emerald-400">15:14</div>
+        </div>
+    </header>
 
-        <main class="max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- WORLD NEWS COLUMN -->
-            <section class="space-y-6">
-                <div class="flex items-center gap-4 mb-8">
-                    <span class="text-3xl">🌐</span>
-                    <h2 class="text-2xl font-black uppercase text-blue-400 tracking-widest">World (1)</h2>
-                </div>
-                <div class="space-y-6">
-            <article class="card p-6 rounded-2xl">
+    <main class="max-w-6xl mx-auto">
+        <div class="flex gap-3 mb-12 overflow-x-auto no-scrollbar">
+            <button class="px-6 py-2 rounded-full glass text-xs font-bold hover:bg-blue-500/20 transition">📅 2026-03-05</button> <button class="px-6 py-2 rounded-full glass text-xs font-bold hover:bg-blue-500/20 transition">📅 2026-03-04</button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+            <article class="glass p-6 rounded-3xl hover:bg-slate-800/50 transition duration-300 group CyberSecurity">
                 <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-03-04</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">AP News</span>
+                    <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">CyberSecurity</span>
+                    <span class="text-[9px] text-slate-600 italic">via Nsir Intel</span>
                 </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Supreme Court Strikes Down Trump's Sweeping Tariffs</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">最高法院推翻特朗普全面關稅政策</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>The U.S. Supreme Court ruled that President Donald Trump overstepped his authority by imposing sweeping global tariffs, throwing U.S. trade policy into uncertainty.</p>
-                    <p class="text-slate-600 italic">美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                <h3 class="text-lg font-bold mb-3 group-hover:text-blue-400 transition">新式勒索軟體針對雲端基礎設施</h3>
+                <p class="text-xs text-slate-400 leading-relaxed mb-6 line-clamp-3">安全專家警告針對 AWS 同 Azure 嘅自動化攻擊正在增加。</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] text-slate-600">2026-03-05</span>
+                    <a href="https://thehackernews.com/" target="_blank" class="text-xs font-bold text-blue-500 hover:text-white transition">READ_FULL &rarr;</a>
                 </div>
             </article>
-            </div>
-            </section>
-
-            <!-- CYBER SECURITY COLUMN -->
-            <section class="space-y-6">
-                <div class="flex items-center gap-4 mb-8">
-                    <span class="text-3xl">🛡️</span>
-                    <h2 class="text-2xl font-black uppercase text-red-400 tracking-widest">Cyber Sec (1)</h2>
-                </div>
-                <div class="space-y-6">
-            <article class="card p-6 rounded-2xl">
+        
+            <article class="glass p-6 rounded-3xl hover:bg-slate-800/50 transition duration-300 group AI">
                 <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-03-04</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">The Hacker News</span>
+                    <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">AI</span>
+                    <span class="text-[9px] text-slate-600 italic">via Nsir Intel</span>
                 </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">CISA Adds Roundcube Flaws to KEV Catalog</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">CISA 將 Roundcube 漏洞加入已知漏洞目錄</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.</p>
-                    <p class="text-slate-600 italic">美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://thehackernews.com/2026/02/cisa-roundcube-flaws.html" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                <h3 class="text-lg font-bold mb-3 group-hover:text-blue-400 transition">Anthropic 發佈 Claude 4：推理能力大幅提升</h3>
+                <p class="text-xs text-slate-400 leading-relaxed mb-6 line-clamp-3">新模型在編碼同複雜邏輯推理方面有突破性進展。</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] text-slate-600">2026-03-05</span>
+                    <a href="https://techcrunch.com/tag/artificial-intelligence/" target="_blank" class="text-xs font-bold text-blue-500 hover:text-white transition">READ_FULL &rarr;</a>
                 </div>
             </article>
-            </div>
-            </section>
-
-            <!-- AI COLUMN -->
-            <section class="space-y-6">
-                <div class="flex items-center gap-4 mb-8">
-                    <span class="text-3xl">🤖</span>
-                    <h2 class="text-2xl font-black uppercase text-emerald-400 tracking-widest">AI (2)</h2>
-                </div>
-                <div class="space-y-6">
-            <article class="card p-6 rounded-2xl">
+        
+            <article class="glass p-6 rounded-3xl hover:bg-slate-800/50 transition duration-300 group World">
                 <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-03-04</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">Reuters</span>
+                    <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">World</span>
+                    <span class="text-[9px] text-slate-600 italic">via Nsir Intel</span>
                 </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Nvidia Nears $30 Billion Investment in OpenAI</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">Nvidia 擬向 OpenAI 注資約 300 億美元</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>Nvidia is close to finalizing a $30 billion investment in OpenAI as part of a mega fundraising round, tightening ties between the AI chip giant and the leading AI lab.</p>
-                    <p class="text-slate-600 italic">Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，進一步鞏固兩家 AI 巨頭的聯盟。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://www.reuters.com/business/nvidia-openai-investment-2026/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                <h3 class="text-lg font-bold mb-3 group-hover:text-blue-400 transition">2026 世界盃抽籤：川普與墨西哥、加拿大領導人出席</h3>
+                <p class="text-xs text-slate-400 leading-relaxed mb-6 line-clamp-3">國際足聯主席與川普等領導人在華盛頓出席抽籤儀式。</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] text-slate-600">2026-03-05</span>
+                    <a href="https://www.npr.org/sections/news/" target="_blank" class="text-xs font-bold text-blue-500 hover:text-white transition">READ_FULL &rarr;</a>
                 </div>
             </article>
-            
-            <article class="card p-6 rounded-2xl">
+        
+            <article class="glass p-6 rounded-3xl hover:bg-slate-800/50 transition duration-300 group World">
                 <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-02-27</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">CNBC</span>
+                    <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">World</span>
+                    <span class="text-[9px] text-slate-600 italic">via Nsir Intel</span>
                 </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">HSBC: 'Software will eat AI', Bank releases top stock picks</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">匯豐報告：『軟件將吞噬 AI』，列出頂級推薦股票名單</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>HSBC Global Research released a new report today suggesting that software applications will dominate the next phase of AI growth, shifting focus from hardware like Nvidia to SaaS providers.</p>
-                    <p class="text-slate-600 italic">匯豐環球研究今日發佈新報告，認為軟件應用將主導 AI 增長嘅下一階段，市場焦點正由 Nvidia 等硬件轉向 SaaS 服務商。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://www.cnbc.com/2026/02/27/hsbc-ai-software-picks" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                <h3 class="text-lg font-bold mb-3 group-hover:text-blue-400 transition">中東衝突升溫：美以加大打擊力度，伊朗反擊</h3>
+                <p class="text-xs text-slate-400 leading-relaxed mb-6 line-clamp-3">衝突在三天內迅速擴散，威脅超過一打國家的 3 億平民。</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] text-slate-600">2026-03-05</span>
+                    <a href="https://www.washingtonpost.com/world/2026/03/02/mideast-iran-israel-war-civilians/" target="_blank" class="text-xs font-bold text-blue-500 hover:text-white transition">READ_FULL &rarr;</a>
                 </div>
             </article>
-            </div>
-            </section>
-
-            <!-- FINTECH COLUMN -->
-            <section class="space-y-6">
-                <div class="flex items-center gap-4 mb-8">
-                    <span class="text-3xl">💰</span>
-                    <h2 class="text-2xl font-black uppercase text-amber-400 tracking-widest">Fintech (1)</h2>
-                </div>
-                <div class="space-y-6">
-            <article class="card p-6 rounded-2xl">
+        
+            <article class="glass p-6 rounded-3xl hover:bg-slate-800/50 transition duration-300 group Fintech">
                 <div class="flex justify-between items-center mb-4">
-                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-03-04</span>
-                    <span class="text-[9px] text-slate-600 font-mono italic">HSBC</span>
+                    <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">Fintech</span>
+                    <span class="text-[9px] text-slate-600 italic">via HSBC</span>
                 </div>
-                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">HSBC Gold Token Unlocks New Investment Horizons</h3>
-                <h3 class="ext-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">滙豐 Gold Token 開啟投資新境界</h3>
-                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
-                    <p>HSBC's Gold Token enables investors to acquire fractional ownership in physical gold securely via digital platforms, leveraging blockchain technology.</p>
-                    <p class="text-slate-600 italic">滙豐 Gold Token 讓投資者可通過數碼平台安全地獲取實物黃金的分數所有權，利用區塊鏈技術實現。</p>
-                </div>
-                <div class="flex justify-end">
-                    <a href="https://www.hsbc.com.hk/investments/products/gold-token/" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                <h3 class="text-lg font-bold mb-3 group-hover:text-blue-400 transition">滙豐 Gold Token 開啟投資新境界</h3>
+                <p class="text-xs text-slate-400 leading-relaxed mb-6 line-clamp-3">滙豐 Gold Token 讓投資者可通過數碼平台安全地獲取實物黃金的分數所有權，利用區塊鏈技術實現。</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] text-slate-600">2026-03-04</span>
+                    <a href="https://www.hsbc.com.hk/investments/products/gold-token/" target="_blank" class="text-xs font-bold text-blue-500 hover:text-white transition">READ_FULL &rarr;</a>
                 </div>
             </article>
-            </div>
-            </section>
-        </main>
-
-        <footer class="max-w-7xl mx-auto mt-24 py-12 border-t border-slate-800 text-center text-slate-600 font-mono text-xs italic">
-            END-TO-END AUTOMATED GENERATION • NO_IDENTIFIERS_STORED
-        </footer>
-    </body>
-    </html>
+        
+            <article class="glass p-6 rounded-3xl hover:bg-slate-800/50 transition duration-300 group AI">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">AI</span>
+                    <span class="text-[9px] text-slate-600 italic">via Reuters</span>
+                </div>
+                <h3 class="text-lg font-bold mb-3 group-hover:text-blue-400 transition">Nvidia 擬向 OpenAI 注資約 300 億美元</h3>
+                <p class="text-xs text-slate-400 leading-relaxed mb-6 line-clamp-3">Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，進一步鞏固兩家 AI 巨頭的聯盟。</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] text-slate-600">2026-03-04</span>
+                    <a href="https://www.reuters.com/business/nvidia-openai-investment-2026/" target="_blank" class="text-xs font-bold text-blue-500 hover:text-white transition">READ_FULL &rarr;</a>
+                </div>
+            </article>
+        
+            <article class="glass p-6 rounded-3xl hover:bg-slate-800/50 transition duration-300 group Cyber Security">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">Cyber Security</span>
+                    <span class="text-[9px] text-slate-600 italic">via The Hacker News</span>
+                </div>
+                <h3 class="text-lg font-bold mb-3 group-hover:text-blue-400 transition">CISA 將 Roundcube 漏洞加入已知漏洞目錄</h3>
+                <p class="text-xs text-slate-400 leading-relaxed mb-6 line-clamp-3">美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] text-slate-600">2026-03-04</span>
+                    <a href="https://thehackernews.com/2026/02/cisa-roundcube-flaws.html" target="_blank" class="text-xs font-bold text-blue-500 hover:text-white transition">READ_FULL &rarr;</a>
+                </div>
+            </article>
+        
+            <article class="glass p-6 rounded-3xl hover:bg-slate-800/50 transition duration-300 group World">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-black uppercase text-slate-500 tracking-widest">World</span>
+                    <span class="text-[9px] text-slate-600 italic">via AP News</span>
+                </div>
+                <h3 class="text-lg font-bold mb-3 group-hover:text-blue-400 transition">最高法院推翻特朗普全面關稅政策</h3>
+                <p class="text-xs text-slate-400 leading-relaxed mb-6 line-clamp-3">美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-[10px] text-slate-600">2026-03-04</span>
+                    <a href="https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9" target="_blank" class="text-xs font-bold text-blue-500 hover:text-white transition">READ_FULL &rarr;</a>
+                </div>
+            </article>
+        
+        </div>
+    </main>
+    <footer class="mt-24 text-center text-slate-700 text-[10px] font-mono border-t border-slate-900 pt-12">
+        ROLAND_INTEL_NETWORK • GENERATED_BY_KITCHENMAN
+    </footer>
+</body>
+</html>
     
