@@ -1,198 +1,90 @@
 
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KITCHENMAN_INTEL_SYSTEM</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap');
-        body { 
-            background-color: #020617; 
-            color: #94a3b8; 
-            font-family: 'JetBrains Mono', 'PingFang HK', monospace;
-            background-image: radial-gradient(circle at 50% 50%, #1e1b4b 0%, #020617 100%);
-        }
-        .glow-box { box-shadow: 0 0 20px rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.2); }
-        .news-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
-        .news-card:hover { transform: translateY(-5px); border-color: #3b82f6; box-shadow: 0 0 30px rgba(59, 130, 246, 0.3); }
-        .date-btn-active { background: linear-gradient(to right, #2563eb, #0891b2) !important; color: white !important; border-color: #60a5fa !important; }
-        .AI { border-top: 3px solid #10b981; }
-        .CyberSecurity { border-top: 3px solid #ef4444; }
-        .World { border-top: 3px solid #3b82f6; }
-        .scan-line { position: fixed; top: 0; left: 0; width: 100%; height: 2px; background: rgba(59, 130, 246, 0.05); animation: scan 8s linear infinite; pointer-events: none; z-index: 50; }
-        @keyframes scan { 0% { top: -2%; } 100% { top: 100%; } }
-    </style>
-</head>
-<body class="p-4 md:p-12 overflow-x-hidden">
-    <div class="scan-line"></div>
-    
-    <header class="max-w-7xl mx-auto mb-16 relative">
-        <div class="absolute -top-10 -left-10 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 relative z-10">
-            <div>
-                <div class="flex items-center gap-3 mb-2">
-                    <span class="w-3 h-3 rounded-full bg-red-500 animate-pulse"></span>
-                    <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Live Monitoring Feed</span>
+    <!DOCTYPE html>
+    <html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intelligence Briefing Core</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
+            .section-label { writing-mode: vertical-rl; text-orientation: mixed; }
+            .card { background: #1e293b; border: 1px solid #334155; transition: all 0.2s; }
+            .card:hover { border-color: #3b82f6; transform: translateY(-2px); }
+        </style>
+    </head>
+    <body class="p-4 md:p-12">
+        <header class="max-w-7xl mx-auto mb-16 border-b border-slate-800 pb-12">
+            <h1 class="text-5xl font-black tracking-tighter italic text-blue-500 uppercase">Intelligence Briefing</h1>
+            <p class="text-slate-500 font-mono text-sm mt-2">SECURED FEED • SORTED BY LATEST</p>
+        </header>
+
+        <main class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-3 gap-12">
+            
+            <!-- WORLD NEWS COLUMN -->
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🌐</span>
+                    <h2 class="text-2xl font-black uppercase text-blue-400 tracking-widest">World Updates (1)</h2>
                 </div>
-                <h1 class="text-5xl md:text-6xl font-black italic tracking-tighter text-white">SYSTEM_CORE<span class="text-blue-500 text-3xl">.v2</span></h1>
-                <p class="text-xs text-blue-400 font-bold mt-2 opacity-70 tracking-[0.3em]">INTELLIGENCE ANALYSIS BY KITCHENMAN</p>
+                <div class="space-y-6">
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-03-08</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">AP News</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">Supreme Court Strikes Down Trump's Sweeping Tariffs</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">最高法院推翻特朗普全面關稅政策</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>The U.S. Supreme Court ruled that President Donald Trump overstepped his authority by imposing sweeping global tariffs, throwing U.S. trade policy into uncertainty.</p>
+                    <p class="text-slate-600 italic">美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
             </div>
-            <div class="bg-slate-900/80 p-6 rounded-2xl glow-box backdrop-blur-xl">
-                <div class="text-[10px] text-slate-500 font-bold mb-1 uppercase tracking-widest">Server_Status</div>
-                <div class="flex items-center gap-4">
-                    <div class="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">SYNC_COMPLETE</div>
-                    <div class="text-xs font-mono text-slate-400 border-l border-slate-700 pl-4">23:05:47</div>
+            </section>
+
+            <!-- CYBER SECURITY COLUMN -->
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🛡️</span>
+                    <h2 class="text-2xl font-black uppercase text-red-400 tracking-widest">Cyber Security (1)</h2>
                 </div>
+                <div class="space-y-6">
+            <article class="card p-6 rounded-2xl">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-[10px] font-bold bg-slate-800 px-2 py-1 rounded text-slate-400 tracking-widest uppercase">📅 2026-03-08</span>
+                    <span class="text-[9px] text-slate-600 font-mono italic">The Hacker News</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 leading-snug mb-2">CISA Adds Roundcube Flaws to KEV Catalog</h3>
+                <h3 class="text-md font-bold text-slate-400 leading-snug mb-6 border-l-2 border-slate-700 pl-4">CISA 將 Roundcube 漏洞加入已知漏洞目錄</h3>
+                <div class="space-y-4 text-xs leading-relaxed text-slate-500 mb-6">
+                    <p>The U.S. Cybersecurity and Infrastructure Security Agency added two security flaws impacting Roundcube webmail software to its Known Exploited Vulnerabilities catalog.</p>
+                    <p class="text-slate-600 italic">美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。</p>
+                </div>
+                <div class="flex justify-end">
+                    <a href="https://thehackernews.com/2026/02/cisa-roundcube-flaws.html" target="_blank" rel="noopener" class="text-blue-500 font-bold hover:underline text-[10px]">ORIGIN_ACCESS &rarr;</a>
+                </div>
+            </article>
             </div>
-        </div>
-    </header>
+            </section>
 
-    <main class="max-w-7xl mx-auto">
-        <!-- Date Selector -->
-        <div class="flex gap-4 mb-16 overflow-x-auto no-scrollbar py-4 border-b border-white/5">
-            <button onclick="filterDate('2026-03-05', this)" class="date-btn px-10 py-4 rounded-xl border border-white/10 bg-white/5 text-xs font-black uppercase tracking-widest hover:border-blue-500/50 transition whitespace-nowrap date-btn-active">[2026-03-05]</button> <button onclick="filterDate('2026-03-04', this)" class="date-btn px-10 py-4 rounded-xl border border-white/10 bg-white/5 text-xs font-black uppercase tracking-widest hover:border-blue-500/50 transition whitespace-nowrap ">[2026-03-04]</button>
-        </div>
+            <!-- AI & FINTECH COLUMN -->
+            <section class="space-y-6">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🤖</span>
+                    <h2 class="text-2xl font-black uppercase text-emerald-400 tracking-widest">AI / Fintech (0)</h2>
+                </div>
+                <div class="space-y-6"></div>
+            </section>
 
-        <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-<article class="news-card bg-slate-900/40 border border-white/5 p-8 rounded-[2rem] backdrop-blur-md Fintech" data-date="2026-03-04" style="display: none">
-                <div class="flex justify-between items-center mb-8">
-                    <div class="flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-blue-500"></span>
-                        <span class="text-[9px] font-black uppercase text-slate-500 tracking-[0.2em]">Fintech</span>
-                    </div>
-                    <span class="text-[9px] text-slate-600 font-mono tracking-tighter uppercase">HSBC // 2026-03-04</span>
-                </div>
-                
-                <h2 class="text-2xl font-black mb-6 text-white leading-[1.1] tracking-tight hover:text-blue-400 transition cursor-default">滙豐 Gold Token 開啟投資新境界</h2>
-                
-                <div class="relative mb-8 p-5 bg-gradient-to-br from-blue-500/10 to-transparent border-l-2 border-blue-500 rounded-r-2xl">
-                    <div class="text-[8px] font-black text-blue-400 uppercase tracking-widest mb-2 opacity-70 italic">// King仔大廚點評</div>
-                    <p class="text-[13px] text-blue-50 text-slate-200 font-bold leading-relaxed">日常情報，建議關注。</p>
-                </div>
+        </main>
 
-                <p class="text-xs text-slate-500 leading-relaxed mb-10 line-clamp-4 font-medium">滙豐 Gold Token 讓投資者可通過數碼平台安全地獲取實物黃金的分數所有權，利用區塊鏈技術實現。</p>
-                
-                <div class="flex justify-between items-center mt-auto pt-6 border-t border-white/5">
-                    <div class="flex gap-1">
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                    </div>
-                    <a href="https://www.hsbc.com.hk/investments/products/gold-token/" target="_blank" class="group flex items-center gap-2 text-[10px] font-black text-blue-500 hover:text-white transition uppercase tracking-widest">
-                        Access_Full_Log
-                        <span class="group-hover:translate-x-1 transition-transform">→</span>
-                    </a>
-                </div>
-            </article>
-<article class="news-card bg-slate-900/40 border border-white/5 p-8 rounded-[2rem] backdrop-blur-md AI" data-date="2026-03-04" style="display: none">
-                <div class="flex justify-between items-center mb-8">
-                    <div class="flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-blue-500"></span>
-                        <span class="text-[9px] font-black uppercase text-slate-500 tracking-[0.2em]">AI</span>
-                    </div>
-                    <span class="text-[9px] text-slate-600 font-mono tracking-tighter uppercase">Reuters // 2026-03-04</span>
-                </div>
-                
-                <h2 class="text-2xl font-black mb-6 text-white leading-[1.1] tracking-tight hover:text-blue-400 transition cursor-default">Nvidia 擬向 OpenAI 注資約 300 億美元</h2>
-                
-                <div class="relative mb-8 p-5 bg-gradient-to-br from-blue-500/10 to-transparent border-l-2 border-blue-500 rounded-r-2xl">
-                    <div class="text-[8px] font-black text-blue-400 uppercase tracking-widest mb-2 opacity-70 italic">// King仔大廚點評</div>
-                    <p class="text-[13px] text-blue-50 text-slate-200 font-bold leading-relaxed">日常情報，建議關注。</p>
-                </div>
-
-                <p class="text-xs text-slate-500 leading-relaxed mb-10 line-clamp-4 font-medium">Nvidia 接近敲定一項對 OpenAI 高達 300 億美元的投資，進一步鞏固兩家 AI 巨頭的聯盟。</p>
-                
-                <div class="flex justify-between items-center mt-auto pt-6 border-t border-white/5">
-                    <div class="flex gap-1">
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                    </div>
-                    <a href="https://www.reuters.com/business/nvidia-openai-investment-2026/" target="_blank" class="group flex items-center gap-2 text-[10px] font-black text-blue-500 hover:text-white transition uppercase tracking-widest">
-                        Access_Full_Log
-                        <span class="group-hover:translate-x-1 transition-transform">→</span>
-                    </a>
-                </div>
-            </article>
-<article class="news-card bg-slate-900/40 border border-white/5 p-8 rounded-[2rem] backdrop-blur-md Cyber Security" data-date="2026-03-04" style="display: none">
-                <div class="flex justify-between items-center mb-8">
-                    <div class="flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-blue-500"></span>
-                        <span class="text-[9px] font-black uppercase text-slate-500 tracking-[0.2em]">Cyber Security</span>
-                    </div>
-                    <span class="text-[9px] text-slate-600 font-mono tracking-tighter uppercase">The Hacker News // 2026-03-04</span>
-                </div>
-                
-                <h2 class="text-2xl font-black mb-6 text-white leading-[1.1] tracking-tight hover:text-blue-400 transition cursor-default">CISA 將 Roundcube 漏洞加入已知漏洞目錄</h2>
-                
-                <div class="relative mb-8 p-5 bg-gradient-to-br from-blue-500/10 to-transparent border-l-2 border-blue-500 rounded-r-2xl">
-                    <div class="text-[8px] font-black text-blue-400 uppercase tracking-widest mb-2 opacity-70 italic">// King仔大廚點評</div>
-                    <p class="text-[13px] text-blue-50 text-slate-200 font-bold leading-relaxed">日常情報，建議關注。</p>
-                </div>
-
-                <p class="text-xs text-slate-500 leading-relaxed mb-10 line-clamp-4 font-medium">美國網絡安全和基礎設施安全局將影響 Roundcube 網絡郵件軟件的兩個安全漏洞加入其已知被利用漏洞目錄。</p>
-                
-                <div class="flex justify-between items-center mt-auto pt-6 border-t border-white/5">
-                    <div class="flex gap-1">
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                    </div>
-                    <a href="https://thehackernews.com/2026/02/cisa-roundcube-flaws.html" target="_blank" class="group flex items-center gap-2 text-[10px] font-black text-blue-500 hover:text-white transition uppercase tracking-widest">
-                        Access_Full_Log
-                        <span class="group-hover:translate-x-1 transition-transform">→</span>
-                    </a>
-                </div>
-            </article>
-<article class="news-card bg-slate-900/40 border border-white/5 p-8 rounded-[2rem] backdrop-blur-md World" data-date="2026-03-04" style="display: none">
-                <div class="flex justify-between items-center mb-8">
-                    <div class="flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-blue-500"></span>
-                        <span class="text-[9px] font-black uppercase text-slate-500 tracking-[0.2em]">World</span>
-                    </div>
-                    <span class="text-[9px] text-slate-600 font-mono tracking-tighter uppercase">AP News // 2026-03-04</span>
-                </div>
-                
-                <h2 class="text-2xl font-black mb-6 text-white leading-[1.1] tracking-tight hover:text-blue-400 transition cursor-default">最高法院推翻特朗普全面關稅政策</h2>
-                
-                <div class="relative mb-8 p-5 bg-gradient-to-br from-blue-500/10 to-transparent border-l-2 border-blue-500 rounded-r-2xl">
-                    <div class="text-[8px] font-black text-blue-400 uppercase tracking-widest mb-2 opacity-70 italic">// King仔大廚點評</div>
-                    <p class="text-[13px] text-blue-50 text-slate-200 font-bold leading-relaxed">日常情報，建議關注。</p>
-                </div>
-
-                <p class="text-xs text-slate-500 leading-relaxed mb-10 line-clamp-4 font-medium">美國最高法院裁定特朗普總統越權實施全面全球關稅，令美國貿易政策陷入不確定性。</p>
-                
-                <div class="flex justify-between items-center mt-auto pt-6 border-t border-white/5">
-                    <div class="flex gap-1">
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                        <span class="w-1 h-1 bg-blue-500/30"></span>
-                    </div>
-                    <a href="https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9" target="_blank" class="group flex items-center gap-2 text-[10px] font-black text-blue-500 hover:text-white transition uppercase tracking-widest">
-                        Access_Full_Log
-                        <span class="group-hover:translate-x-1 transition-transform">→</span>
-                    </a>
-                </div>
-            </article>
-        </div>
-    </main>
-
-    <script>
-    function filterDate(date, btn) {
-        document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('date-btn-active'));
-        btn.classList.add('date-btn-active');
-        document.querySelectorAll('.news-card').forEach(card => {
-            card.style.display = (card.getAttribute('data-date') === date) ? 'block' : 'none';
-        });
-    }
-    </script>
-
-    <footer class="max-w-7xl mx-auto mt-40 py-16 border-t border-white/5 flex justify-between items-center opacity-30">
-        <span class="text-[9px] font-black tracking-widest uppercase italic">KITCHENMAN_OS_REDACTED_VER_2.0</span>
-        <span class="text-[9px] font-mono tracking-tighter uppercase">5D_RETENTION_POLICY_ACTIVE</span>
-    </footer>
-</body>
-</html>
+        <footer class="max-w-7xl mx-auto mt-24 py-12 border-t border-slate-800 text-center text-slate-600 font-mono text-xs italic">
+            END-TO-END AUTOMATED GENERATION • NO_IDENTIFIERS_STORED
+        </footer>
+    </body>
+    </html>
     
